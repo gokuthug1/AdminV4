@@ -1,0 +1,112 @@
+{
+  "Options": {
+    "SelectGenerated": false,
+    "GenerationLabel": "Json2GUI: Generate Notification"
+  },
+  "Roots": [
+    {
+      "ClassName": "ScreenGui",
+      "Name": "Notification",
+      "Properties": {
+        "ResetOnSpawn": false,
+        "ZIndexBehavior": "Sibling"
+      },
+      "Children": [
+        {
+          "ClassName": "Frame",
+          "Name": "BackgroundFrame",
+          "Properties": {
+            "AnchorPoint": [
+              1,
+              1
+            ],
+            "Position": [
+              1,
+              -24,
+              1,
+              -24
+            ],
+            "Size": [
+              0,
+              340,
+              0,
+              80
+            ],
+            "BackgroundColor3": "#181B22",
+            "BorderSizePixel": 0
+          },
+          "Children": [
+            {
+              "ClassName": "UICorner",
+              "Name": "Corner",
+              "Properties": {
+                "CornerRadius": [
+                  0,
+                  10
+                ]
+              }
+            },
+            {
+              "ClassName": "UIStroke",
+              "Name": "Stroke",
+              "Properties": {
+                "Color": "#303746",
+                "Thickness": 1.5
+              }
+            },
+            {
+              "ClassName": "TextLabel",
+              "Name": "TitleLabel",
+              "Properties": {
+                "Size": [
+                  1,
+                  -28,
+                  0,
+                  22
+                ],
+                "Position": [
+                  0,
+                  14,
+                  0,
+                  10
+                ],
+                "BackgroundTransparency": 1,
+                "Text": "Admin Notification",
+                "TextColor3": "#5C8DFF",
+                "TextSize": 14,
+                "Font": "GothamBold",
+                "TextXAlignment": "Left"
+              }
+            },
+            {
+              "ClassName": "TextLabel",
+              "Name": "MessageLabel",
+              "Properties": {
+                "Size": [
+                  1,
+                  -28,
+                  0,
+                  38
+                ],
+                "Position": [
+                  0,
+                  14,
+                  0,
+                  32
+                ],
+                "BackgroundTransparency": 1,
+                "Text": "Notification message",
+                "TextColor3": "#FFFFFF",
+                "TextSize": 14,
+                "Font": "Gotham",
+                "TextXAlignment": "Left",
+                "TextYAlignment": "Top",
+                "TextWrapped": true
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

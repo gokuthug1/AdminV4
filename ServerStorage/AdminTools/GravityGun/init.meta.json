@@ -1,0 +1,9 @@
+{
+  "className": "Tool",
+  "properties": {
+    "Name": "GravityGun",
+    "RequiresHandle": true,
+    "CanBeDropped": false,
+    "ToolTip": "Zero-Point Energy Gravity Gun"
+  }
+}

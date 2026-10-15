@@ -1,0 +1,9 @@
+{
+  "className": "Tool",
+  "properties": {
+    "Name": "FreezeRay",
+    "RequiresHandle": true,
+    "CanBeDropped": false,
+    "ToolTip": "Cryo-Stasis Freeze Ray"
+  }
+}

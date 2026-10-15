@@ -1,0 +1,9 @@
+{
+  "className": "Tool",
+  "properties": {
+    "Name": "BlackHoleCannon",
+    "RequiresHandle": true,
+    "CanBeDropped": false,
+    "ToolTip": "Dark Matter Singularity Cannon (HeadAdmin+)"
+  }
+}

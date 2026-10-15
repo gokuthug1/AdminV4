@@ -1,0 +1,41 @@
+{
+  "Options": {
+    "SelectGenerated": false,
+    "GenerationLabel": "Json2GUI: Generate Blind"
+  },
+  "Roots": [
+    {
+      "ClassName": "ScreenGui",
+      "Name": "Blind",
+      "Properties": {
+        "ResetOnSpawn": false,
+        "DisplayOrder": 200,
+        "ZIndexBehavior": "Sibling"
+      },
+      "Children": [
+        {
+          "ClassName": "Frame",
+          "Name": "Frame",
+          "Properties": {
+            "Size": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "Position": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "BackgroundColor3": "#000000",
+            "BackgroundTransparency": 0,
+            "BorderSizePixel": 0,
+            "ZIndex": 10
+          }
+        }
+      ]
+    }
+  ]
+}

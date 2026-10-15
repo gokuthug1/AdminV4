@@ -1,0 +1,5592 @@
+{
+  "Roots": [
+    {
+      "ClassName": "Model",
+      "Id": "jailModel",
+      "Name": "Jail",
+      "Properties": {
+        "PrimaryPart": {
+          "$ref": "jailFloor"
+        }
+      },
+      "Attributes": {
+        "GeneratedBy": "JSON23D",
+        "SchemaVersion": 1,
+        "AssetCategory": "AdminV4"
+      },
+      "Tags": [
+        "JSON23D",
+        "AdminAsset"
+      ],
+      "Children": [
+        {
+          "ClassName": "Part",
+          "Id": "jailFloor",
+          "Name": "Floor",
+          "Properties": {
+            "Size": [
+              8.4,
+              1,
+              8.4
+            ],
+            "CFrame": [
+              0,
+              -0.5,
+              0
+            ],
+            "Material": "Concrete",
+            "Color": "#2B2D42",
+            "Anchored": true,
+            "CanCollide": true
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "jailSpawnPart",
+          "Name": "JailSpawn",
+          "Properties": {
+            "Size": [
+              4,
+              0.2,
+              4
+            ],
+            "CFrame": [
+              0,
+              0.1,
+              0
+            ],
+            "Material": "SmoothPlastic",
+            "Color": "#8D99AE",
+            "Transparency": 1,
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "jailCeiling",
+          "Name": "Ceiling",
+          "Properties": {
+            "Size": [
+              8.4,
+              1,
+              8.4
+            ],
+            "CFrame": [
+              0,
+              7.5,
+              0
+            ],
+            "Material": "Concrete",
+            "Color": "#2B2D42",
+            "Anchored": true,
+            "CanCollide": true
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "jailPostNorthEast",
+          "Name": "PostNorthEast",
+          "Properties": {
+            "Size": [
+              0.8,
+              7,
+              0.8
+            ],
+            "CFrame": [
+              3.6,
+              3.5,
+              3.6
+            ],
+            "Material": "Metal",
+            "Color": "#141518",
+            "Anchored": true,
+            "CanCollide": true
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "jailPostNorthWest",
+          "Name": "PostNorthWest",
+          "Properties": {
+            "Size": [
+              0.8,
+              7,
+              0.8
+            ],
+            "CFrame": [
+              -3.6,
+              3.5,
+              3.6
+            ],
+            "Material": "Metal",
+            "Color": "#141518",
+            "Anchored": true,
+            "CanCollide": true
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "jailPostSouthEast",
+          "Name": "PostSouthEast",
+          "Properties": {
+            "Size": [
+              0.8,
+              7,
+              0.8
+            ],
+            "CFrame": [
+              3.6,
+              3.5,
+              -3.6
+            ],
+            "Material": "Metal",
+            "Color": "#141518",
+            "Anchored": true,
+            "CanCollide": true
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "jailPostSouthWest",
+          "Name": "PostSouthWest",
+          "Properties": {
+            "Size": [
+              0.8,
+              7,
+              0.8
+            ],
+            "CFrame": [
+              -3.6,
+              3.5,
+              -3.6
+            ],
+            "Material": "Metal",
+            "Color": "#141518",
+            "Anchored": true,
+            "CanCollide": true
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "jailRailNorthBottom",
+          "Name": "RailNorth_Bottom",
+          "Properties": {
+            "Size": [
+              7.2,
+              0.35,
+              0.35
+            ],
+            "CFrame": [
+              0,
+              0.3,
+              3.6
+            ],
+            "Material": "Metal",
+            "Color": "#1B1E22",
+            "Anchored": true,
+            "CanCollide": true
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "jailRailSouthBottom",
+          "Name": "RailSouth_Bottom",
+          "Properties": {
+            "Size": [
+              7.2,
+              0.35,
+              0.35
+            ],
+            "CFrame": [
+              0,
+              0.3,
+              -3.6
+            ],
+            "Material": "Metal",
+            "Color": "#1B1E22",
+            "Anchored": true,
+            "CanCollide": true
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "jailRailEastBottom",
+          "Name": "RailEast_Bottom",
+          "Properties": {
+            "Size": [
+              0.35,
+              0.35,
+              7.2
+            ],
+            "CFrame": [
+              3.6,
+              0.3,
+              0
+            ],
+            "Material": "Metal",
+            "Color": "#1B1E22",
+            "Anchored": true,
+            "CanCollide": true
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "jailRailWestBottom",
+          "Name": "RailWest_Bottom",
+          "Properties": {
+            "Size": [
+              0.35,
+              0.35,
+              7.2
+            ],
+            "CFrame": [
+              -3.6,
+              0.3,
+              0
+            ],
+            "Material": "Metal",
+            "Color": "#1B1E22",
+            "Anchored": true,
+            "CanCollide": true
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "jailRailNorthMid",
+          "Name": "RailNorth_Mid",
+          "Properties": {
+            "Size": [
+              7.2,
+              0.35,
+              0.35
+            ],
+            "CFrame": [
+              0,
+              3.5,
+              3.6
+            ],
+            "Material": "Metal",
+            "Color": "#1B1E22",
+            "Anchored": true,
+            "CanCollide": true
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "jailRailSouthMid",
+          "Name": "RailSouth_Mid",
+          "Properties": {
+            "Size": [
+              7.2,
+              0.35,
+              0.35
+            ],
+            "CFrame": [
+              0,
+              3.5,
+              -3.6
+            ],
+            "Material": "Metal",
+            "Color": "#1B1E22",
+            "Anchored": true,
+            "CanCollide": true
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "jailRailEastMid",
+          "Name": "RailEast_Mid",
+          "Properties": {
+            "Size": [
+              0.35,
+              0.35,
+              7.2
+            ],
+            "CFrame": [
+              3.6,
+              3.5,
+              0
+            ],
+            "Material": "Metal",
+            "Color": "#1B1E22",
+            "Anchored": true,
+            "CanCollide": true
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "jailRailWestMid",
+          "Name": "RailWest_Mid",
+          "Properties": {
+            "Size": [
+              0.35,
+              0.35,
+              7.2
+            ],
+            "CFrame": [
+              -3.6,
+              3.5,
+              0
+            ],
+            "Material": "Metal",
+            "Color": "#1B1E22",
+            "Anchored": true,
+            "CanCollide": true
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "jailRailNorthTop",
+          "Name": "RailNorth_Top",
+          "Properties": {
+            "Size": [
+              7.2,
+              0.35,
+              0.35
+            ],
+            "CFrame": [
+              0,
+              6.7,
+              3.6
+            ],
+            "Material": "Metal",
+            "Color": "#1B1E22",
+            "Anchored": true,
+            "CanCollide": true
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "jailRailSouthTop",
+          "Name": "RailSouth_Top",
+          "Properties": {
+            "Size": [
+              7.2,
+              0.35,
+              0.35
+            ],
+            "CFrame": [
+              0,
+              6.7,
+              -3.6
+            ],
+            "Material": "Metal",
+            "Color": "#1B1E22",
+            "Anchored": true,
+            "CanCollide": true
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "jailRailEastTop",
+          "Name": "RailEast_Top",
+          "Properties": {
+            "Size": [
+              0.35,
+              0.35,
+              7.2
+            ],
+            "CFrame": [
+              3.6,
+              6.7,
+              0
+            ],
+            "Material": "Metal",
+            "Color": "#1B1E22",
+            "Anchored": true,
+            "CanCollide": true
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "jailRailWestTop",
+          "Name": "RailWest_Top",
+          "Properties": {
+            "Size": [
+              0.35,
+              0.35,
+              7.2
+            ],
+            "CFrame": [
+              -3.6,
+              6.7,
+              0
+            ],
+            "Material": "Metal",
+            "Color": "#1B1E22",
+            "Anchored": true,
+            "CanCollide": true
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "jailBarNorth1",
+          "Name": "BarNorth1",
+          "Properties": {
+            "Size": [
+              0.3,
+              6.8,
+              0.3
+            ],
+            "CFrame": [
+              -2.75,
+              3.5,
+              3.6
+            ],
+            "Material": "Metal",
+            "Color": "#25282F",
+            "Anchored": true,
+            "CanCollide": true
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "jailBarSouth1",
+          "Name": "BarSouth1",
+          "Properties": {
+            "Size": [
+              0.3,
+              6.8,
+              0.3
+            ],
+            "CFrame": [
+              -2.75,
+              3.5,
+              -3.6
+            ],
+            "Material": "Metal",
+            "Color": "#25282F",
+            "Anchored": true,
+            "CanCollide": true
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "jailBarEast1",
+          "Name": "BarEast1",
+          "Properties": {
+            "Size": [
+              0.3,
+              6.8,
+              0.3
+            ],
+            "CFrame": [
+              3.6,
+              3.5,
+              -2.75
+            ],
+            "Material": "Metal",
+            "Color": "#25282F",
+            "Anchored": true,
+            "CanCollide": true
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "jailBarWest1",
+          "Name": "BarWest1",
+          "Properties": {
+            "Size": [
+              0.3,
+              6.8,
+              0.3
+            ],
+            "CFrame": [
+              -3.6,
+              3.5,
+              -2.75
+            ],
+            "Material": "Metal",
+            "Color": "#25282F",
+            "Anchored": true,
+            "CanCollide": true
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "jailBarNorth2",
+          "Name": "BarNorth2",
+          "Properties": {
+            "Size": [
+              0.3,
+              6.8,
+              0.3
+            ],
+            "CFrame": [
+              -2.2,
+              3.5,
+              3.6
+            ],
+            "Material": "Metal",
+            "Color": "#25282F",
+            "Anchored": true,
+            "CanCollide": true
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "jailBarSouth2",
+          "Name": "BarSouth2",
+          "Properties": {
+            "Size": [
+              0.3,
+              6.8,
+              0.3
+            ],
+            "CFrame": [
+              -2.2,
+              3.5,
+              -3.6
+            ],
+            "Material": "Metal",
+            "Color": "#25282F",
+            "Anchored": true,
+            "CanCollide": true
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "jailBarEast2",
+          "Name": "BarEast2",
+          "Properties": {
+            "Size": [
+              0.3,
+              6.8,
+              0.3
+            ],
+            "CFrame": [
+              3.6,
+              3.5,
+              -2.2
+            ],
+            "Material": "Metal",
+            "Color": "#25282F",
+            "Anchored": true,
+            "CanCollide": true
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "jailBarWest2",
+          "Name": "BarWest2",
+          "Properties": {
+            "Size": [
+              0.3,
+              6.8,
+              0.3
+            ],
+            "CFrame": [
+              -3.6,
+              3.5,
+              -2.2
+            ],
+            "Material": "Metal",
+            "Color": "#25282F",
+            "Anchored": true,
+            "CanCollide": true
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "jailBarNorth3",
+          "Name": "BarNorth3",
+          "Properties": {
+            "Size": [
+              0.3,
+              6.8,
+              0.3
+            ],
+            "CFrame": [
+              -1.65,
+              3.5,
+              3.6
+            ],
+            "Material": "Metal",
+            "Color": "#25282F",
+            "Anchored": true,
+            "CanCollide": true
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "jailBarSouth3",
+          "Name": "BarSouth3",
+          "Properties": {
+            "Size": [
+              0.3,
+              6.8,
+              0.3
+            ],
+            "CFrame": [
+              -1.65,
+              3.5,
+              -3.6
+            ],
+            "Material": "Metal",
+            "Color": "#25282F",
+            "Anchored": true,
+            "CanCollide": true
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "jailBarEast3",
+          "Name": "BarEast3",
+          "Properties": {
+            "Size": [
+              0.3,
+              6.8,
+              0.3
+            ],
+            "CFrame": [
+              3.6,
+              3.5,
+              -1.65
+            ],
+            "Material": "Metal",
+            "Color": "#25282F",
+            "Anchored": true,
+            "CanCollide": true
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "jailBarWest3",
+          "Name": "BarWest3",
+          "Properties": {
+            "Size": [
+              0.3,
+              6.8,
+              0.3
+            ],
+            "CFrame": [
+              -3.6,
+              3.5,
+              -1.65
+            ],
+            "Material": "Metal",
+            "Color": "#25282F",
+            "Anchored": true,
+            "CanCollide": true
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "jailBarNorth4",
+          "Name": "BarNorth4",
+          "Properties": {
+            "Size": [
+              0.3,
+              6.8,
+              0.3
+            ],
+            "CFrame": [
+              -1.1,
+              3.5,
+              3.6
+            ],
+            "Material": "Metal",
+            "Color": "#25282F",
+            "Anchored": true,
+            "CanCollide": true
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "jailBarSouth4",
+          "Name": "BarSouth4",
+          "Properties": {
+            "Size": [
+              0.3,
+              6.8,
+              0.3
+            ],
+            "CFrame": [
+              -1.1,
+              3.5,
+              -3.6
+            ],
+            "Material": "Metal",
+            "Color": "#25282F",
+            "Anchored": true,
+            "CanCollide": true
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "jailBarEast4",
+          "Name": "BarEast4",
+          "Properties": {
+            "Size": [
+              0.3,
+              6.8,
+              0.3
+            ],
+            "CFrame": [
+              3.6,
+              3.5,
+              -1.1
+            ],
+            "Material": "Metal",
+            "Color": "#25282F",
+            "Anchored": true,
+            "CanCollide": true
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "jailBarWest4",
+          "Name": "BarWest4",
+          "Properties": {
+            "Size": [
+              0.3,
+              6.8,
+              0.3
+            ],
+            "CFrame": [
+              -3.6,
+              3.5,
+              -1.1
+            ],
+            "Material": "Metal",
+            "Color": "#25282F",
+            "Anchored": true,
+            "CanCollide": true
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "jailBarNorth5",
+          "Name": "BarNorth5",
+          "Properties": {
+            "Size": [
+              0.3,
+              6.8,
+              0.3
+            ],
+            "CFrame": [
+              -0.55,
+              3.5,
+              3.6
+            ],
+            "Material": "Metal",
+            "Color": "#25282F",
+            "Anchored": true,
+            "CanCollide": true
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "jailBarSouth5",
+          "Name": "BarSouth5",
+          "Properties": {
+            "Size": [
+              0.3,
+              6.8,
+              0.3
+            ],
+            "CFrame": [
+              -0.55,
+              3.5,
+              -3.6
+            ],
+            "Material": "Metal",
+            "Color": "#25282F",
+            "Anchored": true,
+            "CanCollide": true
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "jailBarEast5",
+          "Name": "BarEast5",
+          "Properties": {
+            "Size": [
+              0.3,
+              6.8,
+              0.3
+            ],
+            "CFrame": [
+              3.6,
+              3.5,
+              -0.55
+            ],
+            "Material": "Metal",
+            "Color": "#25282F",
+            "Anchored": true,
+            "CanCollide": true
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "jailBarWest5",
+          "Name": "BarWest5",
+          "Properties": {
+            "Size": [
+              0.3,
+              6.8,
+              0.3
+            ],
+            "CFrame": [
+              -3.6,
+              3.5,
+              -0.55
+            ],
+            "Material": "Metal",
+            "Color": "#25282F",
+            "Anchored": true,
+            "CanCollide": true
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "jailBarNorth6",
+          "Name": "BarNorth6",
+          "Properties": {
+            "Size": [
+              0.3,
+              6.8,
+              0.3
+            ],
+            "CFrame": [
+              0.0,
+              3.5,
+              3.6
+            ],
+            "Material": "Metal",
+            "Color": "#25282F",
+            "Anchored": true,
+            "CanCollide": true
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "jailBarSouth6",
+          "Name": "BarSouth6",
+          "Properties": {
+            "Size": [
+              0.3,
+              6.8,
+              0.3
+            ],
+            "CFrame": [
+              0.0,
+              3.5,
+              -3.6
+            ],
+            "Material": "Metal",
+            "Color": "#25282F",
+            "Anchored": true,
+            "CanCollide": true
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "jailBarEast6",
+          "Name": "BarEast6",
+          "Properties": {
+            "Size": [
+              0.3,
+              6.8,
+              0.3
+            ],
+            "CFrame": [
+              3.6,
+              3.5,
+              0.0
+            ],
+            "Material": "Metal",
+            "Color": "#25282F",
+            "Anchored": true,
+            "CanCollide": true
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "jailBarWest6",
+          "Name": "BarWest6",
+          "Properties": {
+            "Size": [
+              0.3,
+              6.8,
+              0.3
+            ],
+            "CFrame": [
+              -3.6,
+              3.5,
+              0.0
+            ],
+            "Material": "Metal",
+            "Color": "#25282F",
+            "Anchored": true,
+            "CanCollide": true
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "jailBarNorth7",
+          "Name": "BarNorth7",
+          "Properties": {
+            "Size": [
+              0.3,
+              6.8,
+              0.3
+            ],
+            "CFrame": [
+              0.55,
+              3.5,
+              3.6
+            ],
+            "Material": "Metal",
+            "Color": "#25282F",
+            "Anchored": true,
+            "CanCollide": true
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "jailBarSouth7",
+          "Name": "BarSouth7",
+          "Properties": {
+            "Size": [
+              0.3,
+              6.8,
+              0.3
+            ],
+            "CFrame": [
+              0.55,
+              3.5,
+              -3.6
+            ],
+            "Material": "Metal",
+            "Color": "#25282F",
+            "Anchored": true,
+            "CanCollide": true
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "jailBarEast7",
+          "Name": "BarEast7",
+          "Properties": {
+            "Size": [
+              0.3,
+              6.8,
+              0.3
+            ],
+            "CFrame": [
+              3.6,
+              3.5,
+              0.55
+            ],
+            "Material": "Metal",
+            "Color": "#25282F",
+            "Anchored": true,
+            "CanCollide": true
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "jailBarWest7",
+          "Name": "BarWest7",
+          "Properties": {
+            "Size": [
+              0.3,
+              6.8,
+              0.3
+            ],
+            "CFrame": [
+              -3.6,
+              3.5,
+              0.55
+            ],
+            "Material": "Metal",
+            "Color": "#25282F",
+            "Anchored": true,
+            "CanCollide": true
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "jailBarNorth8",
+          "Name": "BarNorth8",
+          "Properties": {
+            "Size": [
+              0.3,
+              6.8,
+              0.3
+            ],
+            "CFrame": [
+              1.1,
+              3.5,
+              3.6
+            ],
+            "Material": "Metal",
+            "Color": "#25282F",
+            "Anchored": true,
+            "CanCollide": true
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "jailBarSouth8",
+          "Name": "BarSouth8",
+          "Properties": {
+            "Size": [
+              0.3,
+              6.8,
+              0.3
+            ],
+            "CFrame": [
+              1.1,
+              3.5,
+              -3.6
+            ],
+            "Material": "Metal",
+            "Color": "#25282F",
+            "Anchored": true,
+            "CanCollide": true
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "jailBarEast8",
+          "Name": "BarEast8",
+          "Properties": {
+            "Size": [
+              0.3,
+              6.8,
+              0.3
+            ],
+            "CFrame": [
+              3.6,
+              3.5,
+              1.1
+            ],
+            "Material": "Metal",
+            "Color": "#25282F",
+            "Anchored": true,
+            "CanCollide": true
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "jailBarWest8",
+          "Name": "BarWest8",
+          "Properties": {
+            "Size": [
+              0.3,
+              6.8,
+              0.3
+            ],
+            "CFrame": [
+              -3.6,
+              3.5,
+              1.1
+            ],
+            "Material": "Metal",
+            "Color": "#25282F",
+            "Anchored": true,
+            "CanCollide": true
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "jailBarNorth9",
+          "Name": "BarNorth9",
+          "Properties": {
+            "Size": [
+              0.3,
+              6.8,
+              0.3
+            ],
+            "CFrame": [
+              1.65,
+              3.5,
+              3.6
+            ],
+            "Material": "Metal",
+            "Color": "#25282F",
+            "Anchored": true,
+            "CanCollide": true
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "jailBarSouth9",
+          "Name": "BarSouth9",
+          "Properties": {
+            "Size": [
+              0.3,
+              6.8,
+              0.3
+            ],
+            "CFrame": [
+              1.65,
+              3.5,
+              -3.6
+            ],
+            "Material": "Metal",
+            "Color": "#25282F",
+            "Anchored": true,
+            "CanCollide": true
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "jailBarEast9",
+          "Name": "BarEast9",
+          "Properties": {
+            "Size": [
+              0.3,
+              6.8,
+              0.3
+            ],
+            "CFrame": [
+              3.6,
+              3.5,
+              1.65
+            ],
+            "Material": "Metal",
+            "Color": "#25282F",
+            "Anchored": true,
+            "CanCollide": true
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "jailBarWest9",
+          "Name": "BarWest9",
+          "Properties": {
+            "Size": [
+              0.3,
+              6.8,
+              0.3
+            ],
+            "CFrame": [
+              -3.6,
+              3.5,
+              1.65
+            ],
+            "Material": "Metal",
+            "Color": "#25282F",
+            "Anchored": true,
+            "CanCollide": true
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "jailBarNorth10",
+          "Name": "BarNorth10",
+          "Properties": {
+            "Size": [
+              0.3,
+              6.8,
+              0.3
+            ],
+            "CFrame": [
+              2.2,
+              3.5,
+              3.6
+            ],
+            "Material": "Metal",
+            "Color": "#25282F",
+            "Anchored": true,
+            "CanCollide": true
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "jailBarSouth10",
+          "Name": "BarSouth10",
+          "Properties": {
+            "Size": [
+              0.3,
+              6.8,
+              0.3
+            ],
+            "CFrame": [
+              2.2,
+              3.5,
+              -3.6
+            ],
+            "Material": "Metal",
+            "Color": "#25282F",
+            "Anchored": true,
+            "CanCollide": true
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "jailBarEast10",
+          "Name": "BarEast10",
+          "Properties": {
+            "Size": [
+              0.3,
+              6.8,
+              0.3
+            ],
+            "CFrame": [
+              3.6,
+              3.5,
+              2.2
+            ],
+            "Material": "Metal",
+            "Color": "#25282F",
+            "Anchored": true,
+            "CanCollide": true
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "jailBarWest10",
+          "Name": "BarWest10",
+          "Properties": {
+            "Size": [
+              0.3,
+              6.8,
+              0.3
+            ],
+            "CFrame": [
+              -3.6,
+              3.5,
+              2.2
+            ],
+            "Material": "Metal",
+            "Color": "#25282F",
+            "Anchored": true,
+            "CanCollide": true
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "jailBarNorth11",
+          "Name": "BarNorth11",
+          "Properties": {
+            "Size": [
+              0.3,
+              6.8,
+              0.3
+            ],
+            "CFrame": [
+              2.75,
+              3.5,
+              3.6
+            ],
+            "Material": "Metal",
+            "Color": "#25282F",
+            "Anchored": true,
+            "CanCollide": true
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "jailBarSouth11",
+          "Name": "BarSouth11",
+          "Properties": {
+            "Size": [
+              0.3,
+              6.8,
+              0.3
+            ],
+            "CFrame": [
+              2.75,
+              3.5,
+              -3.6
+            ],
+            "Material": "Metal",
+            "Color": "#25282F",
+            "Anchored": true,
+            "CanCollide": true
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "jailBarEast11",
+          "Name": "BarEast11",
+          "Properties": {
+            "Size": [
+              0.3,
+              6.8,
+              0.3
+            ],
+            "CFrame": [
+              3.6,
+              3.5,
+              2.75
+            ],
+            "Material": "Metal",
+            "Color": "#25282F",
+            "Anchored": true,
+            "CanCollide": true
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "jailBarWest11",
+          "Name": "BarWest11",
+          "Properties": {
+            "Size": [
+              0.3,
+              6.8,
+              0.3
+            ],
+            "CFrame": [
+              -3.6,
+              3.5,
+              2.75
+            ],
+            "Material": "Metal",
+            "Color": "#25282F",
+            "Anchored": true,
+            "CanCollide": true
+          }
+        }
+      ]
+    },
+    {
+      "ClassName": "Model",
+      "Id": "haloModel",
+      "Name": "Halo",
+      "Properties": {
+        "PrimaryPart": {
+          "$ref": "haloJoint1"
+        }
+      },
+      "Attributes": {
+        "GeneratedBy": "JSON23D",
+        "SchemaVersion": 1,
+        "AssetCategory": "AdminV4"
+      },
+      "Tags": [
+        "JSON23D",
+        "AdminAsset"
+      ],
+      "Children": [
+        {
+          "ClassName": "Part",
+          "Id": "haloJoint1",
+          "Name": "Joint1",
+          "Properties": {
+            "Shape": "Ball",
+            "Size": [
+              0.16,
+              0.16,
+              0.16
+            ],
+            "CFrame": [
+              0.85,
+              1.35,
+              0.0
+            ],
+            "Material": "Neon",
+            "Color": "#FFD700",
+            "Anchored": true,
+            "CanCollide": false
+          },
+          "Children": [
+            {
+              "ClassName": "PointLight",
+              "Id": "haloLight",
+              "Name": "HaloGlow",
+              "Properties": {
+                "Brightness": 2,
+                "Range": 6,
+                "Color": "#FFF275"
+              }
+            }
+          ]
+        },
+        {
+          "ClassName": "Part",
+          "Id": "haloJoint2",
+          "Name": "Joint2",
+          "Properties": {
+            "Shape": "Ball",
+            "Size": [
+              0.16,
+              0.16,
+              0.16
+            ],
+            "CFrame": [
+              0.821,
+              1.35,
+              0.22
+            ],
+            "Material": "Neon",
+            "Color": "#FFD700",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "haloJoint3",
+          "Name": "Joint3",
+          "Properties": {
+            "Shape": "Ball",
+            "Size": [
+              0.16,
+              0.16,
+              0.16
+            ],
+            "CFrame": [
+              0.7361,
+              1.35,
+              0.425
+            ],
+            "Material": "Neon",
+            "Color": "#FFD700",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "haloJoint4",
+          "Name": "Joint4",
+          "Properties": {
+            "Shape": "Ball",
+            "Size": [
+              0.16,
+              0.16,
+              0.16
+            ],
+            "CFrame": [
+              0.601,
+              1.35,
+              0.601
+            ],
+            "Material": "Neon",
+            "Color": "#FFD700",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "haloJoint5",
+          "Name": "Joint5",
+          "Properties": {
+            "Shape": "Ball",
+            "Size": [
+              0.16,
+              0.16,
+              0.16
+            ],
+            "CFrame": [
+              0.425,
+              1.35,
+              0.7361
+            ],
+            "Material": "Neon",
+            "Color": "#FFD700",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "haloJoint6",
+          "Name": "Joint6",
+          "Properties": {
+            "Shape": "Ball",
+            "Size": [
+              0.16,
+              0.16,
+              0.16
+            ],
+            "CFrame": [
+              0.22,
+              1.35,
+              0.821
+            ],
+            "Material": "Neon",
+            "Color": "#FFD700",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "haloJoint7",
+          "Name": "Joint7",
+          "Properties": {
+            "Shape": "Ball",
+            "Size": [
+              0.16,
+              0.16,
+              0.16
+            ],
+            "CFrame": [
+              0.0,
+              1.35,
+              0.85
+            ],
+            "Material": "Neon",
+            "Color": "#FFD700",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "haloJoint8",
+          "Name": "Joint8",
+          "Properties": {
+            "Shape": "Ball",
+            "Size": [
+              0.16,
+              0.16,
+              0.16
+            ],
+            "CFrame": [
+              -0.22,
+              1.35,
+              0.821
+            ],
+            "Material": "Neon",
+            "Color": "#FFD700",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "haloJoint9",
+          "Name": "Joint9",
+          "Properties": {
+            "Shape": "Ball",
+            "Size": [
+              0.16,
+              0.16,
+              0.16
+            ],
+            "CFrame": [
+              -0.425,
+              1.35,
+              0.7361
+            ],
+            "Material": "Neon",
+            "Color": "#FFD700",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "haloJoint10",
+          "Name": "Joint10",
+          "Properties": {
+            "Shape": "Ball",
+            "Size": [
+              0.16,
+              0.16,
+              0.16
+            ],
+            "CFrame": [
+              -0.601,
+              1.35,
+              0.601
+            ],
+            "Material": "Neon",
+            "Color": "#FFD700",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "haloJoint11",
+          "Name": "Joint11",
+          "Properties": {
+            "Shape": "Ball",
+            "Size": [
+              0.16,
+              0.16,
+              0.16
+            ],
+            "CFrame": [
+              -0.7361,
+              1.35,
+              0.425
+            ],
+            "Material": "Neon",
+            "Color": "#FFD700",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "haloJoint12",
+          "Name": "Joint12",
+          "Properties": {
+            "Shape": "Ball",
+            "Size": [
+              0.16,
+              0.16,
+              0.16
+            ],
+            "CFrame": [
+              -0.821,
+              1.35,
+              0.22
+            ],
+            "Material": "Neon",
+            "Color": "#FFD700",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "haloJoint13",
+          "Name": "Joint13",
+          "Properties": {
+            "Shape": "Ball",
+            "Size": [
+              0.16,
+              0.16,
+              0.16
+            ],
+            "CFrame": [
+              -0.85,
+              1.35,
+              0.0
+            ],
+            "Material": "Neon",
+            "Color": "#FFD700",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "haloJoint14",
+          "Name": "Joint14",
+          "Properties": {
+            "Shape": "Ball",
+            "Size": [
+              0.16,
+              0.16,
+              0.16
+            ],
+            "CFrame": [
+              -0.821,
+              1.35,
+              -0.22
+            ],
+            "Material": "Neon",
+            "Color": "#FFD700",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "haloJoint15",
+          "Name": "Joint15",
+          "Properties": {
+            "Shape": "Ball",
+            "Size": [
+              0.16,
+              0.16,
+              0.16
+            ],
+            "CFrame": [
+              -0.7361,
+              1.35,
+              -0.425
+            ],
+            "Material": "Neon",
+            "Color": "#FFD700",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "haloJoint16",
+          "Name": "Joint16",
+          "Properties": {
+            "Shape": "Ball",
+            "Size": [
+              0.16,
+              0.16,
+              0.16
+            ],
+            "CFrame": [
+              -0.601,
+              1.35,
+              -0.601
+            ],
+            "Material": "Neon",
+            "Color": "#FFD700",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "haloJoint17",
+          "Name": "Joint17",
+          "Properties": {
+            "Shape": "Ball",
+            "Size": [
+              0.16,
+              0.16,
+              0.16
+            ],
+            "CFrame": [
+              -0.425,
+              1.35,
+              -0.7361
+            ],
+            "Material": "Neon",
+            "Color": "#FFD700",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "haloJoint18",
+          "Name": "Joint18",
+          "Properties": {
+            "Shape": "Ball",
+            "Size": [
+              0.16,
+              0.16,
+              0.16
+            ],
+            "CFrame": [
+              -0.22,
+              1.35,
+              -0.821
+            ],
+            "Material": "Neon",
+            "Color": "#FFD700",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "haloJoint19",
+          "Name": "Joint19",
+          "Properties": {
+            "Shape": "Ball",
+            "Size": [
+              0.16,
+              0.16,
+              0.16
+            ],
+            "CFrame": [
+              -0.0,
+              1.35,
+              -0.85
+            ],
+            "Material": "Neon",
+            "Color": "#FFD700",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "haloJoint20",
+          "Name": "Joint20",
+          "Properties": {
+            "Shape": "Ball",
+            "Size": [
+              0.16,
+              0.16,
+              0.16
+            ],
+            "CFrame": [
+              0.22,
+              1.35,
+              -0.821
+            ],
+            "Material": "Neon",
+            "Color": "#FFD700",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "haloJoint21",
+          "Name": "Joint21",
+          "Properties": {
+            "Shape": "Ball",
+            "Size": [
+              0.16,
+              0.16,
+              0.16
+            ],
+            "CFrame": [
+              0.425,
+              1.35,
+              -0.7361
+            ],
+            "Material": "Neon",
+            "Color": "#FFD700",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "haloJoint22",
+          "Name": "Joint22",
+          "Properties": {
+            "Shape": "Ball",
+            "Size": [
+              0.16,
+              0.16,
+              0.16
+            ],
+            "CFrame": [
+              0.601,
+              1.35,
+              -0.601
+            ],
+            "Material": "Neon",
+            "Color": "#FFD700",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "haloJoint23",
+          "Name": "Joint23",
+          "Properties": {
+            "Shape": "Ball",
+            "Size": [
+              0.16,
+              0.16,
+              0.16
+            ],
+            "CFrame": [
+              0.7361,
+              1.35,
+              -0.425
+            ],
+            "Material": "Neon",
+            "Color": "#FFD700",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "haloJoint24",
+          "Name": "Joint24",
+          "Properties": {
+            "Shape": "Ball",
+            "Size": [
+              0.16,
+              0.16,
+              0.16
+            ],
+            "CFrame": [
+              0.821,
+              1.35,
+              -0.22
+            ],
+            "Material": "Neon",
+            "Color": "#FFD700",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "haloSeg1",
+          "Name": "Segment1",
+          "Properties": {
+            "Size": [
+              0.14,
+              0.14,
+              0.2619
+            ],
+            "CFrame": [
+              0.8355,
+              1.35,
+              0.11,
+              0.99144,
+              0,
+              -0.13053,
+              0,
+              1,
+              0,
+              0.13053,
+              0,
+              0.99144
+            ],
+            "Material": "Neon",
+            "Color": "#FFD700",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "haloSeg2",
+          "Name": "Segment2",
+          "Properties": {
+            "Size": [
+              0.14,
+              0.14,
+              0.2619
+            ],
+            "CFrame": [
+              0.7786,
+              1.35,
+              0.3225,
+              0.92388,
+              0,
+              -0.38268,
+              0,
+              1,
+              0,
+              0.38268,
+              0,
+              0.92388
+            ],
+            "Material": "Neon",
+            "Color": "#FFD700",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "haloSeg3",
+          "Name": "Segment3",
+          "Properties": {
+            "Size": [
+              0.14,
+              0.14,
+              0.2619
+            ],
+            "CFrame": [
+              0.6686,
+              1.35,
+              0.513,
+              0.79335,
+              0,
+              -0.60876,
+              0,
+              1,
+              0,
+              0.60876,
+              0,
+              0.79335
+            ],
+            "Material": "Neon",
+            "Color": "#FFD700",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "haloSeg4",
+          "Name": "Segment4",
+          "Properties": {
+            "Size": [
+              0.14,
+              0.14,
+              0.2619
+            ],
+            "CFrame": [
+              0.513,
+              1.35,
+              0.6686,
+              0.60876,
+              0,
+              -0.79335,
+              0,
+              1,
+              0,
+              0.79335,
+              0,
+              0.60876
+            ],
+            "Material": "Neon",
+            "Color": "#FFD700",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "haloSeg5",
+          "Name": "Segment5",
+          "Properties": {
+            "Size": [
+              0.14,
+              0.14,
+              0.2619
+            ],
+            "CFrame": [
+              0.3225,
+              1.35,
+              0.7786,
+              0.38268,
+              0,
+              -0.92388,
+              0,
+              1,
+              0,
+              0.92388,
+              0,
+              0.38268
+            ],
+            "Material": "Neon",
+            "Color": "#FFD700",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "haloSeg6",
+          "Name": "Segment6",
+          "Properties": {
+            "Size": [
+              0.14,
+              0.14,
+              0.2619
+            ],
+            "CFrame": [
+              0.11,
+              1.35,
+              0.8355,
+              0.13053,
+              0,
+              -0.99144,
+              0,
+              1,
+              0,
+              0.99144,
+              0,
+              0.13053
+            ],
+            "Material": "Neon",
+            "Color": "#FFD700",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "haloSeg7",
+          "Name": "Segment7",
+          "Properties": {
+            "Size": [
+              0.14,
+              0.14,
+              0.2619
+            ],
+            "CFrame": [
+              -0.11,
+              1.35,
+              0.8355,
+              -0.13053,
+              0,
+              -0.99144,
+              0,
+              1,
+              0,
+              0.99144,
+              0,
+              -0.13053
+            ],
+            "Material": "Neon",
+            "Color": "#FFD700",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "haloSeg8",
+          "Name": "Segment8",
+          "Properties": {
+            "Size": [
+              0.14,
+              0.14,
+              0.2619
+            ],
+            "CFrame": [
+              -0.3225,
+              1.35,
+              0.7786,
+              -0.38268,
+              0,
+              -0.92388,
+              0,
+              1,
+              0,
+              0.92388,
+              0,
+              -0.38268
+            ],
+            "Material": "Neon",
+            "Color": "#FFD700",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "haloSeg9",
+          "Name": "Segment9",
+          "Properties": {
+            "Size": [
+              0.14,
+              0.14,
+              0.2619
+            ],
+            "CFrame": [
+              -0.513,
+              1.35,
+              0.6686,
+              -0.60876,
+              0,
+              -0.79335,
+              0,
+              1,
+              0,
+              0.79335,
+              0,
+              -0.60876
+            ],
+            "Material": "Neon",
+            "Color": "#FFD700",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "haloSeg10",
+          "Name": "Segment10",
+          "Properties": {
+            "Size": [
+              0.14,
+              0.14,
+              0.2619
+            ],
+            "CFrame": [
+              -0.6686,
+              1.35,
+              0.513,
+              -0.79335,
+              0,
+              -0.60876,
+              0,
+              1,
+              0,
+              0.60876,
+              0,
+              -0.79335
+            ],
+            "Material": "Neon",
+            "Color": "#FFD700",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "haloSeg11",
+          "Name": "Segment11",
+          "Properties": {
+            "Size": [
+              0.14,
+              0.14,
+              0.2619
+            ],
+            "CFrame": [
+              -0.7786,
+              1.35,
+              0.3225,
+              -0.92388,
+              0,
+              -0.38268,
+              0,
+              1,
+              0,
+              0.38268,
+              0,
+              -0.92388
+            ],
+            "Material": "Neon",
+            "Color": "#FFD700",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "haloSeg12",
+          "Name": "Segment12",
+          "Properties": {
+            "Size": [
+              0.14,
+              0.14,
+              0.2619
+            ],
+            "CFrame": [
+              -0.8355,
+              1.35,
+              0.11,
+              -0.99144,
+              0,
+              -0.13053,
+              0,
+              1,
+              0,
+              0.13053,
+              0,
+              -0.99144
+            ],
+            "Material": "Neon",
+            "Color": "#FFD700",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "haloSeg13",
+          "Name": "Segment13",
+          "Properties": {
+            "Size": [
+              0.14,
+              0.14,
+              0.2619
+            ],
+            "CFrame": [
+              -0.8355,
+              1.35,
+              -0.11,
+              -0.99144,
+              0,
+              0.13053,
+              0,
+              1,
+              0,
+              -0.13053,
+              0,
+              -0.99144
+            ],
+            "Material": "Neon",
+            "Color": "#FFD700",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "haloSeg14",
+          "Name": "Segment14",
+          "Properties": {
+            "Size": [
+              0.14,
+              0.14,
+              0.2619
+            ],
+            "CFrame": [
+              -0.7786,
+              1.35,
+              -0.3225,
+              -0.92388,
+              0,
+              0.38268,
+              0,
+              1,
+              0,
+              -0.38268,
+              0,
+              -0.92388
+            ],
+            "Material": "Neon",
+            "Color": "#FFD700",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "haloSeg15",
+          "Name": "Segment15",
+          "Properties": {
+            "Size": [
+              0.14,
+              0.14,
+              0.2619
+            ],
+            "CFrame": [
+              -0.6686,
+              1.35,
+              -0.513,
+              -0.79335,
+              0,
+              0.60876,
+              0,
+              1,
+              0,
+              -0.60876,
+              0,
+              -0.79335
+            ],
+            "Material": "Neon",
+            "Color": "#FFD700",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "haloSeg16",
+          "Name": "Segment16",
+          "Properties": {
+            "Size": [
+              0.14,
+              0.14,
+              0.2619
+            ],
+            "CFrame": [
+              -0.513,
+              1.35,
+              -0.6686,
+              -0.60876,
+              0,
+              0.79335,
+              0,
+              1,
+              0,
+              -0.79335,
+              0,
+              -0.60876
+            ],
+            "Material": "Neon",
+            "Color": "#FFD700",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "haloSeg17",
+          "Name": "Segment17",
+          "Properties": {
+            "Size": [
+              0.14,
+              0.14,
+              0.2619
+            ],
+            "CFrame": [
+              -0.3225,
+              1.35,
+              -0.7786,
+              -0.38268,
+              0,
+              0.92388,
+              0,
+              1,
+              0,
+              -0.92388,
+              0,
+              -0.38268
+            ],
+            "Material": "Neon",
+            "Color": "#FFD700",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "haloSeg18",
+          "Name": "Segment18",
+          "Properties": {
+            "Size": [
+              0.14,
+              0.14,
+              0.2619
+            ],
+            "CFrame": [
+              -0.11,
+              1.35,
+              -0.8355,
+              -0.13053,
+              0,
+              0.99144,
+              0,
+              1,
+              0,
+              -0.99144,
+              0,
+              -0.13053
+            ],
+            "Material": "Neon",
+            "Color": "#FFD700",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "haloSeg19",
+          "Name": "Segment19",
+          "Properties": {
+            "Size": [
+              0.14,
+              0.14,
+              0.2619
+            ],
+            "CFrame": [
+              0.11,
+              1.35,
+              -0.8355,
+              0.13053,
+              0,
+              0.99144,
+              0,
+              1,
+              0,
+              -0.99144,
+              0,
+              0.13053
+            ],
+            "Material": "Neon",
+            "Color": "#FFD700",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "haloSeg20",
+          "Name": "Segment20",
+          "Properties": {
+            "Size": [
+              0.14,
+              0.14,
+              0.2619
+            ],
+            "CFrame": [
+              0.3225,
+              1.35,
+              -0.7786,
+              0.38268,
+              0,
+              0.92388,
+              0,
+              1,
+              0,
+              -0.92388,
+              0,
+              0.38268
+            ],
+            "Material": "Neon",
+            "Color": "#FFD700",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "haloSeg21",
+          "Name": "Segment21",
+          "Properties": {
+            "Size": [
+              0.14,
+              0.14,
+              0.2619
+            ],
+            "CFrame": [
+              0.513,
+              1.35,
+              -0.6686,
+              0.60876,
+              0,
+              0.79335,
+              0,
+              1,
+              0,
+              -0.79335,
+              0,
+              0.60876
+            ],
+            "Material": "Neon",
+            "Color": "#FFD700",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "haloSeg22",
+          "Name": "Segment22",
+          "Properties": {
+            "Size": [
+              0.14,
+              0.14,
+              0.2619
+            ],
+            "CFrame": [
+              0.6686,
+              1.35,
+              -0.513,
+              0.79335,
+              0,
+              0.60876,
+              0,
+              1,
+              0,
+              -0.60876,
+              0,
+              0.79335
+            ],
+            "Material": "Neon",
+            "Color": "#FFD700",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "haloSeg23",
+          "Name": "Segment23",
+          "Properties": {
+            "Size": [
+              0.14,
+              0.14,
+              0.2619
+            ],
+            "CFrame": [
+              0.7786,
+              1.35,
+              -0.3225,
+              0.92388,
+              0,
+              0.38268,
+              0,
+              1,
+              0,
+              -0.38268,
+              0,
+              0.92388
+            ],
+            "Material": "Neon",
+            "Color": "#FFD700",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "haloSeg24",
+          "Name": "Segment24",
+          "Properties": {
+            "Size": [
+              0.14,
+              0.14,
+              0.2619
+            ],
+            "CFrame": [
+              0.8355,
+              1.35,
+              -0.11,
+              0.99144,
+              0,
+              0.13053,
+              0,
+              1,
+              0,
+              -0.13053,
+              0,
+              0.99144
+            ],
+            "Material": "Neon",
+            "Color": "#FFD700",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        }
+      ]
+    },
+    {
+      "ClassName": "Model",
+      "Id": "hornsModel",
+      "Name": "Horns",
+      "Properties": {
+        "PrimaryPart": {
+          "$ref": "leftHornBase"
+        }
+      },
+      "Attributes": {
+        "GeneratedBy": "JSON23D",
+        "SchemaVersion": 1,
+        "AssetCategory": "AdminV4"
+      },
+      "Tags": [
+        "JSON23D",
+        "AdminAsset"
+      ],
+      "Children": [
+        {
+          "ClassName": "Part",
+          "Id": "leftHornBase",
+          "Name": "LeftHornBase",
+          "Properties": {
+            "Size": [
+              0.3,
+              0.6,
+              0.3
+            ],
+            "CFrame": [
+              -0.6,
+              0.7,
+              -0.2,
+              15,
+              0,
+              25
+            ],
+            "Material": "SmoothPlastic",
+            "Color": "#2B2B2B",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "leftHornTip",
+          "Name": "LeftHornTip",
+          "Properties": {
+            "Size": [
+              0.2,
+              0.6,
+              0.2
+            ],
+            "CFrame": [
+              -0.8,
+              1.2,
+              -0.1,
+              25,
+              0,
+              40
+            ],
+            "Material": "SmoothPlastic",
+            "Color": "#1F1F1F",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "rightHornBase",
+          "Name": "RightHornBase",
+          "Properties": {
+            "Size": [
+              0.3,
+              0.6,
+              0.3
+            ],
+            "CFrame": [
+              0.6,
+              0.7,
+              -0.2,
+              15,
+              0,
+              -25
+            ],
+            "Material": "SmoothPlastic",
+            "Color": "#2B2B2B",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "rightHornTip",
+          "Name": "RightHornTip",
+          "Properties": {
+            "Size": [
+              0.2,
+              0.6,
+              0.2
+            ],
+            "CFrame": [
+              0.8,
+              1.2,
+              -0.1,
+              25,
+              0,
+              -40
+            ],
+            "Material": "SmoothPlastic",
+            "Color": "#1F1F1F",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        }
+      ]
+    },
+    {
+      "ClassName": "Model",
+      "Id": "wingsModel",
+      "Name": "Wings",
+      "Properties": {
+        "PrimaryPart": {
+          "$ref": "wingMount"
+        }
+      },
+      "Attributes": {
+        "GeneratedBy": "JSON23D",
+        "SchemaVersion": 1,
+        "AssetCategory": "AdminV4"
+      },
+      "Tags": [
+        "JSON23D",
+        "AdminAsset"
+      ],
+      "Children": [
+        {
+          "ClassName": "Part",
+          "Id": "wingMount",
+          "Name": "WingMount",
+          "Properties": {
+            "Size": [
+              0.55,
+              0.7,
+              0.16
+            ],
+            "CFrame": [
+              0,
+              -0.15,
+              -0.48
+            ],
+            "Material": "SmoothPlastic",
+            "Color": "#1E293B",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "wingCorePlate",
+          "Name": "WingCorePlate",
+          "Properties": {
+            "Size": [
+              0.42,
+              0.54,
+              0.08
+            ],
+            "CFrame": [
+              0,
+              -0.15,
+              -0.53
+            ],
+            "Material": "SmoothPlastic",
+            "Color": "#F8FAFC",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "wingCoreGem",
+          "Name": "WingCoreGem",
+          "Properties": {
+            "Shape": "Ball",
+            "Size": [
+              0.24,
+              0.24,
+              0.16
+            ],
+            "CFrame": [
+              0,
+              -0.15,
+              -0.58
+            ],
+            "Material": "Neon",
+            "Color": "#38BDF8",
+            "Anchored": true,
+            "CanCollide": false
+          },
+          "Children": [
+            {
+              "ClassName": "PointLight",
+              "Id": "wingCoreLight",
+              "Name": "CoreAura",
+              "Properties": {
+                "Brightness": 1.5,
+                "Range": 7,
+                "Color": "#38BDF8"
+              }
+            }
+          ]
+        },
+        {
+          "ClassName": "Part",
+          "Id": "boneSpar1_Right",
+          "Name": "BoneSpar1_Right",
+          "Properties": {
+            "Size": [
+              0.18,
+              0.18,
+              0.746
+            ],
+            "CFrame": [
+              0.47,
+              0.175,
+              -0.53,
+              0.7416,
+              -0.0205,
+              0.6705,
+              -0.6693,
+              -0.09,
+              0.7375,
+              0.0452,
+              -0.9957,
+              -0.0805
+            ],
+            "Material": "SmoothPlastic",
+            "Color": "#F8FAFC",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "boneSpar2_Right",
+          "Name": "BoneSpar2_Right",
+          "Properties": {
+            "Size": [
+              0.16,
+              0.16,
+              0.851
+            ],
+            "CFrame": [
+              1.02,
+              0.75,
+              -0.59,
+              0.7085,
+              -0.024,
+              0.7053,
+              -0.7048,
+              -0.0757,
+              0.7053,
+              0.0365,
+              -0.9968,
+              -0.0705
+            ],
+            "Material": "SmoothPlastic",
+            "Color": "#F8FAFC",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "elbowJoint_Right",
+          "Name": "ElbowJoint_Right",
+          "Properties": {
+            "Shape": "Ball",
+            "Size": [
+              0.26,
+              0.26,
+              0.26
+            ],
+            "CFrame": [
+              1.32,
+              1.05,
+              -0.62
+            ],
+            "Material": "Neon",
+            "Color": "#BAE6FD",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "boneSpar3_Right",
+          "Name": "BoneSpar3_Right",
+          "Properties": {
+            "Size": [
+              0.15,
+              0.15,
+              1.017
+            ],
+            "CFrame": [
+              1.76,
+              0.8,
+              -0.67,
+              -0.5013,
+              -0.0032,
+              0.8652,
+              -0.8497,
+              0.1907,
+              -0.4916,
+              -0.1634,
+              -0.9816,
+              -0.0983
+            ],
+            "Material": "SmoothPlastic",
+            "Color": "#F1F5F9",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "wingtipJoint_Right",
+          "Name": "WingtipJoint_Right",
+          "Properties": {
+            "Shape": "Ball",
+            "Size": [
+              0.22,
+              0.22,
+              0.22
+            ],
+            "CFrame": [
+              2.2,
+              0.55,
+              -0.72
+            ],
+            "Material": "Neon",
+            "Color": "#7DD3FC",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "primaryBlade1_Right",
+          "Name": "PrimaryBlade1_Right",
+          "Properties": {
+            "Size": [
+              0.42,
+              0.07,
+              2.016
+            ],
+            "CFrame": [
+              2.525,
+              -0.4,
+              -0.81,
+              -0.9366,
+              0.1372,
+              0.3224,
+              -0.3039,
+              0.1398,
+              -0.9424,
+              -0.1744,
+              -0.9806,
+              -0.0893
+            ],
+            "Material": "Neon",
+            "Color": "#BAE6FD",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "primaryBlade2_Right",
+          "Name": "PrimaryBlade2_Right",
+          "Properties": {
+            "Size": [
+              0.44,
+              0.07,
+              2.211
+            ],
+            "CFrame": [
+              2.265,
+              -0.385,
+              -0.78,
+              -0.9549,
+              0.1471,
+              0.2578,
+              -0.2427,
+              0.1132,
+              -0.9635,
+              -0.1709,
+              -0.9826,
+              -0.0724
+            ],
+            "Material": "Neon",
+            "Color": "#93C5FD",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "primaryBlade3_Right",
+          "Name": "PrimaryBlade3_Right",
+          "Properties": {
+            "Size": [
+              0.44,
+              0.07,
+              2.405
+            ],
+            "CFrame": [
+              2.005,
+              -0.375,
+              -0.745,
+              -0.9672,
+              0.1518,
+              0.2037,
+              -0.191,
+              0.0944,
+              -0.977,
+              -0.1675,
+              -0.9839,
+              -0.0624
+            ],
+            "Material": "Neon",
+            "Color": "#60A5FA",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "primaryBlade4_Right",
+          "Name": "PrimaryBlade4_Right",
+          "Properties": {
+            "Size": [
+              0.44,
+              0.07,
+              2.606
+            ],
+            "CFrame": [
+              1.745,
+              -0.365,
+              -0.71,
+              -0.9755,
+              0.1541,
+              0.1573,
+              -0.1467,
+              0.0782,
+              -0.9861,
+              -0.1643,
+              -0.985,
+              -0.0537
+            ],
+            "Material": "Neon",
+            "Color": "#38BDF8",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "primaryBlade5_Right",
+          "Name": "PrimaryBlade5_Right",
+          "Properties": {
+            "Size": [
+              0.42,
+              0.07,
+              2.822
+            ],
+            "CFrame": [
+              1.485,
+              -0.35,
+              -0.68,
+              -0.9809,
+              0.1554,
+              0.1169,
+              -0.1087,
+              0.0606,
+              -0.9922,
+              -0.1612,
+              -0.986,
+              -0.0425
+            ],
+            "Material": "Neon",
+            "Color": "#0EA5E9",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "primaryBlade6_Right",
+          "Name": "PrimaryBlade6_Right",
+          "Properties": {
+            "Size": [
+              0.4,
+              0.07,
+              2.662
+            ],
+            "CFrame": [
+              1.235,
+              -0.475,
+              -0.65,
+              -0.9841,
+              0.155,
+              0.0864,
+              -0.0794,
+              0.0507,
+              -0.9956,
+              -0.1587,
+              -0.9866,
+              -0.0376
+            ],
+            "Material": "Neon",
+            "Color": "#0284C7",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "primaryBlade7_Right",
+          "Name": "PrimaryBlade7_Right",
+          "Properties": {
+            "Size": [
+              0.38,
+              0.07,
+              2.505
+            ],
+            "CFrame": [
+              0.985,
+              -0.6,
+              -0.62,
+              -0.9867,
+              0.154,
+              0.0519,
+              -0.0463,
+              0.0396,
+              -0.9981,
+              -0.1558,
+              -0.9873,
+              -0.0319
+            ],
+            "Material": "Neon",
+            "Color": "#0369A1",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "primaryBlade8_Right",
+          "Name": "PrimaryBlade8_Right",
+          "Properties": {
+            "Size": [
+              0.36,
+              0.07,
+              2.351
+            ],
+            "CFrame": [
+              0.735,
+              -0.725,
+              -0.59,
+              -0.9883,
+              0.1519,
+              0.0128,
+              -0.0087,
+              0.0272,
+              -0.9996,
+              -0.1522,
+              -0.988,
+              -0.0255
+            ],
+            "Material": "Neon",
+            "Color": "#075985",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "covertFeather1_Right",
+          "Name": "CovertFeather1_Right",
+          "Properties": {
+            "Size": [
+              0.36,
+              0.06,
+              1.167
+            ],
+            "CFrame": [
+              2.275,
+              0.085,
+              -0.7,
+              -0.9142,
+              0.1249,
+              0.3856,
+              -0.3646,
+              0.1623,
+              -0.9169,
+              -0.1771,
+              -0.9788,
+              -0.1028
+            ],
+            "Material": "SmoothPlastic",
+            "Color": "#FFFFFF",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "covertFeather2_Right",
+          "Name": "CovertFeather2_Right",
+          "Properties": {
+            "Size": [
+              0.38,
+              0.06,
+              1.354
+            ],
+            "CFrame": [
+              2.0,
+              0.095,
+              -0.67,
+              -0.9444,
+              0.1442,
+              0.2954,
+              -0.2794,
+              0.1209,
+              -0.9525,
+              -0.1731,
+              -0.9821,
+              -0.0738
+            ],
+            "Material": "SmoothPlastic",
+            "Color": "#F8FAFC",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "covertFeather3_Right",
+          "Name": "CovertFeather3_Right",
+          "Properties": {
+            "Size": [
+              0.4,
+              0.06,
+              1.552
+            ],
+            "CFrame": [
+              1.725,
+              0.105,
+              -0.64,
+              -0.9621,
+              0.1535,
+              0.2255,
+              -0.214,
+              0.0877,
+              -0.9729,
+              -0.1691,
+              -0.9843,
+              -0.0515
+            ],
+            "Material": "SmoothPlastic",
+            "Color": "#F1F5F9",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "covertFeather4_Right",
+          "Name": "CovertFeather4_Right",
+          "Properties": {
+            "Size": [
+              0.4,
+              0.06,
+              1.754
+            ],
+            "CFrame": [
+              1.46,
+              0.115,
+              -0.61,
+              -0.9746,
+              0.1573,
+              0.1597,
+              -0.152,
+              0.0596,
+              -0.9866,
+              -0.1647,
+              -0.9858,
+              -0.0342
+            ],
+            "Material": "SmoothPlastic",
+            "Color": "#E0F2FE",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "covertFeather5_Right",
+          "Name": "CovertFeather5_Right",
+          "Properties": {
+            "Size": [
+              0.38,
+              0.06,
+              1.663
+            ],
+            "CFrame": [
+              1.2,
+              -0.025,
+              -0.58,
+              -0.9801,
+              0.1578,
+              0.1203,
+              -0.1149,
+              0.043,
+              -0.9924,
+              -0.1617,
+              -0.9865,
+              -0.0241
+            ],
+            "Material": "SmoothPlastic",
+            "Color": "#BAE6FD",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "covertFeather6_Right",
+          "Name": "CovertFeather6_Right",
+          "Properties": {
+            "Size": [
+              0.36,
+              0.06,
+              1.555
+            ],
+            "CFrame": [
+              0.94,
+              -0.175,
+              -0.55,
+              -0.9846,
+              0.1568,
+              0.0772,
+              -0.0742,
+              0.0249,
+              -0.9969,
+              -0.1583,
+              -0.9873,
+              -0.0129
+            ],
+            "Material": "SmoothPlastic",
+            "Color": "#7DD3FC",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "covertFeather7_Right",
+          "Name": "CovertFeather7_Right",
+          "Properties": {
+            "Size": [
+              0.34,
+              0.06,
+              1.451
+            ],
+            "CFrame": [
+              0.7,
+              -0.325,
+              -0.53,
+              -0.9878,
+              0.1533,
+              0.0276,
+              -0.0251,
+              0.0179,
+              -0.9995,
+              -0.1538,
+              -0.988,
+              -0.0138
+            ],
+            "Material": "SmoothPlastic",
+            "Color": "#38BDF8",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "crestFeather1_Right",
+          "Name": "CrestFeather1_Right",
+          "Properties": {
+            "Size": [
+              0.32,
+              0.05,
+              0.678
+            ],
+            "CFrame": [
+              1.175,
+              1.225,
+              -0.64,
+              0.9713,
+              0.0875,
+              0.2213,
+              -0.2005,
+              -0.2003,
+              0.959,
+              0.1282,
+              -0.9758,
+              -0.177
+            ],
+            "Material": "Neon",
+            "Color": "#FFFFFF",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "crestFeather2_Right",
+          "Name": "CrestFeather2_Right",
+          "Properties": {
+            "Size": [
+              0.34,
+              0.05,
+              0.75
+            ],
+            "CFrame": [
+              1.435,
+              1.4,
+              -0.67,
+              0.9503,
+              0.0543,
+              0.3067,
+              -0.289,
+              -0.2129,
+              0.9333,
+              0.116,
+              -0.9756,
+              -0.1867
+            ],
+            "Material": "Neon",
+            "Color": "#F0F9FF",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "crestFeather3_Right",
+          "Name": "CrestFeather3_Right",
+          "Properties": {
+            "Size": [
+              0.3,
+              0.05,
+              0.642
+            ],
+            "CFrame": [
+              1.7,
+              1.225,
+              -0.69,
+              0.8837,
+              -0.0245,
+              0.4673,
+              -0.4595,
+              -0.234,
+              0.8568,
+              0.0884,
+              -0.9719,
+              -0.2181
+            ],
+            "Material": "Neon",
+            "Color": "#E0F2FE",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "boneSpar1_Left",
+          "Name": "BoneSpar1_Left",
+          "Properties": {
+            "Size": [
+              0.18,
+              0.18,
+              0.746
+            ],
+            "CFrame": [
+              -0.47,
+              0.175,
+              -0.53,
+              -0.7416,
+              -0.0205,
+              -0.6705,
+              -0.6693,
+              0.09,
+              0.7375,
+              0.0452,
+              0.9957,
+              -0.0805
+            ],
+            "Material": "SmoothPlastic",
+            "Color": "#F8FAFC",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "boneSpar2_Left",
+          "Name": "BoneSpar2_Left",
+          "Properties": {
+            "Size": [
+              0.16,
+              0.16,
+              0.851
+            ],
+            "CFrame": [
+              -1.02,
+              0.75,
+              -0.59,
+              -0.7085,
+              -0.024,
+              -0.7053,
+              -0.7048,
+              0.0757,
+              0.7053,
+              0.0365,
+              0.9968,
+              -0.0705
+            ],
+            "Material": "SmoothPlastic",
+            "Color": "#F8FAFC",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "elbowJoint_Left",
+          "Name": "ElbowJoint_Left",
+          "Properties": {
+            "Shape": "Ball",
+            "Size": [
+              0.26,
+              0.26,
+              0.26
+            ],
+            "CFrame": [
+              -1.32,
+              1.05,
+              -0.62
+            ],
+            "Material": "Neon",
+            "Color": "#BAE6FD",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "boneSpar3_Left",
+          "Name": "BoneSpar3_Left",
+          "Properties": {
+            "Size": [
+              0.15,
+              0.15,
+              1.017
+            ],
+            "CFrame": [
+              -1.76,
+              0.8,
+              -0.67,
+              0.5013,
+              -0.0032,
+              -0.8652,
+              -0.8497,
+              -0.1907,
+              -0.4916,
+              -0.1634,
+              0.9816,
+              -0.0983
+            ],
+            "Material": "SmoothPlastic",
+            "Color": "#F1F5F9",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "wingtipJoint_Left",
+          "Name": "WingtipJoint_Left",
+          "Properties": {
+            "Shape": "Ball",
+            "Size": [
+              0.22,
+              0.22,
+              0.22
+            ],
+            "CFrame": [
+              -2.2,
+              0.55,
+              -0.72
+            ],
+            "Material": "Neon",
+            "Color": "#7DD3FC",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "primaryBlade1_Left",
+          "Name": "PrimaryBlade1_Left",
+          "Properties": {
+            "Size": [
+              0.42,
+              0.07,
+              2.016
+            ],
+            "CFrame": [
+              -2.525,
+              -0.4,
+              -0.81,
+              0.9366,
+              0.1372,
+              -0.3224,
+              -0.3039,
+              -0.1398,
+              -0.9424,
+              -0.1744,
+              0.9806,
+              -0.0893
+            ],
+            "Material": "Neon",
+            "Color": "#BAE6FD",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "primaryBlade2_Left",
+          "Name": "PrimaryBlade2_Left",
+          "Properties": {
+            "Size": [
+              0.44,
+              0.07,
+              2.211
+            ],
+            "CFrame": [
+              -2.265,
+              -0.385,
+              -0.78,
+              0.9549,
+              0.1471,
+              -0.2578,
+              -0.2427,
+              -0.1132,
+              -0.9635,
+              -0.1709,
+              0.9826,
+              -0.0724
+            ],
+            "Material": "Neon",
+            "Color": "#93C5FD",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "primaryBlade3_Left",
+          "Name": "PrimaryBlade3_Left",
+          "Properties": {
+            "Size": [
+              0.44,
+              0.07,
+              2.405
+            ],
+            "CFrame": [
+              -2.005,
+              -0.375,
+              -0.745,
+              0.9672,
+              0.1518,
+              -0.2037,
+              -0.191,
+              -0.0944,
+              -0.977,
+              -0.1675,
+              0.9839,
+              -0.0624
+            ],
+            "Material": "Neon",
+            "Color": "#60A5FA",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "primaryBlade4_Left",
+          "Name": "PrimaryBlade4_Left",
+          "Properties": {
+            "Size": [
+              0.44,
+              0.07,
+              2.606
+            ],
+            "CFrame": [
+              -1.745,
+              -0.365,
+              -0.71,
+              0.9755,
+              0.1541,
+              -0.1573,
+              -0.1467,
+              -0.0782,
+              -0.9861,
+              -0.1643,
+              0.985,
+              -0.0537
+            ],
+            "Material": "Neon",
+            "Color": "#38BDF8",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "primaryBlade5_Left",
+          "Name": "PrimaryBlade5_Left",
+          "Properties": {
+            "Size": [
+              0.42,
+              0.07,
+              2.822
+            ],
+            "CFrame": [
+              -1.485,
+              -0.35,
+              -0.68,
+              0.9809,
+              0.1554,
+              -0.1169,
+              -0.1087,
+              -0.0606,
+              -0.9922,
+              -0.1612,
+              0.986,
+              -0.0425
+            ],
+            "Material": "Neon",
+            "Color": "#0EA5E9",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "primaryBlade6_Left",
+          "Name": "PrimaryBlade6_Left",
+          "Properties": {
+            "Size": [
+              0.4,
+              0.07,
+              2.662
+            ],
+            "CFrame": [
+              -1.235,
+              -0.475,
+              -0.65,
+              0.9841,
+              0.155,
+              -0.0864,
+              -0.0794,
+              -0.0507,
+              -0.9956,
+              -0.1587,
+              0.9866,
+              -0.0376
+            ],
+            "Material": "Neon",
+            "Color": "#0284C7",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "primaryBlade7_Left",
+          "Name": "PrimaryBlade7_Left",
+          "Properties": {
+            "Size": [
+              0.38,
+              0.07,
+              2.505
+            ],
+            "CFrame": [
+              -0.985,
+              -0.6,
+              -0.62,
+              0.9867,
+              0.154,
+              -0.0519,
+              -0.0463,
+              -0.0396,
+              -0.9981,
+              -0.1558,
+              0.9873,
+              -0.0319
+            ],
+            "Material": "Neon",
+            "Color": "#0369A1",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "primaryBlade8_Left",
+          "Name": "PrimaryBlade8_Left",
+          "Properties": {
+            "Size": [
+              0.36,
+              0.07,
+              2.351
+            ],
+            "CFrame": [
+              -0.735,
+              -0.725,
+              -0.59,
+              0.9883,
+              0.1519,
+              -0.0128,
+              -0.0087,
+              -0.0272,
+              -0.9996,
+              -0.1522,
+              0.988,
+              -0.0255
+            ],
+            "Material": "Neon",
+            "Color": "#075985",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "covertFeather1_Left",
+          "Name": "CovertFeather1_Left",
+          "Properties": {
+            "Size": [
+              0.36,
+              0.06,
+              1.167
+            ],
+            "CFrame": [
+              -2.275,
+              0.085,
+              -0.7,
+              0.9142,
+              0.1249,
+              -0.3856,
+              -0.3646,
+              -0.1623,
+              -0.9169,
+              -0.1771,
+              0.9788,
+              -0.1028
+            ],
+            "Material": "SmoothPlastic",
+            "Color": "#FFFFFF",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "covertFeather2_Left",
+          "Name": "CovertFeather2_Left",
+          "Properties": {
+            "Size": [
+              0.38,
+              0.06,
+              1.354
+            ],
+            "CFrame": [
+              -2.0,
+              0.095,
+              -0.67,
+              0.9444,
+              0.1442,
+              -0.2954,
+              -0.2794,
+              -0.1209,
+              -0.9525,
+              -0.1731,
+              0.9821,
+              -0.0738
+            ],
+            "Material": "SmoothPlastic",
+            "Color": "#F8FAFC",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "covertFeather3_Left",
+          "Name": "CovertFeather3_Left",
+          "Properties": {
+            "Size": [
+              0.4,
+              0.06,
+              1.552
+            ],
+            "CFrame": [
+              -1.725,
+              0.105,
+              -0.64,
+              0.9621,
+              0.1535,
+              -0.2255,
+              -0.214,
+              -0.0877,
+              -0.9729,
+              -0.1691,
+              0.9843,
+              -0.0515
+            ],
+            "Material": "SmoothPlastic",
+            "Color": "#F1F5F9",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "covertFeather4_Left",
+          "Name": "CovertFeather4_Left",
+          "Properties": {
+            "Size": [
+              0.4,
+              0.06,
+              1.754
+            ],
+            "CFrame": [
+              -1.46,
+              0.115,
+              -0.61,
+              0.9746,
+              0.1573,
+              -0.1597,
+              -0.152,
+              -0.0596,
+              -0.9866,
+              -0.1647,
+              0.9858,
+              -0.0342
+            ],
+            "Material": "SmoothPlastic",
+            "Color": "#E0F2FE",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "covertFeather5_Left",
+          "Name": "CovertFeather5_Left",
+          "Properties": {
+            "Size": [
+              0.38,
+              0.06,
+              1.663
+            ],
+            "CFrame": [
+              -1.2,
+              -0.025,
+              -0.58,
+              0.9801,
+              0.1578,
+              -0.1203,
+              -0.1149,
+              -0.043,
+              -0.9924,
+              -0.1617,
+              0.9865,
+              -0.0241
+            ],
+            "Material": "SmoothPlastic",
+            "Color": "#BAE6FD",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "covertFeather6_Left",
+          "Name": "CovertFeather6_Left",
+          "Properties": {
+            "Size": [
+              0.36,
+              0.06,
+              1.555
+            ],
+            "CFrame": [
+              -0.94,
+              -0.175,
+              -0.55,
+              0.9846,
+              0.1568,
+              -0.0772,
+              -0.0742,
+              -0.0249,
+              -0.9969,
+              -0.1583,
+              0.9873,
+              -0.0129
+            ],
+            "Material": "SmoothPlastic",
+            "Color": "#7DD3FC",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "covertFeather7_Left",
+          "Name": "CovertFeather7_Left",
+          "Properties": {
+            "Size": [
+              0.34,
+              0.06,
+              1.451
+            ],
+            "CFrame": [
+              -0.7,
+              -0.325,
+              -0.53,
+              0.9878,
+              0.1533,
+              -0.0276,
+              -0.0251,
+              -0.0179,
+              -0.9995,
+              -0.1538,
+              0.988,
+              -0.0138
+            ],
+            "Material": "SmoothPlastic",
+            "Color": "#38BDF8",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "crestFeather1_Left",
+          "Name": "CrestFeather1_Left",
+          "Properties": {
+            "Size": [
+              0.32,
+              0.05,
+              0.678
+            ],
+            "CFrame": [
+              -1.175,
+              1.225,
+              -0.64,
+              -0.9713,
+              0.0875,
+              -0.2213,
+              -0.2005,
+              0.2003,
+              0.959,
+              0.1282,
+              0.9758,
+              -0.177
+            ],
+            "Material": "Neon",
+            "Color": "#FFFFFF",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "crestFeather2_Left",
+          "Name": "CrestFeather2_Left",
+          "Properties": {
+            "Size": [
+              0.34,
+              0.05,
+              0.75
+            ],
+            "CFrame": [
+              -1.435,
+              1.4,
+              -0.67,
+              -0.9503,
+              0.0543,
+              -0.3067,
+              -0.289,
+              0.2129,
+              0.9333,
+              0.116,
+              0.9756,
+              -0.1867
+            ],
+            "Material": "Neon",
+            "Color": "#F0F9FF",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "crestFeather3_Left",
+          "Name": "CrestFeather3_Left",
+          "Properties": {
+            "Size": [
+              0.3,
+              0.05,
+              0.642
+            ],
+            "CFrame": [
+              -1.7,
+              1.225,
+              -0.69,
+              -0.8837,
+              -0.0245,
+              -0.4673,
+              -0.4595,
+              0.234,
+              0.8568,
+              0.0884,
+              0.9719,
+              -0.2181
+            ],
+            "Material": "Neon",
+            "Color": "#E0F2FE",
+            "Anchored": true,
+            "CanCollide": false
+          }
+        }
+      ]
+    },
+    {
+      "ClassName": "Model",
+      "Id": "bombModel",
+      "Name": "Bomb",
+      "Properties": {
+        "PrimaryPart": {
+          "$ref": "bombHandle"
+        }
+      },
+      "Attributes": {
+        "GeneratedBy": "JSON23D",
+        "SchemaVersion": 1,
+        "AssetCategory": "AdminV4"
+      },
+      "Tags": [
+        "JSON23D",
+        "AdminAsset"
+      ],
+      "Children": [
+        {
+          "ClassName": "Part",
+          "Id": "bombHandle",
+          "Name": "Handle",
+          "Properties": {
+            "Shape": "Ball",
+            "Size": [
+              2.5,
+              2.5,
+              2.5
+            ],
+            "CFrame": [
+              0,
+              0,
+              0
+            ],
+            "Material": "Metal",
+            "Color": "#1C1C1E",
+            "Anchored": false,
+            "CanCollide": true
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "bombFuseCap",
+          "Name": "FuseCap",
+          "Properties": {
+            "Shape": "Cylinder",
+            "Size": [
+              0.4,
+              0.7,
+              0.7
+            ],
+            "CFrame": [
+              0,
+              1.3,
+              0,
+              0,
+              0,
+              90
+            ],
+            "Material": "Metal",
+            "Color": "#48484A",
+            "Anchored": false,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "bombFuseWick",
+          "Name": "FuseWick",
+          "Properties": {
+            "Size": [
+              0.15,
+              0.4,
+              0.15
+            ],
+            "CFrame": [
+              0,
+              1.6,
+              0
+            ],
+            "Material": "Fabric",
+            "Color": "#D1D1D6",
+            "Anchored": false,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "bombSpark",
+          "Name": "FuseSpark",
+          "Properties": {
+            "Shape": "Ball",
+            "Size": [
+              0.25,
+              0.25,
+              0.25
+            ],
+            "CFrame": [
+              0,
+              1.85,
+              0
+            ],
+            "Material": "Neon",
+            "Color": "#FF9500",
+            "Anchored": false,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "WeldConstraint",
+          "Id": "weldCap",
+          "Name": "WeldCap",
+          "Properties": {
+            "Part0": {
+              "$ref": "bombHandle"
+            },
+            "Part1": {
+              "$ref": "bombFuseCap"
+            }
+          }
+        },
+        {
+          "ClassName": "WeldConstraint",
+          "Id": "weldWick",
+          "Name": "WeldWick",
+          "Properties": {
+            "Part0": {
+              "$ref": "bombHandle"
+            },
+            "Part1": {
+              "$ref": "bombFuseWick"
+            }
+          }
+        },
+        {
+          "ClassName": "WeldConstraint",
+          "Id": "weldSpark",
+          "Name": "WeldSpark",
+          "Properties": {
+            "Part0": {
+              "$ref": "bombHandle"
+            },
+            "Part1": {
+              "$ref": "bombSpark"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "ClassName": "Model",
+      "Id": "metalPipeModel",
+      "Name": "MetalPipe",
+      "Properties": {
+        "PrimaryPart": {
+          "$ref": "pipeHandle"
+        }
+      },
+      "Attributes": {
+        "GeneratedBy": "JSON23D",
+        "SchemaVersion": 1,
+        "AssetCategory": "AdminTools"
+      },
+      "Tags": [
+        "JSON23D",
+        "AdminTool"
+      ],
+      "Children": [
+        {
+          "ClassName": "Part",
+          "Id": "pipeHandle",
+          "Name": "Handle",
+          "Properties": {
+            "Size": [
+              0.45,
+              3.8,
+              0.45
+            ],
+            "CFrame": [
+              0,
+              0,
+              0
+            ],
+            "Material": "Metal",
+            "Color": "#8A9096",
+            "Anchored": false,
+            "CanCollide": false
+          },
+          "Children": [
+            {
+              "ClassName": "CylinderMesh",
+              "Id": "meshHandle",
+              "Name": "CylinderMesh"
+            },
+            {
+              "ClassName": "Sound",
+              "Id": "pipeClangSound",
+              "Name": "ClangSound",
+              "Properties": {
+                "SoundId": "rbxassetid://9114223180",
+                "Volume": 1.8,
+                "RollOffMaxDistance": 150
+              }
+            },
+            {
+              "ClassName": "Sound",
+              "Id": "pipeSwingSound",
+              "Name": "SwingSound",
+              "Properties": {
+                "SoundId": "rbxassetid://169445121",
+                "Volume": 0.9,
+                "Pitch": 0.95
+              }
+            }
+          ]
+        },
+        {
+          "ClassName": "Part",
+          "Id": "pipeTopCollar",
+          "Name": "TopCollar",
+          "Properties": {
+            "Size": [
+              0.56,
+              0.4,
+              0.56
+            ],
+            "CFrame": [
+              0,
+              1.7,
+              0
+            ],
+            "Material": "Metal",
+            "Color": "#71767C",
+            "Anchored": false,
+            "CanCollide": false
+          },
+          "Children": [
+            {
+              "ClassName": "CylinderMesh",
+              "Id": "meshTopCollar",
+              "Name": "CylinderMesh"
+            }
+          ]
+        },
+        {
+          "ClassName": "Part",
+          "Id": "pipeBottomCollar",
+          "Name": "BottomCollar",
+          "Properties": {
+            "Size": [
+              0.56,
+              0.4,
+              0.56
+            ],
+            "CFrame": [
+              0,
+              -1.7,
+              0
+            ],
+            "Material": "Metal",
+            "Color": "#71767C",
+            "Anchored": false,
+            "CanCollide": false
+          },
+          "Children": [
+            {
+              "ClassName": "CylinderMesh",
+              "Id": "meshBottomCollar",
+              "Name": "CylinderMesh"
+            }
+          ]
+        },
+        {
+          "ClassName": "Part",
+          "Id": "pipeGripWrap",
+          "Name": "GripWrap",
+          "Properties": {
+            "Size": [
+              0.48,
+              1.2,
+              0.48
+            ],
+            "CFrame": [
+              0,
+              -0.3,
+              0
+            ],
+            "Material": "Fabric",
+            "Color": "#222326",
+            "Anchored": false,
+            "CanCollide": false
+          },
+          "Children": [
+            {
+              "ClassName": "CylinderMesh",
+              "Id": "meshGripWrap",
+              "Name": "CylinderMesh"
+            }
+          ]
+        },
+        {
+          "ClassName": "WeldConstraint",
+          "Id": "weldTopCollar",
+          "Name": "WeldTopCollar",
+          "Properties": {
+            "Part0": {
+              "$ref": "pipeHandle"
+            },
+            "Part1": {
+              "$ref": "pipeTopCollar"
+            }
+          }
+        },
+        {
+          "ClassName": "WeldConstraint",
+          "Id": "weldBottomCollar",
+          "Name": "WeldBottomCollar",
+          "Properties": {
+            "Part0": {
+              "$ref": "pipeHandle"
+            },
+            "Part1": {
+              "$ref": "pipeBottomCollar"
+            }
+          }
+        },
+        {
+          "ClassName": "WeldConstraint",
+          "Id": "weldGripWrap",
+          "Name": "WeldGripWrap",
+          "Properties": {
+            "Part0": {
+              "$ref": "pipeHandle"
+            },
+            "Part1": {
+              "$ref": "pipeGripWrap"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "ClassName": "Model",
+      "Id": "banHammerModel",
+      "Name": "BanHammer",
+      "Properties": {
+        "PrimaryPart": {
+          "$ref": "hammerHandle"
+        }
+      },
+      "Attributes": {
+        "GeneratedBy": "JSON23D",
+        "SchemaVersion": 1,
+        "AssetCategory": "AdminV4"
+      },
+      "Tags": [
+        "JSON23D",
+        "AdminAsset"
+      ],
+      "Children": [
+        {
+          "ClassName": "Part",
+          "Id": "hammerHandle",
+          "Name": "Handle",
+          "Properties": {
+            "Size": [
+              0.45,
+              4.2,
+              0.45
+            ],
+            "CFrame": [
+              0,
+              0,
+              0
+            ],
+            "Material": "Metal",
+            "Color": "#1E293B",
+            "Anchored": false,
+            "CanCollide": false
+          },
+          "Children": [
+            {
+              "ClassName": "CylinderMesh",
+              "Id": "hammerHandleMesh",
+              "Name": "HandleMesh"
+            }
+          ]
+        },
+        {
+          "ClassName": "Part",
+          "Id": "hammerHead",
+          "Name": "HammerHead",
+          "Properties": {
+            "Size": [
+              1.8,
+              1.4,
+              2.6
+            ],
+            "CFrame": [
+              0,
+              1.8,
+              0
+            ],
+            "Material": "DiamondPlate",
+            "Color": "#0F172A",
+            "Anchored": false,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "strikeFace1",
+          "Name": "StrikeFaceFront",
+          "Properties": {
+            "Size": [
+              1.6,
+              1.2,
+              0.2
+            ],
+            "CFrame": [
+              0,
+              1.8,
+              1.35
+            ],
+            "Material": "Neon",
+            "Color": "#EF4444",
+            "Anchored": false,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "strikeFace2",
+          "Name": "StrikeFaceBack",
+          "Properties": {
+            "Size": [
+              1.6,
+              1.2,
+              0.2
+            ],
+            "CFrame": [
+              0,
+              1.8,
+              -1.35
+            ],
+            "Material": "Neon",
+            "Color": "#EF4444",
+            "Anchored": false,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "thunderGem",
+          "Name": "ThunderGem",
+          "Properties": {
+            "Shape": "Ball",
+            "Size": [
+              0.75,
+              0.75,
+              0.75
+            ],
+            "CFrame": [
+              0,
+              1.8,
+              0
+            ],
+            "Material": "Neon",
+            "Color": "#F59E0B",
+            "Anchored": false,
+            "CanCollide": false
+          },
+          "Children": [
+            {
+              "ClassName": "PointLight",
+              "Id": "hammerLight",
+              "Name": "ThunderAura",
+              "Properties": {
+                "Brightness": 3,
+                "Range": 14,
+                "Color": "#F59E0B"
+              }
+            }
+          ]
+        },
+        {
+          "ClassName": "Part",
+          "Id": "hammerPommel",
+          "Name": "Pommel",
+          "Properties": {
+            "Shape": "Ball",
+            "Size": [
+              0.65,
+              0.65,
+              0.65
+            ],
+            "CFrame": [
+              0,
+              -2.1,
+              0
+            ],
+            "Material": "Metal",
+            "Color": "#F59E0B",
+            "Anchored": false,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "WeldConstraint",
+          "Id": "weld_hammerHead",
+          "Name": "Weld_HammerHead",
+          "Properties": {
+            "Part0": {
+              "$ref": "hammerHandle"
+            },
+            "Part1": {
+              "$ref": "hammerHead"
+            }
+          }
+        },
+        {
+          "ClassName": "WeldConstraint",
+          "Id": "weld_strikeFace1",
+          "Name": "Weld_StrikeFaceFront",
+          "Properties": {
+            "Part0": {
+              "$ref": "hammerHandle"
+            },
+            "Part1": {
+              "$ref": "strikeFace1"
+            }
+          }
+        },
+        {
+          "ClassName": "WeldConstraint",
+          "Id": "weld_strikeFace2",
+          "Name": "Weld_StrikeFaceBack",
+          "Properties": {
+            "Part0": {
+              "$ref": "hammerHandle"
+            },
+            "Part1": {
+              "$ref": "strikeFace2"
+            }
+          }
+        },
+        {
+          "ClassName": "WeldConstraint",
+          "Id": "weld_thunderGem",
+          "Name": "Weld_ThunderGem",
+          "Properties": {
+            "Part0": {
+              "$ref": "hammerHandle"
+            },
+            "Part1": {
+              "$ref": "thunderGem"
+            }
+          }
+        },
+        {
+          "ClassName": "WeldConstraint",
+          "Id": "weld_hammerPommel",
+          "Name": "Weld_Pommel",
+          "Properties": {
+            "Part0": {
+              "$ref": "hammerHandle"
+            },
+            "Part1": {
+              "$ref": "hammerPommel"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "ClassName": "Model",
+      "Id": "gravityGunModel",
+      "Name": "GravityGun",
+      "Properties": {
+        "PrimaryPart": {
+          "$ref": "gravHandle"
+        }
+      },
+      "Attributes": {
+        "GeneratedBy": "JSON23D",
+        "SchemaVersion": 1,
+        "AssetCategory": "AdminV4"
+      },
+      "Tags": [
+        "JSON23D",
+        "AdminAsset"
+      ],
+      "Children": [
+        {
+          "ClassName": "Part",
+          "Id": "gravHandle",
+          "Name": "Handle",
+          "Properties": {
+            "Size": [
+              0.65,
+              0.8,
+              2.4
+            ],
+            "CFrame": [
+              0,
+              0,
+              0
+            ],
+            "Material": "Metal",
+            "Color": "#334155",
+            "Anchored": false,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "energyChamber",
+          "Name": "EnergyChamber",
+          "Properties": {
+            "Size": [
+              0.75,
+              0.75,
+              0.9
+            ],
+            "CFrame": [
+              0,
+              0.2,
+              0.2
+            ],
+            "Material": "Glass",
+            "Color": "#06B6D4",
+            "Transparency": 0.35,
+            "Anchored": false,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "plasmaCore",
+          "Name": "PlasmaCore",
+          "Properties": {
+            "Shape": "Ball",
+            "Size": [
+              0.5,
+              0.5,
+              0.5
+            ],
+            "CFrame": [
+              0,
+              0.2,
+              0.2
+            ],
+            "Material": "Neon",
+            "Color": "#38BDF8",
+            "Anchored": false,
+            "CanCollide": false
+          },
+          "Children": [
+            {
+              "ClassName": "PointLight",
+              "Id": "gravLight",
+              "Name": "PlasmaLight",
+              "Properties": {
+                "Brightness": 3,
+                "Range": 12,
+                "Color": "#06B6D4"
+              }
+            }
+          ]
+        },
+        {
+          "ClassName": "Part",
+          "Id": "muzzleRing",
+          "Name": "MuzzleRing",
+          "Properties": {
+            "Size": [
+              0.85,
+              0.85,
+              0.25
+            ],
+            "CFrame": [
+              0,
+              0.15,
+              -1.3
+            ],
+            "Material": "Metal",
+            "Color": "#1E293B",
+            "Anchored": false,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "clawTop",
+          "Name": "ClawTop",
+          "Properties": {
+            "Size": [
+              0.18,
+              0.35,
+              1.0
+            ],
+            "CFrame": [
+              0,
+              0.75,
+              -1.8
+            ],
+            "Material": "Metal",
+            "Color": "#F59E0B",
+            "Anchored": false,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "clawRight",
+          "Name": "ClawRight",
+          "Properties": {
+            "Size": [
+              0.18,
+              0.35,
+              1.0
+            ],
+            "CFrame": [
+              0.55,
+              -0.35,
+              -1.8
+            ],
+            "Material": "Metal",
+            "Color": "#F59E0B",
+            "Anchored": false,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "clawLeft",
+          "Name": "ClawLeft",
+          "Properties": {
+            "Size": [
+              0.18,
+              0.35,
+              1.0
+            ],
+            "CFrame": [
+              -0.55,
+              -0.35,
+              -1.8
+            ],
+            "Material": "Metal",
+            "Color": "#F59E0B",
+            "Anchored": false,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "WeldConstraint",
+          "Id": "weld_energyChamber",
+          "Name": "Weld_EnergyChamber",
+          "Properties": {
+            "Part0": {
+              "$ref": "gravHandle"
+            },
+            "Part1": {
+              "$ref": "energyChamber"
+            }
+          }
+        },
+        {
+          "ClassName": "WeldConstraint",
+          "Id": "weld_plasmaCore",
+          "Name": "Weld_PlasmaCore",
+          "Properties": {
+            "Part0": {
+              "$ref": "gravHandle"
+            },
+            "Part1": {
+              "$ref": "plasmaCore"
+            }
+          }
+        },
+        {
+          "ClassName": "WeldConstraint",
+          "Id": "weld_muzzleRing",
+          "Name": "Weld_MuzzleRing",
+          "Properties": {
+            "Part0": {
+              "$ref": "gravHandle"
+            },
+            "Part1": {
+              "$ref": "muzzleRing"
+            }
+          }
+        },
+        {
+          "ClassName": "WeldConstraint",
+          "Id": "weld_clawTop",
+          "Name": "Weld_ClawTop",
+          "Properties": {
+            "Part0": {
+              "$ref": "gravHandle"
+            },
+            "Part1": {
+              "$ref": "clawTop"
+            }
+          }
+        },
+        {
+          "ClassName": "WeldConstraint",
+          "Id": "weld_clawRight",
+          "Name": "Weld_ClawRight",
+          "Properties": {
+            "Part0": {
+              "$ref": "gravHandle"
+            },
+            "Part1": {
+              "$ref": "clawRight"
+            }
+          }
+        },
+        {
+          "ClassName": "WeldConstraint",
+          "Id": "weld_clawLeft",
+          "Name": "Weld_ClawLeft",
+          "Properties": {
+            "Part0": {
+              "$ref": "gravHandle"
+            },
+            "Part1": {
+              "$ref": "clawLeft"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "ClassName": "Model",
+      "Id": "freezeRayModel",
+      "Name": "FreezeRay",
+      "Properties": {
+        "PrimaryPart": {
+          "$ref": "freezeHandle"
+        }
+      },
+      "Attributes": {
+        "GeneratedBy": "JSON23D",
+        "SchemaVersion": 1,
+        "AssetCategory": "AdminV4"
+      },
+      "Tags": [
+        "JSON23D",
+        "AdminAsset"
+      ],
+      "Children": [
+        {
+          "ClassName": "Part",
+          "Id": "freezeHandle",
+          "Name": "Handle",
+          "Properties": {
+            "Size": [
+              0.4,
+              3.4,
+              0.4
+            ],
+            "CFrame": [
+              0,
+              0,
+              0
+            ],
+            "Material": "Glass",
+            "Color": "#E0F2FE",
+            "Anchored": false,
+            "CanCollide": false
+          },
+          "Children": [
+            {
+              "ClassName": "CylinderMesh",
+              "Id": "freezeHandleMesh",
+              "Name": "HandleMesh"
+            }
+          ]
+        },
+        {
+          "ClassName": "Part",
+          "Id": "frostEmitter",
+          "Name": "FrostEmitter",
+          "Properties": {
+            "Size": [
+              1.1,
+              1.3,
+              1.1
+            ],
+            "CFrame": [
+              0,
+              1.8,
+              0
+            ],
+            "Material": "Ice",
+            "Color": "#38BDF8",
+            "Anchored": false,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "glacialStar",
+          "Name": "GlacialStar",
+          "Properties": {
+            "Shape": "Ball",
+            "Size": [
+              0.65,
+              0.65,
+              0.65
+            ],
+            "CFrame": [
+              0,
+              1.8,
+              0
+            ],
+            "Material": "Neon",
+            "Color": "#BAE6FD",
+            "Anchored": false,
+            "CanCollide": false
+          },
+          "Children": [
+            {
+              "ClassName": "PointLight",
+              "Id": "freezeLight",
+              "Name": "FrostLight",
+              "Properties": {
+                "Brightness": 2.5,
+                "Range": 12,
+                "Color": "#BAE6FD"
+              }
+            }
+          ]
+        },
+        {
+          "ClassName": "Part",
+          "Id": "frostShard1",
+          "Name": "FrostShard1",
+          "Properties": {
+            "Size": [
+              0.25,
+              0.65,
+              0.25
+            ],
+            "CFrame": [
+              0.85,
+              1.8,
+              0
+            ],
+            "Material": "Ice",
+            "Color": "#E0F2FE",
+            "Anchored": false,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "frostShard2",
+          "Name": "FrostShard2",
+          "Properties": {
+            "Size": [
+              0.25,
+              0.65,
+              0.25
+            ],
+            "CFrame": [
+              -0.85,
+              1.8,
+              0
+            ],
+            "Material": "Ice",
+            "Color": "#E0F2FE",
+            "Anchored": false,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "frostShard3",
+          "Name": "FrostShard3",
+          "Properties": {
+            "Size": [
+              0.25,
+              0.65,
+              0.25
+            ],
+            "CFrame": [
+              0,
+              1.8,
+              0.85
+            ],
+            "Material": "Ice",
+            "Color": "#E0F2FE",
+            "Anchored": false,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "frostShard4",
+          "Name": "FrostShard4",
+          "Properties": {
+            "Size": [
+              0.25,
+              0.65,
+              0.25
+            ],
+            "CFrame": [
+              0,
+              1.8,
+              -0.85
+            ],
+            "Material": "Ice",
+            "Color": "#E0F2FE",
+            "Anchored": false,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "WeldConstraint",
+          "Id": "weld_frostEmitter",
+          "Name": "Weld_FrostEmitter",
+          "Properties": {
+            "Part0": {
+              "$ref": "freezeHandle"
+            },
+            "Part1": {
+              "$ref": "frostEmitter"
+            }
+          }
+        },
+        {
+          "ClassName": "WeldConstraint",
+          "Id": "weld_glacialStar",
+          "Name": "Weld_GlacialStar",
+          "Properties": {
+            "Part0": {
+              "$ref": "freezeHandle"
+            },
+            "Part1": {
+              "$ref": "glacialStar"
+            }
+          }
+        },
+        {
+          "ClassName": "WeldConstraint",
+          "Id": "weld_frostShard1",
+          "Name": "Weld_FrostShard1",
+          "Properties": {
+            "Part0": {
+              "$ref": "freezeHandle"
+            },
+            "Part1": {
+              "$ref": "frostShard1"
+            }
+          }
+        },
+        {
+          "ClassName": "WeldConstraint",
+          "Id": "weld_frostShard2",
+          "Name": "Weld_FrostShard2",
+          "Properties": {
+            "Part0": {
+              "$ref": "freezeHandle"
+            },
+            "Part1": {
+              "$ref": "frostShard2"
+            }
+          }
+        },
+        {
+          "ClassName": "WeldConstraint",
+          "Id": "weld_frostShard3",
+          "Name": "Weld_FrostShard3",
+          "Properties": {
+            "Part0": {
+              "$ref": "freezeHandle"
+            },
+            "Part1": {
+              "$ref": "frostShard3"
+            }
+          }
+        },
+        {
+          "ClassName": "WeldConstraint",
+          "Id": "weld_frostShard4",
+          "Name": "Weld_FrostShard4",
+          "Properties": {
+            "Part0": {
+              "$ref": "freezeHandle"
+            },
+            "Part1": {
+              "$ref": "frostShard4"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "ClassName": "Model",
+      "Id": "blackHoleCannonModel",
+      "Name": "BlackHoleCannon",
+      "Properties": {
+        "PrimaryPart": {
+          "$ref": "bhHandle"
+        }
+      },
+      "Attributes": {
+        "GeneratedBy": "JSON23D",
+        "SchemaVersion": 1,
+        "AssetCategory": "AdminV4"
+      },
+      "Tags": [
+        "JSON23D",
+        "AdminAsset"
+      ],
+      "Children": [
+        {
+          "ClassName": "Part",
+          "Id": "bhHandle",
+          "Name": "Handle",
+          "Properties": {
+            "Size": [
+              0.65,
+              0.85,
+              2.2
+            ],
+            "CFrame": [
+              0,
+              0,
+              0
+            ],
+            "Material": "Metal",
+            "Color": "#1E1B4B",
+            "Anchored": false,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "bhChassis",
+          "Name": "Chassis",
+          "Properties": {
+            "Size": [
+              1.1,
+              1.2,
+              3.2
+            ],
+            "CFrame": [
+              0,
+              0.35,
+              -0.7
+            ],
+            "Material": "DiamondPlate",
+            "Color": "#0F172A",
+            "Anchored": false,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "bhCoreSphere",
+          "Name": "SingularityCore",
+          "Properties": {
+            "Shape": "Ball",
+            "Size": [
+              1.3,
+              1.3,
+              1.3
+            ],
+            "CFrame": [
+              0,
+              0.55,
+              -0.7
+            ],
+            "Material": "Neon",
+            "Color": "#9333EA",
+            "Anchored": false,
+            "CanCollide": false
+          },
+          "Children": [
+            {
+              "ClassName": "PointLight",
+              "Id": "bhCoreLight",
+              "Name": "SingularityLight",
+              "Properties": {
+                "Brightness": 4.5,
+                "Range": 15,
+                "Color": "#C084FC"
+              }
+            }
+          ]
+        },
+        {
+          "ClassName": "Part",
+          "Id": "bhRailLeft",
+          "Name": "RailLeft",
+          "Properties": {
+            "Size": [
+              0.22,
+              0.45,
+              3.6
+            ],
+            "CFrame": [
+              -0.68,
+              0.4,
+              -1.8
+            ],
+            "Material": "Neon",
+            "Color": "#A855F7",
+            "Anchored": false,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "bhRailRight",
+          "Name": "RailRight",
+          "Properties": {
+            "Size": [
+              0.22,
+              0.45,
+              3.6
+            ],
+            "CFrame": [
+              0.68,
+              0.4,
+              -1.8
+            ],
+            "Material": "Neon",
+            "Color": "#A855F7",
+            "Anchored": false,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "bhRing1",
+          "Name": "ContainmentRing1",
+          "Properties": {
+            "Size": [
+              1.5,
+              1.5,
+              0.25
+            ],
+            "CFrame": [
+              0,
+              0.4,
+              -2.1
+            ],
+            "Material": "Metal",
+            "Color": "#3B0764",
+            "Anchored": false,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "bhRing2",
+          "Name": "ContainmentRing2",
+          "Properties": {
+            "Size": [
+              1.7,
+              1.7,
+              0.25
+            ],
+            "CFrame": [
+              0,
+              0.4,
+              -3.1
+            ],
+            "Material": "Neon",
+            "Color": "#7E22CE",
+            "Anchored": false,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "Part",
+          "Id": "bhMuzzle",
+          "Name": "ApertureMuzzle",
+          "Properties": {
+            "Size": [
+              0.85,
+              0.85,
+              0.5
+            ],
+            "CFrame": [
+              0,
+              0.4,
+              -3.7
+            ],
+            "Material": "Neon",
+            "Color": "#581C87",
+            "Anchored": false,
+            "CanCollide": false
+          }
+        },
+        {
+          "ClassName": "WeldConstraint",
+          "Id": "weld_bhChassis",
+          "Name": "Weld_Chassis",
+          "Properties": {
+            "Part0": {
+              "$ref": "bhHandle"
+            },
+            "Part1": {
+              "$ref": "bhChassis"
+            }
+          }
+        },
+        {
+          "ClassName": "WeldConstraint",
+          "Id": "weld_bhCoreSphere",
+          "Name": "Weld_SingularityCore",
+          "Properties": {
+            "Part0": {
+              "$ref": "bhHandle"
+            },
+            "Part1": {
+              "$ref": "bhCoreSphere"
+            }
+          }
+        },
+        {
+          "ClassName": "WeldConstraint",
+          "Id": "weld_bhRailLeft",
+          "Name": "Weld_RailLeft",
+          "Properties": {
+            "Part0": {
+              "$ref": "bhHandle"
+            },
+            "Part1": {
+              "$ref": "bhRailLeft"
+            }
+          }
+        },
+        {
+          "ClassName": "WeldConstraint",
+          "Id": "weld_bhRailRight",
+          "Name": "Weld_RailRight",
+          "Properties": {
+            "Part0": {
+              "$ref": "bhHandle"
+            },
+            "Part1": {
+              "$ref": "bhRailRight"
+            }
+          }
+        },
+        {
+          "ClassName": "WeldConstraint",
+          "Id": "weld_bhRing1",
+          "Name": "Weld_ContainmentRing1",
+          "Properties": {
+            "Part0": {
+              "$ref": "bhHandle"
+            },
+            "Part1": {
+              "$ref": "bhRing1"
+            }
+          }
+        },
+        {
+          "ClassName": "WeldConstraint",
+          "Id": "weld_bhRing2",
+          "Name": "Weld_ContainmentRing2",
+          "Properties": {
+            "Part0": {
+              "$ref": "bhHandle"
+            },
+            "Part1": {
+              "$ref": "bhRing2"
+            }
+          }
+        },
+        {
+          "ClassName": "WeldConstraint",
+          "Id": "weld_bhMuzzle",
+          "Name": "Weld_ApertureMuzzle",
+          "Properties": {
+            "Part0": {
+              "$ref": "bhHandle"
+            },
+            "Part1": {
+              "$ref": "bhMuzzle"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "Options": {
+    "SelectGenerated": true,
+    "AssetPolicy": "ReferenceOnly",
+    "GenerationLabel": "JSON23D: Generate Admin Assets",
+    "AllowExperimental": false
+  }
+}

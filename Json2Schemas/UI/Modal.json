@@ -1,0 +1,283 @@
+{
+  "Options": {
+    "SelectGenerated": false,
+    "GenerationLabel": "Json2GUI: Generate Modal"
+  },
+  "Roots": [
+    {
+      "ClassName": "ScreenGui",
+      "Name": "Modal",
+      "Properties": {
+        "ResetOnSpawn": false,
+        "ZIndexBehavior": "Sibling"
+      },
+      "Children": [
+        {
+          "ClassName": "Frame",
+          "Name": "Frame",
+          "Properties": {
+            "AnchorPoint": [
+              0.5,
+              0.5
+            ],
+            "Position": [
+              0.5,
+              0,
+              0.5,
+              0
+            ],
+            "Size": [
+              0,
+              420,
+              0,
+              220
+            ],
+            "BackgroundColor3": "#181B22",
+            "BorderSizePixel": 0
+          },
+          "Children": [
+            {
+              "ClassName": "UICorner",
+              "Name": "Corner",
+              "Properties": {
+                "CornerRadius": [
+                  0,
+                  12
+                ]
+              }
+            },
+            {
+              "ClassName": "UIStroke",
+              "Name": "Stroke",
+              "Properties": {
+                "Color": "#2E3442",
+                "Thickness": 1.5
+              }
+            },
+            {
+              "ClassName": "TextLabel",
+              "Name": "TitleLabel",
+              "Properties": {
+                "Size": [
+                  1,
+                  -50,
+                  0,
+                  30
+                ],
+                "Position": [
+                  0,
+                  20,
+                  0,
+                  16
+                ],
+                "BackgroundTransparency": 1,
+                "Text": "Admin Notice",
+                "TextColor3": "#FFFFFF",
+                "TextSize": 18,
+                "Font": "GothamBold",
+                "TextXAlignment": "Left"
+              }
+            },
+            {
+              "ClassName": "TextButton",
+              "Name": "CloseButton",
+              "Properties": {
+                "Size": [
+                  0,
+                  28,
+                  0,
+                  28
+                ],
+                "Position": [
+                  1,
+                  -42,
+                  0,
+                  16
+                ],
+                "BackgroundColor3": "#282D38",
+                "BorderSizePixel": 0,
+                "Text": "X",
+                "TextColor3": "#E5E7EB",
+                "TextSize": 14,
+                "Font": "GothamBold"
+              },
+              "Children": [
+                {
+                  "ClassName": "UICorner",
+                  "Name": "Corner",
+                  "Properties": {
+                    "CornerRadius": [
+                      0,
+                      6
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "ClassName": "TextLabel",
+              "Name": "MessageLabel",
+              "Properties": {
+                "Size": [
+                  1,
+                  -40,
+                  0,
+                  44
+                ],
+                "Position": [
+                  0,
+                  20,
+                  0,
+                  54
+                ],
+                "BackgroundTransparency": 1,
+                "Text": "Message content goes here.",
+                "TextColor3": "#C5CAD6",
+                "TextSize": 14,
+                "Font": "Gotham",
+                "TextXAlignment": "Left",
+                "TextYAlignment": "Top",
+                "TextWrapped": true
+              }
+            },
+            {
+              "ClassName": "TextBox",
+              "Name": "InputBox",
+              "Properties": {
+                "Size": [
+                  1,
+                  -40,
+                  0,
+                  36
+                ],
+                "Position": [
+                  0,
+                  20,
+                  0,
+                  108
+                ],
+                "BackgroundColor3": "#20242E",
+                "BorderSizePixel": 0,
+                "PlaceholderText": "Input...",
+                "PlaceholderColor3": "#687082",
+                "Text": "",
+                "TextColor3": "#FFFFFF",
+                "TextSize": 14,
+                "Font": "Gotham",
+                "TextXAlignment": "Left",
+                "Visible": false
+              },
+              "Children": [
+                {
+                  "ClassName": "UICorner",
+                  "Name": "Corner",
+                  "Properties": {
+                    "CornerRadius": [
+                      0,
+                      6
+                    ]
+                  }
+                },
+                {
+                  "ClassName": "UIPadding",
+                  "Name": "UIPadding",
+                  "Properties": {
+                    "PaddingLeft": [
+                      0,
+                      10
+                    ],
+                    "PaddingRight": [
+                      0,
+                      10
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "ClassName": "TextButton",
+              "Name": "PrimaryButton",
+              "Properties": {
+                "AnchorPoint": [
+                  1,
+                  1
+                ],
+                "Size": [
+                  0,
+                  100,
+                  0,
+                  34
+                ],
+                "Position": [
+                  1,
+                  -20,
+                  1,
+                  -16
+                ],
+                "BackgroundColor3": "#3B82F6",
+                "BorderSizePixel": 0,
+                "Text": "Confirm",
+                "TextColor3": "#FFFFFF",
+                "TextSize": 14,
+                "Font": "GothamBold"
+              },
+              "Children": [
+                {
+                  "ClassName": "UICorner",
+                  "Name": "Corner",
+                  "Properties": {
+                    "CornerRadius": [
+                      0,
+                      6
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "ClassName": "TextButton",
+              "Name": "SecondaryButton",
+              "Properties": {
+                "AnchorPoint": [
+                  1,
+                  1
+                ],
+                "Size": [
+                  0,
+                  100,
+                  0,
+                  34
+                ],
+                "Position": [
+                  1,
+                  -130,
+                  1,
+                  -16
+                ],
+                "BackgroundColor3": "#2B303C",
+                "BorderSizePixel": 0,
+                "Text": "Cancel",
+                "TextColor3": "#D1D5DB",
+                "TextSize": 14,
+                "Font": "Gotham",
+                "Visible": false
+              },
+              "Children": [
+                {
+                  "ClassName": "UICorner",
+                  "Name": "Corner",
+                  "Properties": {
+                    "CornerRadius": [
+                      0,
+                      6
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

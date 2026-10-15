@@ -1,0 +1,233 @@
+{
+  "ClassName": "Model",
+  "Id": "banHammerModel",
+  "Name": "BanHammer",
+  "Properties": {
+    "PrimaryPart": {
+      "$ref": "hammerHandle"
+    }
+  },
+  "Attributes": {
+    "GeneratedBy": "JSON23D",
+    "SchemaVersion": 1,
+    "AssetCategory": "AdminV4"
+  },
+  "Tags": [
+    "JSON23D",
+    "AdminAsset"
+  ],
+  "Children": [
+    {
+      "ClassName": "Part",
+      "Id": "hammerHandle",
+      "Name": "Handle",
+      "Properties": {
+        "Size": [
+          0.45,
+          4.2,
+          0.45
+        ],
+        "CFrame": [
+          0,
+          0,
+          0
+        ],
+        "Material": "Metal",
+        "Color": "#1E293B",
+        "Anchored": false,
+        "CanCollide": false
+      },
+      "Children": [
+        {
+          "ClassName": "CylinderMesh",
+          "Id": "hammerHandleMesh",
+          "Name": "HandleMesh"
+        }
+      ]
+    },
+    {
+      "ClassName": "Part",
+      "Id": "hammerHead",
+      "Name": "HammerHead",
+      "Properties": {
+        "Size": [
+          1.8,
+          1.4,
+          2.6
+        ],
+        "CFrame": [
+          0,
+          1.8,
+          0
+        ],
+        "Material": "DiamondPlate",
+        "Color": "#0F172A",
+        "Anchored": false,
+        "CanCollide": false
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "strikeFace1",
+      "Name": "StrikeFaceFront",
+      "Properties": {
+        "Size": [
+          1.6,
+          1.2,
+          0.2
+        ],
+        "CFrame": [
+          0,
+          1.8,
+          1.35
+        ],
+        "Material": "Neon",
+        "Color": "#EF4444",
+        "Anchored": false,
+        "CanCollide": false
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "strikeFace2",
+      "Name": "StrikeFaceBack",
+      "Properties": {
+        "Size": [
+          1.6,
+          1.2,
+          0.2
+        ],
+        "CFrame": [
+          0,
+          1.8,
+          -1.35
+        ],
+        "Material": "Neon",
+        "Color": "#EF4444",
+        "Anchored": false,
+        "CanCollide": false
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "thunderGem",
+      "Name": "ThunderGem",
+      "Properties": {
+        "Shape": "Ball",
+        "Size": [
+          0.75,
+          0.75,
+          0.75
+        ],
+        "CFrame": [
+          0,
+          1.8,
+          0
+        ],
+        "Material": "Neon",
+        "Color": "#F59E0B",
+        "Anchored": false,
+        "CanCollide": false
+      },
+      "Children": [
+        {
+          "ClassName": "PointLight",
+          "Id": "hammerLight",
+          "Name": "ThunderAura",
+          "Properties": {
+            "Brightness": 3,
+            "Range": 14,
+            "Color": "#F59E0B"
+          }
+        }
+      ]
+    },
+    {
+      "ClassName": "Part",
+      "Id": "hammerPommel",
+      "Name": "Pommel",
+      "Properties": {
+        "Shape": "Ball",
+        "Size": [
+          0.65,
+          0.65,
+          0.65
+        ],
+        "CFrame": [
+          0,
+          -2.1,
+          0
+        ],
+        "Material": "Metal",
+        "Color": "#F59E0B",
+        "Anchored": false,
+        "CanCollide": false
+      }
+    },
+    {
+      "ClassName": "WeldConstraint",
+      "Id": "weld_hammerHead",
+      "Name": "Weld_HammerHead",
+      "Properties": {
+        "Part0": {
+          "$ref": "hammerHandle"
+        },
+        "Part1": {
+          "$ref": "hammerHead"
+        }
+      }
+    },
+    {
+      "ClassName": "WeldConstraint",
+      "Id": "weld_strikeFace1",
+      "Name": "Weld_StrikeFaceFront",
+      "Properties": {
+        "Part0": {
+          "$ref": "hammerHandle"
+        },
+        "Part1": {
+          "$ref": "strikeFace1"
+        }
+      }
+    },
+    {
+      "ClassName": "WeldConstraint",
+      "Id": "weld_strikeFace2",
+      "Name": "Weld_StrikeFaceBack",
+      "Properties": {
+        "Part0": {
+          "$ref": "hammerHandle"
+        },
+        "Part1": {
+          "$ref": "strikeFace2"
+        }
+      }
+    },
+    {
+      "ClassName": "WeldConstraint",
+      "Id": "weld_thunderGem",
+      "Name": "Weld_ThunderGem",
+      "Properties": {
+        "Part0": {
+          "$ref": "hammerHandle"
+        },
+        "Part1": {
+          "$ref": "thunderGem"
+        }
+      }
+    },
+    {
+      "ClassName": "WeldConstraint",
+      "Id": "weld_hammerPommel",
+      "Name": "Weld_Pommel",
+      "Properties": {
+        "Part0": {
+          "$ref": "hammerHandle"
+        },
+        "Part1": {
+          "$ref": "hammerPommel"
+        }
+      }
+    }
+  ]
+}

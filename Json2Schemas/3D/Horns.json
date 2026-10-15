@@ -1,0 +1,73 @@
+{
+  "ClassName": "Model",
+  "Id": "hornsModel",
+  "Name": "Horns",
+  "Properties": {
+    "PrimaryPart": {
+      "$ref": "leftHornBase"
+    }
+  },
+  "Attributes": {
+    "GeneratedBy": "JSON23D",
+    "SchemaVersion": 1,
+    "AssetCategory": "AdminV4"
+  },
+  "Tags": [
+    "JSON23D",
+    "AdminAsset"
+  ],
+  "Children": [
+    {
+      "ClassName": "Part",
+      "Id": "leftHornBase",
+      "Name": "LeftHornBase",
+      "Properties": {
+        "Size": [0.3, 0.6, 0.3],
+        "CFrame": [-0.6, 0.7, -0.2, 15, 0, 25],
+        "Material": "SmoothPlastic",
+        "Color": "#2B2B2B",
+        "Anchored": true,
+        "CanCollide": false
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "leftHornTip",
+      "Name": "LeftHornTip",
+      "Properties": {
+        "Size": [0.2, 0.6, 0.2],
+        "CFrame": [-0.8, 1.2, -0.1, 25, 0, 40],
+        "Material": "SmoothPlastic",
+        "Color": "#1F1F1F",
+        "Anchored": true,
+        "CanCollide": false
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "rightHornBase",
+      "Name": "RightHornBase",
+      "Properties": {
+        "Size": [0.3, 0.6, 0.3],
+        "CFrame": [0.6, 0.7, -0.2, 15, 0, -25],
+        "Material": "SmoothPlastic",
+        "Color": "#2B2B2B",
+        "Anchored": true,
+        "CanCollide": false
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "rightHornTip",
+      "Name": "RightHornTip",
+      "Properties": {
+        "Size": [0.2, 0.6, 0.2],
+        "CFrame": [0.8, 1.2, -0.1, 25, 0, -40],
+        "Material": "SmoothPlastic",
+        "Color": "#1F1F1F",
+        "Anchored": true,
+        "CanCollide": false
+      }
+    }
+  ]
+}

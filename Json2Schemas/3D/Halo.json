@@ -1,0 +1,1281 @@
+{
+  "ClassName": "Model",
+  "Id": "haloModel",
+  "Name": "Halo",
+  "Properties": {
+    "PrimaryPart": {
+      "$ref": "haloJoint1"
+    }
+  },
+  "Attributes": {
+    "GeneratedBy": "JSON23D",
+    "SchemaVersion": 1,
+    "AssetCategory": "AdminV4"
+  },
+  "Tags": [
+    "JSON23D",
+    "AdminAsset"
+  ],
+  "Children": [
+    {
+      "ClassName": "Part",
+      "Id": "haloJoint1",
+      "Name": "Joint1",
+      "Properties": {
+        "Shape": "Ball",
+        "Size": [
+          0.16,
+          0.16,
+          0.16
+        ],
+        "CFrame": [
+          0.85,
+          1.35,
+          0.0
+        ],
+        "Material": "Neon",
+        "Color": "#FFD700",
+        "Anchored": true,
+        "CanCollide": false
+      },
+      "Children": [
+        {
+          "ClassName": "PointLight",
+          "Id": "haloLight",
+          "Name": "HaloGlow",
+          "Properties": {
+            "Brightness": 2,
+            "Range": 6,
+            "Color": "#FFF275"
+          }
+        }
+      ]
+    },
+    {
+      "ClassName": "Part",
+      "Id": "haloJoint2",
+      "Name": "Joint2",
+      "Properties": {
+        "Shape": "Ball",
+        "Size": [
+          0.16,
+          0.16,
+          0.16
+        ],
+        "CFrame": [
+          0.821,
+          1.35,
+          0.22
+        ],
+        "Material": "Neon",
+        "Color": "#FFD700",
+        "Anchored": true,
+        "CanCollide": false
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "haloJoint3",
+      "Name": "Joint3",
+      "Properties": {
+        "Shape": "Ball",
+        "Size": [
+          0.16,
+          0.16,
+          0.16
+        ],
+        "CFrame": [
+          0.7361,
+          1.35,
+          0.425
+        ],
+        "Material": "Neon",
+        "Color": "#FFD700",
+        "Anchored": true,
+        "CanCollide": false
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "haloJoint4",
+      "Name": "Joint4",
+      "Properties": {
+        "Shape": "Ball",
+        "Size": [
+          0.16,
+          0.16,
+          0.16
+        ],
+        "CFrame": [
+          0.601,
+          1.35,
+          0.601
+        ],
+        "Material": "Neon",
+        "Color": "#FFD700",
+        "Anchored": true,
+        "CanCollide": false
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "haloJoint5",
+      "Name": "Joint5",
+      "Properties": {
+        "Shape": "Ball",
+        "Size": [
+          0.16,
+          0.16,
+          0.16
+        ],
+        "CFrame": [
+          0.425,
+          1.35,
+          0.7361
+        ],
+        "Material": "Neon",
+        "Color": "#FFD700",
+        "Anchored": true,
+        "CanCollide": false
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "haloJoint6",
+      "Name": "Joint6",
+      "Properties": {
+        "Shape": "Ball",
+        "Size": [
+          0.16,
+          0.16,
+          0.16
+        ],
+        "CFrame": [
+          0.22,
+          1.35,
+          0.821
+        ],
+        "Material": "Neon",
+        "Color": "#FFD700",
+        "Anchored": true,
+        "CanCollide": false
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "haloJoint7",
+      "Name": "Joint7",
+      "Properties": {
+        "Shape": "Ball",
+        "Size": [
+          0.16,
+          0.16,
+          0.16
+        ],
+        "CFrame": [
+          0.0,
+          1.35,
+          0.85
+        ],
+        "Material": "Neon",
+        "Color": "#FFD700",
+        "Anchored": true,
+        "CanCollide": false
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "haloJoint8",
+      "Name": "Joint8",
+      "Properties": {
+        "Shape": "Ball",
+        "Size": [
+          0.16,
+          0.16,
+          0.16
+        ],
+        "CFrame": [
+          -0.22,
+          1.35,
+          0.821
+        ],
+        "Material": "Neon",
+        "Color": "#FFD700",
+        "Anchored": true,
+        "CanCollide": false
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "haloJoint9",
+      "Name": "Joint9",
+      "Properties": {
+        "Shape": "Ball",
+        "Size": [
+          0.16,
+          0.16,
+          0.16
+        ],
+        "CFrame": [
+          -0.425,
+          1.35,
+          0.7361
+        ],
+        "Material": "Neon",
+        "Color": "#FFD700",
+        "Anchored": true,
+        "CanCollide": false
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "haloJoint10",
+      "Name": "Joint10",
+      "Properties": {
+        "Shape": "Ball",
+        "Size": [
+          0.16,
+          0.16,
+          0.16
+        ],
+        "CFrame": [
+          -0.601,
+          1.35,
+          0.601
+        ],
+        "Material": "Neon",
+        "Color": "#FFD700",
+        "Anchored": true,
+        "CanCollide": false
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "haloJoint11",
+      "Name": "Joint11",
+      "Properties": {
+        "Shape": "Ball",
+        "Size": [
+          0.16,
+          0.16,
+          0.16
+        ],
+        "CFrame": [
+          -0.7361,
+          1.35,
+          0.425
+        ],
+        "Material": "Neon",
+        "Color": "#FFD700",
+        "Anchored": true,
+        "CanCollide": false
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "haloJoint12",
+      "Name": "Joint12",
+      "Properties": {
+        "Shape": "Ball",
+        "Size": [
+          0.16,
+          0.16,
+          0.16
+        ],
+        "CFrame": [
+          -0.821,
+          1.35,
+          0.22
+        ],
+        "Material": "Neon",
+        "Color": "#FFD700",
+        "Anchored": true,
+        "CanCollide": false
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "haloJoint13",
+      "Name": "Joint13",
+      "Properties": {
+        "Shape": "Ball",
+        "Size": [
+          0.16,
+          0.16,
+          0.16
+        ],
+        "CFrame": [
+          -0.85,
+          1.35,
+          0.0
+        ],
+        "Material": "Neon",
+        "Color": "#FFD700",
+        "Anchored": true,
+        "CanCollide": false
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "haloJoint14",
+      "Name": "Joint14",
+      "Properties": {
+        "Shape": "Ball",
+        "Size": [
+          0.16,
+          0.16,
+          0.16
+        ],
+        "CFrame": [
+          -0.821,
+          1.35,
+          -0.22
+        ],
+        "Material": "Neon",
+        "Color": "#FFD700",
+        "Anchored": true,
+        "CanCollide": false
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "haloJoint15",
+      "Name": "Joint15",
+      "Properties": {
+        "Shape": "Ball",
+        "Size": [
+          0.16,
+          0.16,
+          0.16
+        ],
+        "CFrame": [
+          -0.7361,
+          1.35,
+          -0.425
+        ],
+        "Material": "Neon",
+        "Color": "#FFD700",
+        "Anchored": true,
+        "CanCollide": false
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "haloJoint16",
+      "Name": "Joint16",
+      "Properties": {
+        "Shape": "Ball",
+        "Size": [
+          0.16,
+          0.16,
+          0.16
+        ],
+        "CFrame": [
+          -0.601,
+          1.35,
+          -0.601
+        ],
+        "Material": "Neon",
+        "Color": "#FFD700",
+        "Anchored": true,
+        "CanCollide": false
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "haloJoint17",
+      "Name": "Joint17",
+      "Properties": {
+        "Shape": "Ball",
+        "Size": [
+          0.16,
+          0.16,
+          0.16
+        ],
+        "CFrame": [
+          -0.425,
+          1.35,
+          -0.7361
+        ],
+        "Material": "Neon",
+        "Color": "#FFD700",
+        "Anchored": true,
+        "CanCollide": false
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "haloJoint18",
+      "Name": "Joint18",
+      "Properties": {
+        "Shape": "Ball",
+        "Size": [
+          0.16,
+          0.16,
+          0.16
+        ],
+        "CFrame": [
+          -0.22,
+          1.35,
+          -0.821
+        ],
+        "Material": "Neon",
+        "Color": "#FFD700",
+        "Anchored": true,
+        "CanCollide": false
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "haloJoint19",
+      "Name": "Joint19",
+      "Properties": {
+        "Shape": "Ball",
+        "Size": [
+          0.16,
+          0.16,
+          0.16
+        ],
+        "CFrame": [
+          -0.0,
+          1.35,
+          -0.85
+        ],
+        "Material": "Neon",
+        "Color": "#FFD700",
+        "Anchored": true,
+        "CanCollide": false
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "haloJoint20",
+      "Name": "Joint20",
+      "Properties": {
+        "Shape": "Ball",
+        "Size": [
+          0.16,
+          0.16,
+          0.16
+        ],
+        "CFrame": [
+          0.22,
+          1.35,
+          -0.821
+        ],
+        "Material": "Neon",
+        "Color": "#FFD700",
+        "Anchored": true,
+        "CanCollide": false
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "haloJoint21",
+      "Name": "Joint21",
+      "Properties": {
+        "Shape": "Ball",
+        "Size": [
+          0.16,
+          0.16,
+          0.16
+        ],
+        "CFrame": [
+          0.425,
+          1.35,
+          -0.7361
+        ],
+        "Material": "Neon",
+        "Color": "#FFD700",
+        "Anchored": true,
+        "CanCollide": false
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "haloJoint22",
+      "Name": "Joint22",
+      "Properties": {
+        "Shape": "Ball",
+        "Size": [
+          0.16,
+          0.16,
+          0.16
+        ],
+        "CFrame": [
+          0.601,
+          1.35,
+          -0.601
+        ],
+        "Material": "Neon",
+        "Color": "#FFD700",
+        "Anchored": true,
+        "CanCollide": false
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "haloJoint23",
+      "Name": "Joint23",
+      "Properties": {
+        "Shape": "Ball",
+        "Size": [
+          0.16,
+          0.16,
+          0.16
+        ],
+        "CFrame": [
+          0.7361,
+          1.35,
+          -0.425
+        ],
+        "Material": "Neon",
+        "Color": "#FFD700",
+        "Anchored": true,
+        "CanCollide": false
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "haloJoint24",
+      "Name": "Joint24",
+      "Properties": {
+        "Shape": "Ball",
+        "Size": [
+          0.16,
+          0.16,
+          0.16
+        ],
+        "CFrame": [
+          0.821,
+          1.35,
+          -0.22
+        ],
+        "Material": "Neon",
+        "Color": "#FFD700",
+        "Anchored": true,
+        "CanCollide": false
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "haloSeg1",
+      "Name": "Segment1",
+      "Properties": {
+        "Size": [
+          0.14,
+          0.14,
+          0.2619
+        ],
+        "CFrame": [
+          0.8355,
+          1.35,
+          0.11,
+          0.99144,
+          0,
+          -0.13053,
+          0,
+          1,
+          0,
+          0.13053,
+          0,
+          0.99144
+        ],
+        "Material": "Neon",
+        "Color": "#FFD700",
+        "Anchored": true,
+        "CanCollide": false
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "haloSeg2",
+      "Name": "Segment2",
+      "Properties": {
+        "Size": [
+          0.14,
+          0.14,
+          0.2619
+        ],
+        "CFrame": [
+          0.7786,
+          1.35,
+          0.3225,
+          0.92388,
+          0,
+          -0.38268,
+          0,
+          1,
+          0,
+          0.38268,
+          0,
+          0.92388
+        ],
+        "Material": "Neon",
+        "Color": "#FFD700",
+        "Anchored": true,
+        "CanCollide": false
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "haloSeg3",
+      "Name": "Segment3",
+      "Properties": {
+        "Size": [
+          0.14,
+          0.14,
+          0.2619
+        ],
+        "CFrame": [
+          0.6686,
+          1.35,
+          0.513,
+          0.79335,
+          0,
+          -0.60876,
+          0,
+          1,
+          0,
+          0.60876,
+          0,
+          0.79335
+        ],
+        "Material": "Neon",
+        "Color": "#FFD700",
+        "Anchored": true,
+        "CanCollide": false
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "haloSeg4",
+      "Name": "Segment4",
+      "Properties": {
+        "Size": [
+          0.14,
+          0.14,
+          0.2619
+        ],
+        "CFrame": [
+          0.513,
+          1.35,
+          0.6686,
+          0.60876,
+          0,
+          -0.79335,
+          0,
+          1,
+          0,
+          0.79335,
+          0,
+          0.60876
+        ],
+        "Material": "Neon",
+        "Color": "#FFD700",
+        "Anchored": true,
+        "CanCollide": false
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "haloSeg5",
+      "Name": "Segment5",
+      "Properties": {
+        "Size": [
+          0.14,
+          0.14,
+          0.2619
+        ],
+        "CFrame": [
+          0.3225,
+          1.35,
+          0.7786,
+          0.38268,
+          0,
+          -0.92388,
+          0,
+          1,
+          0,
+          0.92388,
+          0,
+          0.38268
+        ],
+        "Material": "Neon",
+        "Color": "#FFD700",
+        "Anchored": true,
+        "CanCollide": false
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "haloSeg6",
+      "Name": "Segment6",
+      "Properties": {
+        "Size": [
+          0.14,
+          0.14,
+          0.2619
+        ],
+        "CFrame": [
+          0.11,
+          1.35,
+          0.8355,
+          0.13053,
+          0,
+          -0.99144,
+          0,
+          1,
+          0,
+          0.99144,
+          0,
+          0.13053
+        ],
+        "Material": "Neon",
+        "Color": "#FFD700",
+        "Anchored": true,
+        "CanCollide": false
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "haloSeg7",
+      "Name": "Segment7",
+      "Properties": {
+        "Size": [
+          0.14,
+          0.14,
+          0.2619
+        ],
+        "CFrame": [
+          -0.11,
+          1.35,
+          0.8355,
+          -0.13053,
+          0,
+          -0.99144,
+          0,
+          1,
+          0,
+          0.99144,
+          0,
+          -0.13053
+        ],
+        "Material": "Neon",
+        "Color": "#FFD700",
+        "Anchored": true,
+        "CanCollide": false
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "haloSeg8",
+      "Name": "Segment8",
+      "Properties": {
+        "Size": [
+          0.14,
+          0.14,
+          0.2619
+        ],
+        "CFrame": [
+          -0.3225,
+          1.35,
+          0.7786,
+          -0.38268,
+          0,
+          -0.92388,
+          0,
+          1,
+          0,
+          0.92388,
+          0,
+          -0.38268
+        ],
+        "Material": "Neon",
+        "Color": "#FFD700",
+        "Anchored": true,
+        "CanCollide": false
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "haloSeg9",
+      "Name": "Segment9",
+      "Properties": {
+        "Size": [
+          0.14,
+          0.14,
+          0.2619
+        ],
+        "CFrame": [
+          -0.513,
+          1.35,
+          0.6686,
+          -0.60876,
+          0,
+          -0.79335,
+          0,
+          1,
+          0,
+          0.79335,
+          0,
+          -0.60876
+        ],
+        "Material": "Neon",
+        "Color": "#FFD700",
+        "Anchored": true,
+        "CanCollide": false
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "haloSeg10",
+      "Name": "Segment10",
+      "Properties": {
+        "Size": [
+          0.14,
+          0.14,
+          0.2619
+        ],
+        "CFrame": [
+          -0.6686,
+          1.35,
+          0.513,
+          -0.79335,
+          0,
+          -0.60876,
+          0,
+          1,
+          0,
+          0.60876,
+          0,
+          -0.79335
+        ],
+        "Material": "Neon",
+        "Color": "#FFD700",
+        "Anchored": true,
+        "CanCollide": false
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "haloSeg11",
+      "Name": "Segment11",
+      "Properties": {
+        "Size": [
+          0.14,
+          0.14,
+          0.2619
+        ],
+        "CFrame": [
+          -0.7786,
+          1.35,
+          0.3225,
+          -0.92388,
+          0,
+          -0.38268,
+          0,
+          1,
+          0,
+          0.38268,
+          0,
+          -0.92388
+        ],
+        "Material": "Neon",
+        "Color": "#FFD700",
+        "Anchored": true,
+        "CanCollide": false
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "haloSeg12",
+      "Name": "Segment12",
+      "Properties": {
+        "Size": [
+          0.14,
+          0.14,
+          0.2619
+        ],
+        "CFrame": [
+          -0.8355,
+          1.35,
+          0.11,
+          -0.99144,
+          0,
+          -0.13053,
+          0,
+          1,
+          0,
+          0.13053,
+          0,
+          -0.99144
+        ],
+        "Material": "Neon",
+        "Color": "#FFD700",
+        "Anchored": true,
+        "CanCollide": false
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "haloSeg13",
+      "Name": "Segment13",
+      "Properties": {
+        "Size": [
+          0.14,
+          0.14,
+          0.2619
+        ],
+        "CFrame": [
+          -0.8355,
+          1.35,
+          -0.11,
+          -0.99144,
+          0,
+          0.13053,
+          0,
+          1,
+          0,
+          -0.13053,
+          0,
+          -0.99144
+        ],
+        "Material": "Neon",
+        "Color": "#FFD700",
+        "Anchored": true,
+        "CanCollide": false
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "haloSeg14",
+      "Name": "Segment14",
+      "Properties": {
+        "Size": [
+          0.14,
+          0.14,
+          0.2619
+        ],
+        "CFrame": [
+          -0.7786,
+          1.35,
+          -0.3225,
+          -0.92388,
+          0,
+          0.38268,
+          0,
+          1,
+          0,
+          -0.38268,
+          0,
+          -0.92388
+        ],
+        "Material": "Neon",
+        "Color": "#FFD700",
+        "Anchored": true,
+        "CanCollide": false
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "haloSeg15",
+      "Name": "Segment15",
+      "Properties": {
+        "Size": [
+          0.14,
+          0.14,
+          0.2619
+        ],
+        "CFrame": [
+          -0.6686,
+          1.35,
+          -0.513,
+          -0.79335,
+          0,
+          0.60876,
+          0,
+          1,
+          0,
+          -0.60876,
+          0,
+          -0.79335
+        ],
+        "Material": "Neon",
+        "Color": "#FFD700",
+        "Anchored": true,
+        "CanCollide": false
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "haloSeg16",
+      "Name": "Segment16",
+      "Properties": {
+        "Size": [
+          0.14,
+          0.14,
+          0.2619
+        ],
+        "CFrame": [
+          -0.513,
+          1.35,
+          -0.6686,
+          -0.60876,
+          0,
+          0.79335,
+          0,
+          1,
+          0,
+          -0.79335,
+          0,
+          -0.60876
+        ],
+        "Material": "Neon",
+        "Color": "#FFD700",
+        "Anchored": true,
+        "CanCollide": false
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "haloSeg17",
+      "Name": "Segment17",
+      "Properties": {
+        "Size": [
+          0.14,
+          0.14,
+          0.2619
+        ],
+        "CFrame": [
+          -0.3225,
+          1.35,
+          -0.7786,
+          -0.38268,
+          0,
+          0.92388,
+          0,
+          1,
+          0,
+          -0.92388,
+          0,
+          -0.38268
+        ],
+        "Material": "Neon",
+        "Color": "#FFD700",
+        "Anchored": true,
+        "CanCollide": false
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "haloSeg18",
+      "Name": "Segment18",
+      "Properties": {
+        "Size": [
+          0.14,
+          0.14,
+          0.2619
+        ],
+        "CFrame": [
+          -0.11,
+          1.35,
+          -0.8355,
+          -0.13053,
+          0,
+          0.99144,
+          0,
+          1,
+          0,
+          -0.99144,
+          0,
+          -0.13053
+        ],
+        "Material": "Neon",
+        "Color": "#FFD700",
+        "Anchored": true,
+        "CanCollide": false
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "haloSeg19",
+      "Name": "Segment19",
+      "Properties": {
+        "Size": [
+          0.14,
+          0.14,
+          0.2619
+        ],
+        "CFrame": [
+          0.11,
+          1.35,
+          -0.8355,
+          0.13053,
+          0,
+          0.99144,
+          0,
+          1,
+          0,
+          -0.99144,
+          0,
+          0.13053
+        ],
+        "Material": "Neon",
+        "Color": "#FFD700",
+        "Anchored": true,
+        "CanCollide": false
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "haloSeg20",
+      "Name": "Segment20",
+      "Properties": {
+        "Size": [
+          0.14,
+          0.14,
+          0.2619
+        ],
+        "CFrame": [
+          0.3225,
+          1.35,
+          -0.7786,
+          0.38268,
+          0,
+          0.92388,
+          0,
+          1,
+          0,
+          -0.92388,
+          0,
+          0.38268
+        ],
+        "Material": "Neon",
+        "Color": "#FFD700",
+        "Anchored": true,
+        "CanCollide": false
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "haloSeg21",
+      "Name": "Segment21",
+      "Properties": {
+        "Size": [
+          0.14,
+          0.14,
+          0.2619
+        ],
+        "CFrame": [
+          0.513,
+          1.35,
+          -0.6686,
+          0.60876,
+          0,
+          0.79335,
+          0,
+          1,
+          0,
+          -0.79335,
+          0,
+          0.60876
+        ],
+        "Material": "Neon",
+        "Color": "#FFD700",
+        "Anchored": true,
+        "CanCollide": false
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "haloSeg22",
+      "Name": "Segment22",
+      "Properties": {
+        "Size": [
+          0.14,
+          0.14,
+          0.2619
+        ],
+        "CFrame": [
+          0.6686,
+          1.35,
+          -0.513,
+          0.79335,
+          0,
+          0.60876,
+          0,
+          1,
+          0,
+          -0.60876,
+          0,
+          0.79335
+        ],
+        "Material": "Neon",
+        "Color": "#FFD700",
+        "Anchored": true,
+        "CanCollide": false
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "haloSeg23",
+      "Name": "Segment23",
+      "Properties": {
+        "Size": [
+          0.14,
+          0.14,
+          0.2619
+        ],
+        "CFrame": [
+          0.7786,
+          1.35,
+          -0.3225,
+          0.92388,
+          0,
+          0.38268,
+          0,
+          1,
+          0,
+          -0.38268,
+          0,
+          0.92388
+        ],
+        "Material": "Neon",
+        "Color": "#FFD700",
+        "Anchored": true,
+        "CanCollide": false
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "haloSeg24",
+      "Name": "Segment24",
+      "Properties": {
+        "Size": [
+          0.14,
+          0.14,
+          0.2619
+        ],
+        "CFrame": [
+          0.8355,
+          1.35,
+          -0.11,
+          0.99144,
+          0,
+          0.13053,
+          0,
+          1,
+          0,
+          -0.13053,
+          0,
+          0.99144
+        ],
+        "Material": "Neon",
+        "Color": "#FFD700",
+        "Anchored": true,
+        "CanCollide": false
+      }
+    }
+  ]
+}

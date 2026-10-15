@@ -1,0 +1,9 @@
+{
+  "className": "Tool",
+  "properties": {
+    "Name": "BanHammer",
+    "RequiresHandle": true,
+    "CanBeDropped": false,
+    "ToolTip": "The Legendary Ban Hammer (HeadAdmin+)"
+  }
+}

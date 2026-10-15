@@ -1,0 +1,293 @@
+{
+  "ClassName": "Model",
+  "Id": "blackHoleCannonModel",
+  "Name": "BlackHoleCannon",
+  "Properties": {
+    "PrimaryPart": {
+      "$ref": "bhHandle"
+    }
+  },
+  "Attributes": {
+    "GeneratedBy": "JSON23D",
+    "SchemaVersion": 1,
+    "AssetCategory": "AdminV4"
+  },
+  "Tags": [
+    "JSON23D",
+    "AdminAsset"
+  ],
+  "Children": [
+    {
+      "ClassName": "Part",
+      "Id": "bhHandle",
+      "Name": "Handle",
+      "Properties": {
+        "Size": [
+          0.65,
+          0.85,
+          2.2
+        ],
+        "CFrame": [
+          0,
+          0,
+          0
+        ],
+        "Material": "Metal",
+        "Color": "#1E1B4B",
+        "Anchored": false,
+        "CanCollide": false
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "bhChassis",
+      "Name": "Chassis",
+      "Properties": {
+        "Size": [
+          1.1,
+          1.2,
+          3.2
+        ],
+        "CFrame": [
+          0,
+          0.35,
+          -0.7
+        ],
+        "Material": "DiamondPlate",
+        "Color": "#0F172A",
+        "Anchored": false,
+        "CanCollide": false
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "bhCoreSphere",
+      "Name": "SingularityCore",
+      "Properties": {
+        "Shape": "Ball",
+        "Size": [
+          1.3,
+          1.3,
+          1.3
+        ],
+        "CFrame": [
+          0,
+          0.55,
+          -0.7
+        ],
+        "Material": "Neon",
+        "Color": "#9333EA",
+        "Anchored": false,
+        "CanCollide": false
+      },
+      "Children": [
+        {
+          "ClassName": "PointLight",
+          "Id": "bhCoreLight",
+          "Name": "SingularityLight",
+          "Properties": {
+            "Brightness": 4.5,
+            "Range": 15,
+            "Color": "#C084FC"
+          }
+        }
+      ]
+    },
+    {
+      "ClassName": "Part",
+      "Id": "bhRailLeft",
+      "Name": "RailLeft",
+      "Properties": {
+        "Size": [
+          0.22,
+          0.45,
+          3.6
+        ],
+        "CFrame": [
+          -0.68,
+          0.4,
+          -1.8
+        ],
+        "Material": "Neon",
+        "Color": "#A855F7",
+        "Anchored": false,
+        "CanCollide": false
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "bhRailRight",
+      "Name": "RailRight",
+      "Properties": {
+        "Size": [
+          0.22,
+          0.45,
+          3.6
+        ],
+        "CFrame": [
+          0.68,
+          0.4,
+          -1.8
+        ],
+        "Material": "Neon",
+        "Color": "#A855F7",
+        "Anchored": false,
+        "CanCollide": false
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "bhRing1",
+      "Name": "ContainmentRing1",
+      "Properties": {
+        "Size": [
+          1.5,
+          1.5,
+          0.25
+        ],
+        "CFrame": [
+          0,
+          0.4,
+          -2.1
+        ],
+        "Material": "Metal",
+        "Color": "#3B0764",
+        "Anchored": false,
+        "CanCollide": false
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "bhRing2",
+      "Name": "ContainmentRing2",
+      "Properties": {
+        "Size": [
+          1.7,
+          1.7,
+          0.25
+        ],
+        "CFrame": [
+          0,
+          0.4,
+          -3.1
+        ],
+        "Material": "Neon",
+        "Color": "#7E22CE",
+        "Anchored": false,
+        "CanCollide": false
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "bhMuzzle",
+      "Name": "ApertureMuzzle",
+      "Properties": {
+        "Size": [
+          0.85,
+          0.85,
+          0.5
+        ],
+        "CFrame": [
+          0,
+          0.4,
+          -3.7
+        ],
+        "Material": "Neon",
+        "Color": "#581C87",
+        "Anchored": false,
+        "CanCollide": false
+      }
+    },
+    {
+      "ClassName": "WeldConstraint",
+      "Id": "weld_bhChassis",
+      "Name": "Weld_Chassis",
+      "Properties": {
+        "Part0": {
+          "$ref": "bhHandle"
+        },
+        "Part1": {
+          "$ref": "bhChassis"
+        }
+      }
+    },
+    {
+      "ClassName": "WeldConstraint",
+      "Id": "weld_bhCoreSphere",
+      "Name": "Weld_SingularityCore",
+      "Properties": {
+        "Part0": {
+          "$ref": "bhHandle"
+        },
+        "Part1": {
+          "$ref": "bhCoreSphere"
+        }
+      }
+    },
+    {
+      "ClassName": "WeldConstraint",
+      "Id": "weld_bhRailLeft",
+      "Name": "Weld_RailLeft",
+      "Properties": {
+        "Part0": {
+          "$ref": "bhHandle"
+        },
+        "Part1": {
+          "$ref": "bhRailLeft"
+        }
+      }
+    },
+    {
+      "ClassName": "WeldConstraint",
+      "Id": "weld_bhRailRight",
+      "Name": "Weld_RailRight",
+      "Properties": {
+        "Part0": {
+          "$ref": "bhHandle"
+        },
+        "Part1": {
+          "$ref": "bhRailRight"
+        }
+      }
+    },
+    {
+      "ClassName": "WeldConstraint",
+      "Id": "weld_bhRing1",
+      "Name": "Weld_ContainmentRing1",
+      "Properties": {
+        "Part0": {
+          "$ref": "bhHandle"
+        },
+        "Part1": {
+          "$ref": "bhRing1"
+        }
+      }
+    },
+    {
+      "ClassName": "WeldConstraint",
+      "Id": "weld_bhRing2",
+      "Name": "Weld_ContainmentRing2",
+      "Properties": {
+        "Part0": {
+          "$ref": "bhHandle"
+        },
+        "Part1": {
+          "$ref": "bhRing2"
+        }
+      }
+    },
+    {
+      "ClassName": "WeldConstraint",
+      "Id": "weld_bhMuzzle",
+      "Name": "Weld_ApertureMuzzle",
+      "Properties": {
+        "Part0": {
+          "$ref": "bhHandle"
+        },
+        "Part1": {
+          "$ref": "bhMuzzle"
+        }
+      }
+    }
+  ]
+}

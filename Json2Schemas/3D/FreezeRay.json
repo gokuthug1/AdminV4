@@ -1,0 +1,266 @@
+{
+  "ClassName": "Model",
+  "Id": "freezeRayModel",
+  "Name": "FreezeRay",
+  "Properties": {
+    "PrimaryPart": {
+      "$ref": "freezeHandle"
+    }
+  },
+  "Attributes": {
+    "GeneratedBy": "JSON23D",
+    "SchemaVersion": 1,
+    "AssetCategory": "AdminV4"
+  },
+  "Tags": [
+    "JSON23D",
+    "AdminAsset"
+  ],
+  "Children": [
+    {
+      "ClassName": "Part",
+      "Id": "freezeHandle",
+      "Name": "Handle",
+      "Properties": {
+        "Size": [
+          0.4,
+          3.4,
+          0.4
+        ],
+        "CFrame": [
+          0,
+          0,
+          0
+        ],
+        "Material": "Glass",
+        "Color": "#E0F2FE",
+        "Anchored": false,
+        "CanCollide": false
+      },
+      "Children": [
+        {
+          "ClassName": "CylinderMesh",
+          "Id": "freezeHandleMesh",
+          "Name": "HandleMesh"
+        }
+      ]
+    },
+    {
+      "ClassName": "Part",
+      "Id": "frostEmitter",
+      "Name": "FrostEmitter",
+      "Properties": {
+        "Size": [
+          1.1,
+          1.3,
+          1.1
+        ],
+        "CFrame": [
+          0,
+          1.8,
+          0
+        ],
+        "Material": "Ice",
+        "Color": "#38BDF8",
+        "Anchored": false,
+        "CanCollide": false
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "glacialStar",
+      "Name": "GlacialStar",
+      "Properties": {
+        "Shape": "Ball",
+        "Size": [
+          0.65,
+          0.65,
+          0.65
+        ],
+        "CFrame": [
+          0,
+          1.8,
+          0
+        ],
+        "Material": "Neon",
+        "Color": "#BAE6FD",
+        "Anchored": false,
+        "CanCollide": false
+      },
+      "Children": [
+        {
+          "ClassName": "PointLight",
+          "Id": "freezeLight",
+          "Name": "FrostLight",
+          "Properties": {
+            "Brightness": 2.5,
+            "Range": 12,
+            "Color": "#BAE6FD"
+          }
+        }
+      ]
+    },
+    {
+      "ClassName": "Part",
+      "Id": "frostShard1",
+      "Name": "FrostShard1",
+      "Properties": {
+        "Size": [
+          0.25,
+          0.65,
+          0.25
+        ],
+        "CFrame": [
+          0.85,
+          1.8,
+          0
+        ],
+        "Material": "Ice",
+        "Color": "#E0F2FE",
+        "Anchored": false,
+        "CanCollide": false
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "frostShard2",
+      "Name": "FrostShard2",
+      "Properties": {
+        "Size": [
+          0.25,
+          0.65,
+          0.25
+        ],
+        "CFrame": [
+          -0.85,
+          1.8,
+          0
+        ],
+        "Material": "Ice",
+        "Color": "#E0F2FE",
+        "Anchored": false,
+        "CanCollide": false
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "frostShard3",
+      "Name": "FrostShard3",
+      "Properties": {
+        "Size": [
+          0.25,
+          0.65,
+          0.25
+        ],
+        "CFrame": [
+          0,
+          1.8,
+          0.85
+        ],
+        "Material": "Ice",
+        "Color": "#E0F2FE",
+        "Anchored": false,
+        "CanCollide": false
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "frostShard4",
+      "Name": "FrostShard4",
+      "Properties": {
+        "Size": [
+          0.25,
+          0.65,
+          0.25
+        ],
+        "CFrame": [
+          0,
+          1.8,
+          -0.85
+        ],
+        "Material": "Ice",
+        "Color": "#E0F2FE",
+        "Anchored": false,
+        "CanCollide": false
+      }
+    },
+    {
+      "ClassName": "WeldConstraint",
+      "Id": "weld_frostEmitter",
+      "Name": "Weld_FrostEmitter",
+      "Properties": {
+        "Part0": {
+          "$ref": "freezeHandle"
+        },
+        "Part1": {
+          "$ref": "frostEmitter"
+        }
+      }
+    },
+    {
+      "ClassName": "WeldConstraint",
+      "Id": "weld_glacialStar",
+      "Name": "Weld_GlacialStar",
+      "Properties": {
+        "Part0": {
+          "$ref": "freezeHandle"
+        },
+        "Part1": {
+          "$ref": "glacialStar"
+        }
+      }
+    },
+    {
+      "ClassName": "WeldConstraint",
+      "Id": "weld_frostShard1",
+      "Name": "Weld_FrostShard1",
+      "Properties": {
+        "Part0": {
+          "$ref": "freezeHandle"
+        },
+        "Part1": {
+          "$ref": "frostShard1"
+        }
+      }
+    },
+    {
+      "ClassName": "WeldConstraint",
+      "Id": "weld_frostShard2",
+      "Name": "Weld_FrostShard2",
+      "Properties": {
+        "Part0": {
+          "$ref": "freezeHandle"
+        },
+        "Part1": {
+          "$ref": "frostShard2"
+        }
+      }
+    },
+    {
+      "ClassName": "WeldConstraint",
+      "Id": "weld_frostShard3",
+      "Name": "Weld_FrostShard3",
+      "Properties": {
+        "Part0": {
+          "$ref": "freezeHandle"
+        },
+        "Part1": {
+          "$ref": "frostShard3"
+        }
+      }
+    },
+    {
+      "ClassName": "WeldConstraint",
+      "Id": "weld_frostShard4",
+      "Name": "Weld_FrostShard4",
+      "Properties": {
+        "Part0": {
+          "$ref": "freezeHandle"
+        },
+        "Part1": {
+          "$ref": "frostShard4"
+        }
+      }
+    }
+  ]
+}

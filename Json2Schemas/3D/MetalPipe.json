@@ -1,0 +1,192 @@
+{
+  "ClassName": "Model",
+  "Id": "metalPipeModel",
+  "Name": "MetalPipe",
+  "Properties": {
+    "PrimaryPart": {
+      "$ref": "pipeHandle"
+    }
+  },
+  "Attributes": {
+    "GeneratedBy": "JSON23D",
+    "SchemaVersion": 1,
+    "AssetCategory": "AdminTools"
+  },
+  "Tags": [
+    "JSON23D",
+    "AdminTool"
+  ],
+  "Children": [
+    {
+      "ClassName": "Part",
+      "Id": "pipeHandle",
+      "Name": "Handle",
+      "Properties": {
+        "Size": [
+          0.45,
+          3.8,
+          0.45
+        ],
+        "CFrame": [
+          0,
+          0,
+          0
+        ],
+        "Material": "Metal",
+        "Color": "#8A9096",
+        "Anchored": false,
+        "CanCollide": false
+      },
+      "Children": [
+        {
+          "ClassName": "CylinderMesh",
+          "Id": "meshHandle",
+          "Name": "CylinderMesh"
+        },
+        {
+          "ClassName": "Sound",
+          "Id": "pipeClangSound",
+          "Name": "ClangSound",
+          "Properties": {
+            "SoundId": "rbxassetid://9114223180",
+            "Volume": 1.8,
+            "RollOffMaxDistance": 150
+          }
+        },
+        {
+          "ClassName": "Sound",
+          "Id": "pipeSwingSound",
+          "Name": "SwingSound",
+          "Properties": {
+            "SoundId": "rbxassetid://169445121",
+            "Volume": 0.9,
+            "Pitch": 0.95
+          }
+        }
+      ]
+    },
+    {
+      "ClassName": "Part",
+      "Id": "pipeTopCollar",
+      "Name": "TopCollar",
+      "Properties": {
+        "Size": [
+          0.56,
+          0.4,
+          0.56
+        ],
+        "CFrame": [
+          0,
+          1.7,
+          0
+        ],
+        "Material": "Metal",
+        "Color": "#71767C",
+        "Anchored": false,
+        "CanCollide": false
+      },
+      "Children": [
+        {
+          "ClassName": "CylinderMesh",
+          "Id": "meshTopCollar",
+          "Name": "CylinderMesh"
+        }
+      ]
+    },
+    {
+      "ClassName": "Part",
+      "Id": "pipeBottomCollar",
+      "Name": "BottomCollar",
+      "Properties": {
+        "Size": [
+          0.56,
+          0.4,
+          0.56
+        ],
+        "CFrame": [
+          0,
+          -1.7,
+          0
+        ],
+        "Material": "Metal",
+        "Color": "#71767C",
+        "Anchored": false,
+        "CanCollide": false
+      },
+      "Children": [
+        {
+          "ClassName": "CylinderMesh",
+          "Id": "meshBottomCollar",
+          "Name": "CylinderMesh"
+        }
+      ]
+    },
+    {
+      "ClassName": "Part",
+      "Id": "pipeGripWrap",
+      "Name": "GripWrap",
+      "Properties": {
+        "Size": [
+          0.48,
+          1.2,
+          0.48
+        ],
+        "CFrame": [
+          0,
+          -0.3,
+          0
+        ],
+        "Material": "Fabric",
+        "Color": "#222326",
+        "Anchored": false,
+        "CanCollide": false
+      },
+      "Children": [
+        {
+          "ClassName": "CylinderMesh",
+          "Id": "meshGripWrap",
+          "Name": "CylinderMesh"
+        }
+      ]
+    },
+    {
+      "ClassName": "WeldConstraint",
+      "Id": "weldTopCollar",
+      "Name": "WeldTopCollar",
+      "Properties": {
+        "Part0": {
+          "$ref": "pipeHandle"
+        },
+        "Part1": {
+          "$ref": "pipeTopCollar"
+        }
+      }
+    },
+    {
+      "ClassName": "WeldConstraint",
+      "Id": "weldBottomCollar",
+      "Name": "WeldBottomCollar",
+      "Properties": {
+        "Part0": {
+          "$ref": "pipeHandle"
+        },
+        "Part1": {
+          "$ref": "pipeBottomCollar"
+        }
+      }
+    },
+    {
+      "ClassName": "WeldConstraint",
+      "Id": "weldGripWrap",
+      "Name": "WeldGripWrap",
+      "Properties": {
+        "Part0": {
+          "$ref": "pipeHandle"
+        },
+        "Part1": {
+          "$ref": "pipeGripWrap"
+        }
+      }
+    }
+  ]
+}

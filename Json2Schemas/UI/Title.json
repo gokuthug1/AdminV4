@@ -1,0 +1,49 @@
+{
+  "Options": {
+    "SelectGenerated": false,
+    "GenerationLabel": "Json2GUI: Generate Title"
+  },
+  "Roots": [
+    {
+      "ClassName": "BillboardGui",
+      "Name": "Title",
+      "Properties": {
+        "AlwaysOnTop": true,
+        "Size": [
+          0,
+          200,
+          0,
+          50
+        ],
+        "StudsOffset": [
+          0,
+          2.5,
+          0
+        ],
+        "LightInfluence": 0,
+        "ResetOnSpawn": false
+      },
+      "Children": [
+        {
+          "ClassName": "TextLabel",
+          "Name": "MessageLabel",
+          "Properties": {
+            "Size": [
+              1,
+              0,
+              1,
+              0
+            ],
+            "BackgroundTransparency": 1,
+            "Text": "",
+            "TextColor3": "#FFFFFF",
+            "TextSize": 18,
+            "Font": "GothamBold",
+            "TextStrokeTransparency": 0.2,
+            "TextStrokeColor3": "#000000"
+          }
+        }
+      ]
+    }
+  ]
+}

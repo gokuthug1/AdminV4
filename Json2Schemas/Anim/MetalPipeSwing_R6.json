@@ -1,0 +1,155 @@
+{
+  "ClassName": "KeyframeSequence",
+  "Id": "pipeSwingR6",
+  "Name": "MetalPipeSwing_R6",
+  "Properties": {
+    "Loop": false,
+    "Priority": "Action"
+  },
+  "Children": [
+    {
+      "ClassName": "Keyframe",
+      "Id": "r6_kf1",
+      "Name": "Windup",
+      "Properties": {
+        "Time": 0.0
+      },
+      "Children": [
+        {
+          "ClassName": "Pose",
+          "Id": "r6_w_torso",
+          "Name": "Torso",
+          "Properties": {
+            "CFrame": {
+              "$type": "CFrame",
+              "Orientation": [
+                0,
+                -20,
+                0
+              ]
+            },
+            "EasingStyle": "Cubic",
+            "EasingDirection": "Out"
+          },
+          "Children": [
+            {
+              "ClassName": "Pose",
+              "Id": "r6_w_arm",
+              "Name": "Right Arm",
+              "Properties": {
+                "CFrame": {
+                  "$type": "CFrame",
+                  "Orientation": [
+                    -80,
+                    20,
+                    45
+                  ]
+                },
+                "EasingStyle": "Cubic",
+                "EasingDirection": "Out"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ClassName": "Keyframe",
+      "Id": "r6_kf2",
+      "Name": "Impact",
+      "Properties": {
+        "Time": 0.16
+      },
+      "Children": [
+        {
+          "ClassName": "KeyframeMarker",
+          "Id": "r6_marker_hit",
+          "Name": "Hit",
+          "Properties": {
+            "Value": "Impact"
+          }
+        },
+        {
+          "ClassName": "Pose",
+          "Id": "r6_i_torso",
+          "Name": "Torso",
+          "Properties": {
+            "CFrame": {
+              "$type": "CFrame",
+              "Orientation": [
+                15,
+                18,
+                0
+              ]
+            },
+            "EasingStyle": "Cubic",
+            "EasingDirection": "Out"
+          },
+          "Children": [
+            {
+              "ClassName": "Pose",
+              "Id": "r6_i_arm",
+              "Name": "Right Arm",
+              "Properties": {
+                "CFrame": {
+                  "$type": "CFrame",
+                  "Orientation": [
+                    85,
+                    -20,
+                    -15
+                  ]
+                },
+                "EasingStyle": "Bounce",
+                "EasingDirection": "Out"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ClassName": "Keyframe",
+      "Id": "r6_kf3",
+      "Name": "Recovery",
+      "Properties": {
+        "Time": 0.4
+      },
+      "Children": [
+        {
+          "ClassName": "Pose",
+          "Id": "r6_rec_torso",
+          "Name": "Torso",
+          "Properties": {
+            "CFrame": {
+              "$type": "CFrame",
+              "Orientation": [
+                0,
+                0,
+                0
+              ]
+            },
+            "EasingStyle": "Cubic",
+            "EasingDirection": "InOut"
+          },
+          "Children": [
+            {
+              "ClassName": "Pose",
+              "Id": "r6_rec_arm",
+              "Name": "Right Arm",
+              "Properties": {
+                "CFrame": {
+                  "$type": "CFrame",
+                  "Orientation": [
+                    0,
+                    0,
+                    0
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "name": "AdminV4",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "AdminSettings": {
+        "$className": "ModuleScript",
+        "$path": "ReplicatedStorage/AdminSettings.lua"
+      },
+      "AdminAssets": {
+        "$className": "Folder",
+        "$path": "ReplicatedStorage/AdminAssets"
+      },
+      "AdminUiAssets": {
+        "$className": "Folder",
+        "$path": "ReplicatedStorage/AdminUiAssets"
+      },
+      "Remotes": {
+        "$className": "Folder",
+        "$path": "ReplicatedStorage/Remotes"
+      }
+    },
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "AdminLoader": {
+        "$className": "Script",
+        "$path": "ServerScriptService/AdminLoader/init.legacy.lua",
+        "Commands": {
+          "$className": "ModuleScript",
+          "$path": "ServerScriptService/AdminLoader/Commands.lua"
+        },
+        "Util": {
+          "$className": "ModuleScript",
+          "$path": "ServerScriptService/AdminLoader/Util.lua"
+        }
+      }
+    },
+    "ServerStorage": {
+      "$className": "ServerStorage",
+      "AdminTools": {
+        "$className": "Folder",
+        "$path": "ServerStorage/AdminTools"
+      }
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "AdminClient": {
+          "$className": "LocalScript",
+          "$path": "StarterPlayerScripts/AdminClient.local.lua"
+        }
+      }
+    }
+  }
+}

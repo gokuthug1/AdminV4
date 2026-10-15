@@ -1,0 +1,1345 @@
+{
+  "ClassName": "Model",
+  "Id": "jailModel",
+  "Name": "Jail",
+  "Properties": {
+    "PrimaryPart": {
+      "$ref": "jailFloor"
+    }
+  },
+  "Attributes": {
+    "GeneratedBy": "JSON23D",
+    "SchemaVersion": 1,
+    "AssetCategory": "AdminV4"
+  },
+  "Tags": [
+    "JSON23D",
+    "AdminAsset"
+  ],
+  "Children": [
+    {
+      "ClassName": "Part",
+      "Id": "jailFloor",
+      "Name": "Floor",
+      "Properties": {
+        "Size": [
+          8.4,
+          1,
+          8.4
+        ],
+        "CFrame": [
+          0,
+          -0.5,
+          0
+        ],
+        "Material": "Concrete",
+        "Color": "#2B2D42",
+        "Anchored": true,
+        "CanCollide": true
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "jailSpawnPart",
+      "Name": "JailSpawn",
+      "Properties": {
+        "Size": [
+          4,
+          0.2,
+          4
+        ],
+        "CFrame": [
+          0,
+          0.1,
+          0
+        ],
+        "Material": "SmoothPlastic",
+        "Color": "#8D99AE",
+        "Transparency": 1,
+        "Anchored": true,
+        "CanCollide": false
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "jailCeiling",
+      "Name": "Ceiling",
+      "Properties": {
+        "Size": [
+          8.4,
+          1,
+          8.4
+        ],
+        "CFrame": [
+          0,
+          7.5,
+          0
+        ],
+        "Material": "Concrete",
+        "Color": "#2B2D42",
+        "Anchored": true,
+        "CanCollide": true
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "jailPostNorthEast",
+      "Name": "PostNorthEast",
+      "Properties": {
+        "Size": [
+          0.8,
+          7,
+          0.8
+        ],
+        "CFrame": [
+          3.6,
+          3.5,
+          3.6
+        ],
+        "Material": "Metal",
+        "Color": "#141518",
+        "Anchored": true,
+        "CanCollide": true
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "jailPostNorthWest",
+      "Name": "PostNorthWest",
+      "Properties": {
+        "Size": [
+          0.8,
+          7,
+          0.8
+        ],
+        "CFrame": [
+          -3.6,
+          3.5,
+          3.6
+        ],
+        "Material": "Metal",
+        "Color": "#141518",
+        "Anchored": true,
+        "CanCollide": true
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "jailPostSouthEast",
+      "Name": "PostSouthEast",
+      "Properties": {
+        "Size": [
+          0.8,
+          7,
+          0.8
+        ],
+        "CFrame": [
+          3.6,
+          3.5,
+          -3.6
+        ],
+        "Material": "Metal",
+        "Color": "#141518",
+        "Anchored": true,
+        "CanCollide": true
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "jailPostSouthWest",
+      "Name": "PostSouthWest",
+      "Properties": {
+        "Size": [
+          0.8,
+          7,
+          0.8
+        ],
+        "CFrame": [
+          -3.6,
+          3.5,
+          -3.6
+        ],
+        "Material": "Metal",
+        "Color": "#141518",
+        "Anchored": true,
+        "CanCollide": true
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "jailRailNorthBottom",
+      "Name": "RailNorth_Bottom",
+      "Properties": {
+        "Size": [
+          7.2,
+          0.35,
+          0.35
+        ],
+        "CFrame": [
+          0,
+          0.3,
+          3.6
+        ],
+        "Material": "Metal",
+        "Color": "#1B1E22",
+        "Anchored": true,
+        "CanCollide": true
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "jailRailSouthBottom",
+      "Name": "RailSouth_Bottom",
+      "Properties": {
+        "Size": [
+          7.2,
+          0.35,
+          0.35
+        ],
+        "CFrame": [
+          0,
+          0.3,
+          -3.6
+        ],
+        "Material": "Metal",
+        "Color": "#1B1E22",
+        "Anchored": true,
+        "CanCollide": true
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "jailRailEastBottom",
+      "Name": "RailEast_Bottom",
+      "Properties": {
+        "Size": [
+          0.35,
+          0.35,
+          7.2
+        ],
+        "CFrame": [
+          3.6,
+          0.3,
+          0
+        ],
+        "Material": "Metal",
+        "Color": "#1B1E22",
+        "Anchored": true,
+        "CanCollide": true
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "jailRailWestBottom",
+      "Name": "RailWest_Bottom",
+      "Properties": {
+        "Size": [
+          0.35,
+          0.35,
+          7.2
+        ],
+        "CFrame": [
+          -3.6,
+          0.3,
+          0
+        ],
+        "Material": "Metal",
+        "Color": "#1B1E22",
+        "Anchored": true,
+        "CanCollide": true
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "jailRailNorthMid",
+      "Name": "RailNorth_Mid",
+      "Properties": {
+        "Size": [
+          7.2,
+          0.35,
+          0.35
+        ],
+        "CFrame": [
+          0,
+          3.5,
+          3.6
+        ],
+        "Material": "Metal",
+        "Color": "#1B1E22",
+        "Anchored": true,
+        "CanCollide": true
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "jailRailSouthMid",
+      "Name": "RailSouth_Mid",
+      "Properties": {
+        "Size": [
+          7.2,
+          0.35,
+          0.35
+        ],
+        "CFrame": [
+          0,
+          3.5,
+          -3.6
+        ],
+        "Material": "Metal",
+        "Color": "#1B1E22",
+        "Anchored": true,
+        "CanCollide": true
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "jailRailEastMid",
+      "Name": "RailEast_Mid",
+      "Properties": {
+        "Size": [
+          0.35,
+          0.35,
+          7.2
+        ],
+        "CFrame": [
+          3.6,
+          3.5,
+          0
+        ],
+        "Material": "Metal",
+        "Color": "#1B1E22",
+        "Anchored": true,
+        "CanCollide": true
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "jailRailWestMid",
+      "Name": "RailWest_Mid",
+      "Properties": {
+        "Size": [
+          0.35,
+          0.35,
+          7.2
+        ],
+        "CFrame": [
+          -3.6,
+          3.5,
+          0
+        ],
+        "Material": "Metal",
+        "Color": "#1B1E22",
+        "Anchored": true,
+        "CanCollide": true
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "jailRailNorthTop",
+      "Name": "RailNorth_Top",
+      "Properties": {
+        "Size": [
+          7.2,
+          0.35,
+          0.35
+        ],
+        "CFrame": [
+          0,
+          6.7,
+          3.6
+        ],
+        "Material": "Metal",
+        "Color": "#1B1E22",
+        "Anchored": true,
+        "CanCollide": true
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "jailRailSouthTop",
+      "Name": "RailSouth_Top",
+      "Properties": {
+        "Size": [
+          7.2,
+          0.35,
+          0.35
+        ],
+        "CFrame": [
+          0,
+          6.7,
+          -3.6
+        ],
+        "Material": "Metal",
+        "Color": "#1B1E22",
+        "Anchored": true,
+        "CanCollide": true
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "jailRailEastTop",
+      "Name": "RailEast_Top",
+      "Properties": {
+        "Size": [
+          0.35,
+          0.35,
+          7.2
+        ],
+        "CFrame": [
+          3.6,
+          6.7,
+          0
+        ],
+        "Material": "Metal",
+        "Color": "#1B1E22",
+        "Anchored": true,
+        "CanCollide": true
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "jailRailWestTop",
+      "Name": "RailWest_Top",
+      "Properties": {
+        "Size": [
+          0.35,
+          0.35,
+          7.2
+        ],
+        "CFrame": [
+          -3.6,
+          6.7,
+          0
+        ],
+        "Material": "Metal",
+        "Color": "#1B1E22",
+        "Anchored": true,
+        "CanCollide": true
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "jailBarNorth1",
+      "Name": "BarNorth1",
+      "Properties": {
+        "Size": [
+          0.3,
+          6.8,
+          0.3
+        ],
+        "CFrame": [
+          -2.75,
+          3.5,
+          3.6
+        ],
+        "Material": "Metal",
+        "Color": "#25282F",
+        "Anchored": true,
+        "CanCollide": true
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "jailBarSouth1",
+      "Name": "BarSouth1",
+      "Properties": {
+        "Size": [
+          0.3,
+          6.8,
+          0.3
+        ],
+        "CFrame": [
+          -2.75,
+          3.5,
+          -3.6
+        ],
+        "Material": "Metal",
+        "Color": "#25282F",
+        "Anchored": true,
+        "CanCollide": true
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "jailBarEast1",
+      "Name": "BarEast1",
+      "Properties": {
+        "Size": [
+          0.3,
+          6.8,
+          0.3
+        ],
+        "CFrame": [
+          3.6,
+          3.5,
+          -2.75
+        ],
+        "Material": "Metal",
+        "Color": "#25282F",
+        "Anchored": true,
+        "CanCollide": true
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "jailBarWest1",
+      "Name": "BarWest1",
+      "Properties": {
+        "Size": [
+          0.3,
+          6.8,
+          0.3
+        ],
+        "CFrame": [
+          -3.6,
+          3.5,
+          -2.75
+        ],
+        "Material": "Metal",
+        "Color": "#25282F",
+        "Anchored": true,
+        "CanCollide": true
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "jailBarNorth2",
+      "Name": "BarNorth2",
+      "Properties": {
+        "Size": [
+          0.3,
+          6.8,
+          0.3
+        ],
+        "CFrame": [
+          -2.2,
+          3.5,
+          3.6
+        ],
+        "Material": "Metal",
+        "Color": "#25282F",
+        "Anchored": true,
+        "CanCollide": true
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "jailBarSouth2",
+      "Name": "BarSouth2",
+      "Properties": {
+        "Size": [
+          0.3,
+          6.8,
+          0.3
+        ],
+        "CFrame": [
+          -2.2,
+          3.5,
+          -3.6
+        ],
+        "Material": "Metal",
+        "Color": "#25282F",
+        "Anchored": true,
+        "CanCollide": true
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "jailBarEast2",
+      "Name": "BarEast2",
+      "Properties": {
+        "Size": [
+          0.3,
+          6.8,
+          0.3
+        ],
+        "CFrame": [
+          3.6,
+          3.5,
+          -2.2
+        ],
+        "Material": "Metal",
+        "Color": "#25282F",
+        "Anchored": true,
+        "CanCollide": true
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "jailBarWest2",
+      "Name": "BarWest2",
+      "Properties": {
+        "Size": [
+          0.3,
+          6.8,
+          0.3
+        ],
+        "CFrame": [
+          -3.6,
+          3.5,
+          -2.2
+        ],
+        "Material": "Metal",
+        "Color": "#25282F",
+        "Anchored": true,
+        "CanCollide": true
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "jailBarNorth3",
+      "Name": "BarNorth3",
+      "Properties": {
+        "Size": [
+          0.3,
+          6.8,
+          0.3
+        ],
+        "CFrame": [
+          -1.65,
+          3.5,
+          3.6
+        ],
+        "Material": "Metal",
+        "Color": "#25282F",
+        "Anchored": true,
+        "CanCollide": true
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "jailBarSouth3",
+      "Name": "BarSouth3",
+      "Properties": {
+        "Size": [
+          0.3,
+          6.8,
+          0.3
+        ],
+        "CFrame": [
+          -1.65,
+          3.5,
+          -3.6
+        ],
+        "Material": "Metal",
+        "Color": "#25282F",
+        "Anchored": true,
+        "CanCollide": true
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "jailBarEast3",
+      "Name": "BarEast3",
+      "Properties": {
+        "Size": [
+          0.3,
+          6.8,
+          0.3
+        ],
+        "CFrame": [
+          3.6,
+          3.5,
+          -1.65
+        ],
+        "Material": "Metal",
+        "Color": "#25282F",
+        "Anchored": true,
+        "CanCollide": true
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "jailBarWest3",
+      "Name": "BarWest3",
+      "Properties": {
+        "Size": [
+          0.3,
+          6.8,
+          0.3
+        ],
+        "CFrame": [
+          -3.6,
+          3.5,
+          -1.65
+        ],
+        "Material": "Metal",
+        "Color": "#25282F",
+        "Anchored": true,
+        "CanCollide": true
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "jailBarNorth4",
+      "Name": "BarNorth4",
+      "Properties": {
+        "Size": [
+          0.3,
+          6.8,
+          0.3
+        ],
+        "CFrame": [
+          -1.1,
+          3.5,
+          3.6
+        ],
+        "Material": "Metal",
+        "Color": "#25282F",
+        "Anchored": true,
+        "CanCollide": true
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "jailBarSouth4",
+      "Name": "BarSouth4",
+      "Properties": {
+        "Size": [
+          0.3,
+          6.8,
+          0.3
+        ],
+        "CFrame": [
+          -1.1,
+          3.5,
+          -3.6
+        ],
+        "Material": "Metal",
+        "Color": "#25282F",
+        "Anchored": true,
+        "CanCollide": true
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "jailBarEast4",
+      "Name": "BarEast4",
+      "Properties": {
+        "Size": [
+          0.3,
+          6.8,
+          0.3
+        ],
+        "CFrame": [
+          3.6,
+          3.5,
+          -1.1
+        ],
+        "Material": "Metal",
+        "Color": "#25282F",
+        "Anchored": true,
+        "CanCollide": true
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "jailBarWest4",
+      "Name": "BarWest4",
+      "Properties": {
+        "Size": [
+          0.3,
+          6.8,
+          0.3
+        ],
+        "CFrame": [
+          -3.6,
+          3.5,
+          -1.1
+        ],
+        "Material": "Metal",
+        "Color": "#25282F",
+        "Anchored": true,
+        "CanCollide": true
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "jailBarNorth5",
+      "Name": "BarNorth5",
+      "Properties": {
+        "Size": [
+          0.3,
+          6.8,
+          0.3
+        ],
+        "CFrame": [
+          -0.55,
+          3.5,
+          3.6
+        ],
+        "Material": "Metal",
+        "Color": "#25282F",
+        "Anchored": true,
+        "CanCollide": true
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "jailBarSouth5",
+      "Name": "BarSouth5",
+      "Properties": {
+        "Size": [
+          0.3,
+          6.8,
+          0.3
+        ],
+        "CFrame": [
+          -0.55,
+          3.5,
+          -3.6
+        ],
+        "Material": "Metal",
+        "Color": "#25282F",
+        "Anchored": true,
+        "CanCollide": true
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "jailBarEast5",
+      "Name": "BarEast5",
+      "Properties": {
+        "Size": [
+          0.3,
+          6.8,
+          0.3
+        ],
+        "CFrame": [
+          3.6,
+          3.5,
+          -0.55
+        ],
+        "Material": "Metal",
+        "Color": "#25282F",
+        "Anchored": true,
+        "CanCollide": true
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "jailBarWest5",
+      "Name": "BarWest5",
+      "Properties": {
+        "Size": [
+          0.3,
+          6.8,
+          0.3
+        ],
+        "CFrame": [
+          -3.6,
+          3.5,
+          -0.55
+        ],
+        "Material": "Metal",
+        "Color": "#25282F",
+        "Anchored": true,
+        "CanCollide": true
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "jailBarNorth6",
+      "Name": "BarNorth6",
+      "Properties": {
+        "Size": [
+          0.3,
+          6.8,
+          0.3
+        ],
+        "CFrame": [
+          0.0,
+          3.5,
+          3.6
+        ],
+        "Material": "Metal",
+        "Color": "#25282F",
+        "Anchored": true,
+        "CanCollide": true
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "jailBarSouth6",
+      "Name": "BarSouth6",
+      "Properties": {
+        "Size": [
+          0.3,
+          6.8,
+          0.3
+        ],
+        "CFrame": [
+          0.0,
+          3.5,
+          -3.6
+        ],
+        "Material": "Metal",
+        "Color": "#25282F",
+        "Anchored": true,
+        "CanCollide": true
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "jailBarEast6",
+      "Name": "BarEast6",
+      "Properties": {
+        "Size": [
+          0.3,
+          6.8,
+          0.3
+        ],
+        "CFrame": [
+          3.6,
+          3.5,
+          0.0
+        ],
+        "Material": "Metal",
+        "Color": "#25282F",
+        "Anchored": true,
+        "CanCollide": true
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "jailBarWest6",
+      "Name": "BarWest6",
+      "Properties": {
+        "Size": [
+          0.3,
+          6.8,
+          0.3
+        ],
+        "CFrame": [
+          -3.6,
+          3.5,
+          0.0
+        ],
+        "Material": "Metal",
+        "Color": "#25282F",
+        "Anchored": true,
+        "CanCollide": true
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "jailBarNorth7",
+      "Name": "BarNorth7",
+      "Properties": {
+        "Size": [
+          0.3,
+          6.8,
+          0.3
+        ],
+        "CFrame": [
+          0.55,
+          3.5,
+          3.6
+        ],
+        "Material": "Metal",
+        "Color": "#25282F",
+        "Anchored": true,
+        "CanCollide": true
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "jailBarSouth7",
+      "Name": "BarSouth7",
+      "Properties": {
+        "Size": [
+          0.3,
+          6.8,
+          0.3
+        ],
+        "CFrame": [
+          0.55,
+          3.5,
+          -3.6
+        ],
+        "Material": "Metal",
+        "Color": "#25282F",
+        "Anchored": true,
+        "CanCollide": true
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "jailBarEast7",
+      "Name": "BarEast7",
+      "Properties": {
+        "Size": [
+          0.3,
+          6.8,
+          0.3
+        ],
+        "CFrame": [
+          3.6,
+          3.5,
+          0.55
+        ],
+        "Material": "Metal",
+        "Color": "#25282F",
+        "Anchored": true,
+        "CanCollide": true
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "jailBarWest7",
+      "Name": "BarWest7",
+      "Properties": {
+        "Size": [
+          0.3,
+          6.8,
+          0.3
+        ],
+        "CFrame": [
+          -3.6,
+          3.5,
+          0.55
+        ],
+        "Material": "Metal",
+        "Color": "#25282F",
+        "Anchored": true,
+        "CanCollide": true
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "jailBarNorth8",
+      "Name": "BarNorth8",
+      "Properties": {
+        "Size": [
+          0.3,
+          6.8,
+          0.3
+        ],
+        "CFrame": [
+          1.1,
+          3.5,
+          3.6
+        ],
+        "Material": "Metal",
+        "Color": "#25282F",
+        "Anchored": true,
+        "CanCollide": true
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "jailBarSouth8",
+      "Name": "BarSouth8",
+      "Properties": {
+        "Size": [
+          0.3,
+          6.8,
+          0.3
+        ],
+        "CFrame": [
+          1.1,
+          3.5,
+          -3.6
+        ],
+        "Material": "Metal",
+        "Color": "#25282F",
+        "Anchored": true,
+        "CanCollide": true
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "jailBarEast8",
+      "Name": "BarEast8",
+      "Properties": {
+        "Size": [
+          0.3,
+          6.8,
+          0.3
+        ],
+        "CFrame": [
+          3.6,
+          3.5,
+          1.1
+        ],
+        "Material": "Metal",
+        "Color": "#25282F",
+        "Anchored": true,
+        "CanCollide": true
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "jailBarWest8",
+      "Name": "BarWest8",
+      "Properties": {
+        "Size": [
+          0.3,
+          6.8,
+          0.3
+        ],
+        "CFrame": [
+          -3.6,
+          3.5,
+          1.1
+        ],
+        "Material": "Metal",
+        "Color": "#25282F",
+        "Anchored": true,
+        "CanCollide": true
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "jailBarNorth9",
+      "Name": "BarNorth9",
+      "Properties": {
+        "Size": [
+          0.3,
+          6.8,
+          0.3
+        ],
+        "CFrame": [
+          1.65,
+          3.5,
+          3.6
+        ],
+        "Material": "Metal",
+        "Color": "#25282F",
+        "Anchored": true,
+        "CanCollide": true
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "jailBarSouth9",
+      "Name": "BarSouth9",
+      "Properties": {
+        "Size": [
+          0.3,
+          6.8,
+          0.3
+        ],
+        "CFrame": [
+          1.65,
+          3.5,
+          -3.6
+        ],
+        "Material": "Metal",
+        "Color": "#25282F",
+        "Anchored": true,
+        "CanCollide": true
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "jailBarEast9",
+      "Name": "BarEast9",
+      "Properties": {
+        "Size": [
+          0.3,
+          6.8,
+          0.3
+        ],
+        "CFrame": [
+          3.6,
+          3.5,
+          1.65
+        ],
+        "Material": "Metal",
+        "Color": "#25282F",
+        "Anchored": true,
+        "CanCollide": true
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "jailBarWest9",
+      "Name": "BarWest9",
+      "Properties": {
+        "Size": [
+          0.3,
+          6.8,
+          0.3
+        ],
+        "CFrame": [
+          -3.6,
+          3.5,
+          1.65
+        ],
+        "Material": "Metal",
+        "Color": "#25282F",
+        "Anchored": true,
+        "CanCollide": true
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "jailBarNorth10",
+      "Name": "BarNorth10",
+      "Properties": {
+        "Size": [
+          0.3,
+          6.8,
+          0.3
+        ],
+        "CFrame": [
+          2.2,
+          3.5,
+          3.6
+        ],
+        "Material": "Metal",
+        "Color": "#25282F",
+        "Anchored": true,
+        "CanCollide": true
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "jailBarSouth10",
+      "Name": "BarSouth10",
+      "Properties": {
+        "Size": [
+          0.3,
+          6.8,
+          0.3
+        ],
+        "CFrame": [
+          2.2,
+          3.5,
+          -3.6
+        ],
+        "Material": "Metal",
+        "Color": "#25282F",
+        "Anchored": true,
+        "CanCollide": true
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "jailBarEast10",
+      "Name": "BarEast10",
+      "Properties": {
+        "Size": [
+          0.3,
+          6.8,
+          0.3
+        ],
+        "CFrame": [
+          3.6,
+          3.5,
+          2.2
+        ],
+        "Material": "Metal",
+        "Color": "#25282F",
+        "Anchored": true,
+        "CanCollide": true
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "jailBarWest10",
+      "Name": "BarWest10",
+      "Properties": {
+        "Size": [
+          0.3,
+          6.8,
+          0.3
+        ],
+        "CFrame": [
+          -3.6,
+          3.5,
+          2.2
+        ],
+        "Material": "Metal",
+        "Color": "#25282F",
+        "Anchored": true,
+        "CanCollide": true
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "jailBarNorth11",
+      "Name": "BarNorth11",
+      "Properties": {
+        "Size": [
+          0.3,
+          6.8,
+          0.3
+        ],
+        "CFrame": [
+          2.75,
+          3.5,
+          3.6
+        ],
+        "Material": "Metal",
+        "Color": "#25282F",
+        "Anchored": true,
+        "CanCollide": true
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "jailBarSouth11",
+      "Name": "BarSouth11",
+      "Properties": {
+        "Size": [
+          0.3,
+          6.8,
+          0.3
+        ],
+        "CFrame": [
+          2.75,
+          3.5,
+          -3.6
+        ],
+        "Material": "Metal",
+        "Color": "#25282F",
+        "Anchored": true,
+        "CanCollide": true
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "jailBarEast11",
+      "Name": "BarEast11",
+      "Properties": {
+        "Size": [
+          0.3,
+          6.8,
+          0.3
+        ],
+        "CFrame": [
+          3.6,
+          3.5,
+          2.75
+        ],
+        "Material": "Metal",
+        "Color": "#25282F",
+        "Anchored": true,
+        "CanCollide": true
+      }
+    },
+    {
+      "ClassName": "Part",
+      "Id": "jailBarWest11",
+      "Name": "BarWest11",
+      "Properties": {
+        "Size": [
+          0.3,
+          6.8,
+          0.3
+        ],
+        "CFrame": [
+          -3.6,
+          3.5,
+          2.75
+        ],
+        "Material": "Metal",
+        "Color": "#25282F",
+        "Anchored": true,
+        "CanCollide": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "Options": {
+    "SelectGenerated": false,
+    "GenerationLabel": "Json2GUI: Generate CmdBar"
+  },
+  "Roots": [
+    {
+      "ClassName": "ScreenGui",
+      "Name": "CmdBar",
+      "Properties": {
+        "ResetOnSpawn": false,
+        "ZIndexBehavior": "Sibling",
+        "DisplayOrder": 100,
+        "Enabled": false
+      },
+      "Children": [
+        {
+          "ClassName": "Frame",
+          "Name": "MainFrame",
+          "Properties": {
+            "AnchorPoint": [
+              0.5,
+              1
+            ],
+            "Position": [
+              0.5,
+              0,
+              1,
+              -40
+            ],
+            "Size": [
+              0,
+              520,
+              0,
+              44
+            ],
+            "BackgroundColor3": "#181A20",
+            "BorderSizePixel": 0
+          },
+          "Children": [
+            {
+              "ClassName": "UICorner",
+              "Name": "Corner",
+              "Properties": {
+                "CornerRadius": [
+                  0,
+                  10
+                ]
+              }
+            },
+            {
+              "ClassName": "UIStroke",
+              "Name": "Stroke",
+              "Properties": {
+                "Color": "#2E323E",
+                "Thickness": 1.5
+              }
+            },
+            {
+              "ClassName": "TextLabel",
+              "Name": "PrefixIcon",
+              "Properties": {
+                "Size": [
+                  0,
+                  36,
+                  1,
+                  0
+                ],
+                "Position": [
+                  0,
+                  8,
+                  0,
+                  0
+                ],
+                "BackgroundTransparency": 1,
+                "Text": ";",
+                "TextColor3": "#5C8DFF",
+                "TextSize": 18,
+                "Font": "GothamBold",
+                "TextXAlignment": "Center"
+              }
+            },
+            {
+              "ClassName": "TextBox",
+              "Name": "InputBox",
+              "Properties": {
+                "Size": [
+                  1,
+                  -52,
+                  1,
+                  0
+                ],
+                "Position": [
+                  0,
+                  44,
+                  0,
+                  0
+                ],
+                "BackgroundTransparency": 1,
+                "PlaceholderText": "Command... (;)",
+                "PlaceholderColor3": "#6C7280",
+                "Text": "",
+                "TextColor3": "#FFFFFF",
+                "TextSize": 15,
+                "Font": "Gotham",
+                "TextXAlignment": "Left",
+                "ClearTextOnFocus": false
+              }
+            },
+            {
+              "ClassName": "Frame",
+              "Name": "SuggestionFrame",
+              "Properties": {
+                "AnchorPoint": [
+                  0,
+                  1
+                ],
+                "Position": [
+                  0,
+                  0,
+                  0,
+                  -8
+                ],
+                "Size": [
+                  1,
+                  0,
+                  0,
+                  0
+                ],
+                "BackgroundColor3": "#181A20",
+                "BorderSizePixel": 0,
+                "Visible": false,
+                "ClipsDescendants": true
+              },
+              "Children": [
+                {
+                  "ClassName": "UICorner",
+                  "Name": "Corner",
+                  "Properties": {
+                    "CornerRadius": [
+                      0,
+                      8
+                    ]
+                  }
+                },
+                {
+                  "ClassName": "UIStroke",
+                  "Name": "Stroke",
+                  "Properties": {
+                    "Color": "#2E323E",
+                    "Thickness": 1
+                  }
+                },
+                {
+                  "ClassName": "UIListLayout",
+                  "Name": "UIListLayout",
+                  "Properties": {
+                    "FillDirection": "Vertical",
+                    "SortOrder": "LayoutOrder",
+                    "Padding": [
+                      0,
+                      2
+                    ]
+                  }
+                },
+                {
+                  "ClassName": "UIPadding",
+                  "Name": "UIPadding",
+                  "Properties": {
+                    "PaddingTop": [
+                      0,
+                      4
+                    ],
+                    "PaddingBottom": [
+                      0,
+                      4
+                    ],
+                    "PaddingLeft": [
+                      0,
+                      6
+                    ],
+                    "PaddingRight": [
+                      0,
+                      6
+                    ]
+                  }
+                },
+                {
+                  "ClassName": "TextButton",
+                  "Name": "Template",
+                  "Properties": {
+                    "Size": [
+                      1,
+                      0,
+                      0,
+                      28
+                    ],
+                    "BackgroundColor3": "#20232B",
+                    "BackgroundTransparency": 0.3,
+                    "BorderSizePixel": 0,
+                    "Text": "",
+                    "TextColor3": "#D1D5DB",
+                    "TextSize": 14,
+                    "Font": "Gotham",
+                    "TextXAlignment": "Left",
+                    "Visible": false,
+                    "AutoButtonColor": true
+                  },
+                  "Children": [
+                    {
+                      "ClassName": "UICorner",
+                      "Name": "Corner",
+                      "Properties": {
+                        "CornerRadius": [
+                          0,
+                          6
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

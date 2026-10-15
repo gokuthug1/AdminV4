@@ -1,0 +1,327 @@
+{
+  "Options": {
+    "SelectGenerated": false,
+    "GenerationLabel": "Json2GUI: Generate List"
+  },
+  "Roots": [
+    {
+      "ClassName": "ScreenGui",
+      "Name": "List",
+      "Properties": {
+        "ResetOnSpawn": false,
+        "ZIndexBehavior": "Sibling"
+      },
+      "Children": [
+        {
+          "ClassName": "Frame",
+          "Name": "MainFrame",
+          "Properties": {
+            "AnchorPoint": [
+              0.5,
+              0.5
+            ],
+            "Position": [
+              0.5,
+              0,
+              0.5,
+              0
+            ],
+            "Size": [
+              0,
+              540,
+              0,
+              420
+            ],
+            "BackgroundColor3": "#16181E",
+            "BorderSizePixel": 0
+          },
+          "Children": [
+            {
+              "ClassName": "UICorner",
+              "Name": "Corner",
+              "Properties": {
+                "CornerRadius": [
+                  0,
+                  12
+                ]
+              }
+            },
+            {
+              "ClassName": "UIStroke",
+              "Name": "Stroke",
+              "Properties": {
+                "Color": "#2A2E3B",
+                "Thickness": 1.5
+              }
+            },
+            {
+              "ClassName": "Frame",
+              "Name": "Header",
+              "Properties": {
+                "Size": [
+                  1,
+                  0,
+                  0,
+                  62
+                ],
+                "Position": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "BackgroundTransparency": 1
+              },
+              "Children": [
+                {
+                  "ClassName": "TextLabel",
+                  "Name": "Title",
+                  "Properties": {
+                    "Size": [
+                      1,
+                      -60,
+                      0,
+                      36
+                    ],
+                    "Position": [
+                      0,
+                      16,
+                      0,
+                      12
+                    ],
+                    "BackgroundTransparency": 1,
+                    "Text": "Commands List",
+                    "TextColor3": "#FFFFFF",
+                    "TextSize": 18,
+                    "Font": "GothamBold",
+                    "TextXAlignment": "Left"
+                  }
+                },
+                {
+                  "ClassName": "TextButton",
+                  "Name": "Close",
+                  "Properties": {
+                    "Size": [
+                      0,
+                      32,
+                      0,
+                      32
+                    ],
+                    "Position": [
+                      1,
+                      -44,
+                      0,
+                      14
+                    ],
+                    "BackgroundColor3": "#282C37",
+                    "BorderSizePixel": 0,
+                    "Text": "X",
+                    "TextColor3": "#E5E7EB",
+                    "TextSize": 15,
+                    "Font": "GothamBold"
+                  },
+                  "Children": [
+                    {
+                      "ClassName": "UICorner",
+                      "Name": "Corner",
+                      "Properties": {
+                        "CornerRadius": [
+                          0,
+                          6
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "ClassName": "TextBox",
+                  "Name": "SearchBox",
+                  "Properties": {
+                    "Size": [
+                      1,
+                      -32,
+                      0,
+                      32
+                    ],
+                    "Position": [
+                      0,
+                      16,
+                      0,
+                      56
+                    ],
+                    "BackgroundColor3": "#1F232B",
+                    "BorderSizePixel": 0,
+                    "PlaceholderText": "Search...",
+                    "PlaceholderColor3": "#6B7280",
+                    "Text": "",
+                    "TextColor3": "#FFFFFF",
+                    "TextSize": 14,
+                    "Font": "Gotham",
+                    "TextXAlignment": "Left",
+                    "Visible": false
+                  },
+                  "Children": [
+                    {
+                      "ClassName": "UICorner",
+                      "Name": "Corner",
+                      "Properties": {
+                        "CornerRadius": [
+                          0,
+                          6
+                        ]
+                      }
+                    },
+                    {
+                      "ClassName": "UIPadding",
+                      "Name": "UIPadding",
+                      "Properties": {
+                        "PaddingLeft": [
+                          0,
+                          10
+                        ],
+                        "PaddingRight": [
+                          0,
+                          10
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "ClassName": "Frame",
+              "Name": "Divider",
+              "Properties": {
+                "Size": [
+                  1,
+                  0,
+                  0,
+                  1
+                ],
+                "Position": [
+                  0,
+                  0,
+                  0,
+                  62
+                ],
+                "BackgroundColor3": "#252934",
+                "BorderSizePixel": 0
+              }
+            },
+            {
+              "ClassName": "ScrollingFrame",
+              "Name": "Container",
+              "Properties": {
+                "Position": [
+                  0,
+                  16,
+                  0,
+                  76
+                ],
+                "Size": [
+                  1,
+                  -32,
+                  1,
+                  -92
+                ],
+                "BackgroundTransparency": 1,
+                "BorderSizePixel": 0,
+                "ScrollBarThickness": 6,
+                "ScrollBarImageColor3": "#3E4455",
+                "CanvasSize": [
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              "Children": [
+                {
+                  "ClassName": "UIListLayout",
+                  "Name": "UIListLayout",
+                  "Properties": {
+                    "SortOrder": "LayoutOrder",
+                    "Padding": [
+                      0,
+                      4
+                    ]
+                  }
+                },
+                {
+                  "ClassName": "UIPadding",
+                  "Name": "UIPadding",
+                  "Properties": {
+                    "PaddingTop": [
+                      0,
+                      4
+                    ],
+                    "PaddingBottom": [
+                      0,
+                      8
+                    ],
+                    "PaddingLeft": [
+                      0,
+                      2
+                    ],
+                    "PaddingRight": [
+                      0,
+                      8
+                    ]
+                  }
+                },
+                {
+                  "ClassName": "TextLabel",
+                  "Name": "Template",
+                  "Properties": {
+                    "Size": [
+                      1,
+                      0,
+                      0,
+                      30
+                    ],
+                    "BackgroundColor3": "#1F222A",
+                    "BackgroundTransparency": 0.5,
+                    "BorderSizePixel": 0,
+                    "Text": "Item Template",
+                    "TextColor3": "#D1D5DB",
+                    "TextSize": 14,
+                    "Font": "Gotham",
+                    "TextXAlignment": "Left",
+                    "Visible": false
+                  },
+                  "Children": [
+                    {
+                      "ClassName": "UICorner",
+                      "Name": "Corner",
+                      "Properties": {
+                        "CornerRadius": [
+                          0,
+                          6
+                        ]
+                      }
+                    },
+                    {
+                      "ClassName": "UIPadding",
+                      "Name": "UIPadding",
+                      "Properties": {
+                        "PaddingLeft": [
+                          0,
+                          8
+                        ],
+                        "PaddingRight": [
+                          0,
+                          8
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

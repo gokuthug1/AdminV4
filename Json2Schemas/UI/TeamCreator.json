@@ -1,0 +1,604 @@
+{
+  "Options": {
+    "SelectGenerated": false,
+    "GenerationLabel": "Json2GUI: Generate TeamCreator"
+  },
+  "Roots": [
+    {
+      "ClassName": "ScreenGui",
+      "Name": "TeamCreator",
+      "Properties": {
+        "ResetOnSpawn": false,
+        "ZIndexBehavior": "Sibling"
+      },
+      "Children": [
+        {
+          "ClassName": "Frame",
+          "Name": "MainFrame",
+          "Properties": {
+            "AnchorPoint": [
+              0.5,
+              0.5
+            ],
+            "Position": [
+              0.5,
+              0,
+              0.5,
+              0
+            ],
+            "Size": [
+              0,
+              520,
+              0,
+              480
+            ],
+            "BackgroundColor3": "#16181F",
+            "BorderSizePixel": 0
+          },
+          "Children": [
+            {
+              "ClassName": "UICorner",
+              "Name": "Corner",
+              "Properties": {
+                "CornerRadius": [
+                  0,
+                  12
+                ]
+              }
+            },
+            {
+              "ClassName": "UIStroke",
+              "Name": "Stroke",
+              "Properties": {
+                "Color": "#292E3C",
+                "Thickness": 1.5
+              }
+            },
+            {
+              "ClassName": "TextLabel",
+              "Name": "TitleLabel",
+              "Properties": {
+                "Size": [
+                  1,
+                  -60,
+                  0,
+                  32
+                ],
+                "Position": [
+                  0,
+                  20,
+                  0,
+                  16
+                ],
+                "BackgroundTransparency": 1,
+                "Text": "Create Team",
+                "TextColor3": "#FFFFFF",
+                "TextSize": 20,
+                "Font": "GothamBold",
+                "TextXAlignment": "Left"
+              }
+            },
+            {
+              "ClassName": "TextButton",
+              "Name": "CloseButton",
+              "Properties": {
+                "Size": [
+                  0,
+                  30,
+                  0,
+                  30
+                ],
+                "Position": [
+                  1,
+                  -44,
+                  0,
+                  16
+                ],
+                "BackgroundColor3": "#262A36",
+                "BorderSizePixel": 0,
+                "Text": "X",
+                "TextColor3": "#E5E7EB",
+                "TextSize": 14,
+                "Font": "GothamBold"
+              },
+              "Children": [
+                {
+                  "ClassName": "UICorner",
+                  "Name": "Corner",
+                  "Properties": {
+                    "CornerRadius": [
+                      0,
+                      6
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "ClassName": "TextBox",
+              "Name": "TeamNameBox",
+              "Properties": {
+                "Size": [
+                  0.55,
+                  -24,
+                  0,
+                  36
+                ],
+                "Position": [
+                  0,
+                  20,
+                  0,
+                  60
+                ],
+                "BackgroundColor3": "#20242F",
+                "BorderSizePixel": 0,
+                "PlaceholderText": "Team Name (max 32 chars)",
+                "PlaceholderColor3": "#687082",
+                "Text": "",
+                "TextColor3": "#FFFFFF",
+                "TextSize": 14,
+                "Font": "Gotham",
+                "TextXAlignment": "Left"
+              },
+              "Children": [
+                {
+                  "ClassName": "UICorner",
+                  "Name": "Corner",
+                  "Properties": {
+                    "CornerRadius": [
+                      0,
+                      6
+                    ]
+                  }
+                },
+                {
+                  "ClassName": "UIPadding",
+                  "Name": "UIPadding",
+                  "Properties": {
+                    "PaddingLeft": [
+                      0,
+                      10
+                    ],
+                    "PaddingRight": [
+                      0,
+                      10
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "ClassName": "TextBox",
+              "Name": "TeamValueBox",
+              "Properties": {
+                "Size": [
+                  0.45,
+                  -24,
+                  0,
+                  36
+                ],
+                "Position": [
+                  0.55,
+                  4,
+                  0,
+                  60
+                ],
+                "BackgroundColor3": "#20242F",
+                "BorderSizePixel": 0,
+                "PlaceholderText": "Optional Value (number)",
+                "PlaceholderColor3": "#687082",
+                "Text": "",
+                "TextColor3": "#FFFFFF",
+                "TextSize": 14,
+                "Font": "Gotham",
+                "TextXAlignment": "Left"
+              },
+              "Children": [
+                {
+                  "ClassName": "UICorner",
+                  "Name": "Corner",
+                  "Properties": {
+                    "CornerRadius": [
+                      0,
+                      6
+                    ]
+                  }
+                },
+                {
+                  "ClassName": "UIPadding",
+                  "Name": "UIPadding",
+                  "Properties": {
+                    "PaddingLeft": [
+                      0,
+                      10
+                    ],
+                    "PaddingRight": [
+                      0,
+                      10
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "ClassName": "TextBox",
+              "Name": "ColorSearchBox",
+              "Properties": {
+                "Size": [
+                  1,
+                  -40,
+                  0,
+                  32
+                ],
+                "Position": [
+                  0,
+                  20,
+                  0,
+                  108
+                ],
+                "BackgroundColor3": "#1C202A",
+                "BorderSizePixel": 0,
+                "PlaceholderText": "Search colors...",
+                "PlaceholderColor3": "#687082",
+                "Text": "",
+                "TextColor3": "#FFFFFF",
+                "TextSize": 13,
+                "Font": "Gotham",
+                "TextXAlignment": "Left"
+              },
+              "Children": [
+                {
+                  "ClassName": "UICorner",
+                  "Name": "Corner",
+                  "Properties": {
+                    "CornerRadius": [
+                      0,
+                      6
+                    ]
+                  }
+                },
+                {
+                  "ClassName": "UIPadding",
+                  "Name": "UIPadding",
+                  "Properties": {
+                    "PaddingLeft": [
+                      0,
+                      10
+                    ],
+                    "PaddingRight": [
+                      0,
+                      10
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "ClassName": "ScrollingFrame",
+              "Name": "ColorList",
+              "Properties": {
+                "Position": [
+                  0,
+                  20,
+                  0,
+                  148
+                ],
+                "Size": [
+                  1,
+                  -40,
+                  0,
+                  150
+                ],
+                "BackgroundColor3": "#181B24",
+                "BorderSizePixel": 0,
+                "ScrollBarThickness": 6,
+                "ScrollBarImageColor3": "#3A4050"
+              },
+              "Children": [
+                {
+                  "ClassName": "UICorner",
+                  "Name": "Corner",
+                  "Properties": {
+                    "CornerRadius": [
+                      0,
+                      8
+                    ]
+                  }
+                },
+                {
+                  "ClassName": "UIListLayout",
+                  "Name": "UIListLayout",
+                  "Properties": {
+                    "SortOrder": "LayoutOrder",
+                    "Padding": [
+                      0,
+                      4
+                    ]
+                  }
+                },
+                {
+                  "ClassName": "UIPadding",
+                  "Name": "UIPadding",
+                  "Properties": {
+                    "PaddingTop": [
+                      0,
+                      6
+                    ],
+                    "PaddingBottom": [
+                      0,
+                      6
+                    ],
+                    "PaddingLeft": [
+                      0,
+                      6
+                    ],
+                    "PaddingRight": [
+                      0,
+                      8
+                    ]
+                  }
+                },
+                {
+                  "ClassName": "TextButton",
+                  "Name": "ColorOptionTemplate",
+                  "Properties": {
+                    "Size": [
+                      1,
+                      0,
+                      0,
+                      26
+                    ],
+                    "BackgroundColor3": "#3B82F6",
+                    "BorderSizePixel": 0,
+                    "Text": "Color",
+                    "TextColor3": "#FFFFFF",
+                    "TextSize": 13,
+                    "Font": "GothamBold",
+                    "Visible": false
+                  },
+                  "Children": [
+                    {
+                      "ClassName": "UICorner",
+                      "Name": "Corner",
+                      "Properties": {
+                        "CornerRadius": [
+                          0,
+                          4
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "ClassName": "Frame",
+              "Name": "ColorPreview",
+              "Properties": {
+                "Size": [
+                  1,
+                  -40,
+                  0,
+                  32
+                ],
+                "Position": [
+                  0,
+                  20,
+                  0,
+                  308
+                ],
+                "BackgroundColor3": "#3B82F6",
+                "BorderSizePixel": 0
+              },
+              "Children": [
+                {
+                  "ClassName": "UICorner",
+                  "Name": "Corner",
+                  "Properties": {
+                    "CornerRadius": [
+                      0,
+                      6
+                    ]
+                  }
+                },
+                {
+                  "ClassName": "TextLabel",
+                  "Name": "ColorPreviewLabel",
+                  "Properties": {
+                    "Size": [
+                      1,
+                      0,
+                      1,
+                      0
+                    ],
+                    "BackgroundTransparency": 1,
+                    "Text": "Selected color: blue",
+                    "TextColor3": "#FFFFFF",
+                    "TextSize": 13,
+                    "Font": "GothamBold"
+                  }
+                }
+              ]
+            },
+            {
+              "ClassName": "TextButton",
+              "Name": "AutoAssignableButton",
+              "Properties": {
+                "Size": [
+                  0.5,
+                  -24,
+                  0,
+                  34
+                ],
+                "Position": [
+                  0,
+                  20,
+                  0,
+                  350
+                ],
+                "BackgroundColor3": "#303640",
+                "BorderSizePixel": 0,
+                "Text": "Auto-assign: Off",
+                "TextColor3": "#FFFFFF",
+                "TextSize": 13,
+                "Font": "GothamBold"
+              },
+              "Children": [
+                {
+                  "ClassName": "UICorner",
+                  "Name": "Corner",
+                  "Properties": {
+                    "CornerRadius": [
+                      0,
+                      6
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "ClassName": "TextButton",
+              "Name": "AssignCreatorButton",
+              "Properties": {
+                "Size": [
+                  0.5,
+                  -24,
+                  0,
+                  34
+                ],
+                "Position": [
+                  0.5,
+                  4,
+                  0,
+                  350
+                ],
+                "BackgroundColor3": "#297E4C",
+                "BorderSizePixel": 0,
+                "Text": "Join after creation: On",
+                "TextColor3": "#FFFFFF",
+                "TextSize": 13,
+                "Font": "GothamBold"
+              },
+              "Children": [
+                {
+                  "ClassName": "UICorner",
+                  "Name": "Corner",
+                  "Properties": {
+                    "CornerRadius": [
+                      0,
+                      6
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "ClassName": "TextLabel",
+              "Name": "StatusLabel",
+              "Properties": {
+                "Size": [
+                  1,
+                  -40,
+                  0,
+                  20
+                ],
+                "Position": [
+                  0,
+                  20,
+                  0,
+                  394
+                ],
+                "BackgroundTransparency": 1,
+                "Text": "",
+                "TextColor3": "#8F99A9",
+                "TextSize": 13,
+                "Font": "Gotham",
+                "TextXAlignment": "Left"
+              }
+            },
+            {
+              "ClassName": "TextButton",
+              "Name": "CancelButton",
+              "Properties": {
+                "AnchorPoint": [
+                  1,
+                  1
+                ],
+                "Size": [
+                  0,
+                  100,
+                  0,
+                  36
+                ],
+                "Position": [
+                  1,
+                  -140,
+                  1,
+                  -16
+                ],
+                "BackgroundColor3": "#2A2F3D",
+                "BorderSizePixel": 0,
+                "Text": "Cancel",
+                "TextColor3": "#D1D5DB",
+                "TextSize": 14,
+                "Font": "Gotham"
+              },
+              "Children": [
+                {
+                  "ClassName": "UICorner",
+                  "Name": "Corner",
+                  "Properties": {
+                    "CornerRadius": [
+                      0,
+                      6
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "ClassName": "TextButton",
+              "Name": "CreateButton",
+              "Properties": {
+                "AnchorPoint": [
+                  1,
+                  1
+                ],
+                "Size": [
+                  0,
+                  110,
+                  0,
+                  36
+                ],
+                "Position": [
+                  1,
+                  -20,
+                  1,
+                  -16
+                ],
+                "BackgroundColor3": "#297E4C",
+                "BorderSizePixel": 0,
+                "Text": "Create team",
+                "TextColor3": "#FFFFFF",
+                "TextSize": 14,
+                "Font": "GothamBold"
+              },
+              "Children": [
+                {
+                  "ClassName": "UICorner",
+                  "Name": "Corner",
+                  "Properties": {
+                    "CornerRadius": [
+                      0,
+                      6
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

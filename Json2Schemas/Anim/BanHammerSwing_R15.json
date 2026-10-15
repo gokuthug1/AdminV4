@@ -1,0 +1,198 @@
+{
+  "ClassName": "KeyframeSequence",
+  "Id": "hammerSwingR15",
+  "Name": "BanHammerSwing_R15",
+  "Properties": {
+    "Loop": false,
+    "Priority": "Action"
+  },
+  "Children": [
+    {
+      "ClassName": "Keyframe",
+      "Id": "h_r15_kf1",
+      "Name": "Windup",
+      "Properties": {
+        "Time": 0.0
+      },
+      "Children": [
+        {
+          "ClassName": "Pose",
+          "Id": "h_r15_w_torso",
+          "Name": "UpperTorso",
+          "Properties": {
+            "CFrame": {
+              "$type": "CFrame",
+              "Orientation": [
+                15,
+                -20,
+                0
+              ]
+            },
+            "EasingStyle": "Cubic",
+            "EasingDirection": "Out"
+          },
+          "Children": [
+            {
+              "ClassName": "Pose",
+              "Id": "h_r15_w_r_upper",
+              "Name": "RightUpperArm",
+              "Properties": {
+                "CFrame": {
+                  "$type": "CFrame",
+                  "Orientation": [
+                    -95,
+                    -15,
+                    25
+                  ]
+                },
+                "EasingStyle": "Cubic",
+                "EasingDirection": "Out"
+              },
+              "Children": [
+                {
+                  "ClassName": "Pose",
+                  "Id": "h_r15_w_r_lower",
+                  "Name": "RightLowerArm",
+                  "Properties": {
+                    "CFrame": {
+                      "$type": "CFrame",
+                      "Orientation": [
+                        -55,
+                        0,
+                        0
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ClassName": "Keyframe",
+      "Id": "h_r15_kf2",
+      "Name": "Slam",
+      "Properties": {
+        "Time": 0.22
+      },
+      "Children": [
+        {
+          "ClassName": "Pose",
+          "Id": "h_r15_s_torso",
+          "Name": "UpperTorso",
+          "Properties": {
+            "CFrame": {
+              "$type": "CFrame",
+              "Orientation": [
+                -30,
+                15,
+                0
+              ]
+            },
+            "EasingStyle": "Bounce",
+            "EasingDirection": "Out"
+          },
+          "Children": [
+            {
+              "ClassName": "Pose",
+              "Id": "h_r15_s_r_upper",
+              "Name": "RightUpperArm",
+              "Properties": {
+                "CFrame": {
+                  "$type": "CFrame",
+                  "Orientation": [
+                    -85,
+                    20,
+                    -10
+                  ]
+                },
+                "EasingStyle": "Bounce",
+                "EasingDirection": "Out"
+              },
+              "Children": [
+                {
+                  "ClassName": "Pose",
+                  "Id": "h_r15_s_r_lower",
+                  "Name": "RightLowerArm",
+                  "Properties": {
+                    "CFrame": {
+                      "$type": "CFrame",
+                      "Orientation": [
+                        -10,
+                        0,
+                        0
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ClassName": "Keyframe",
+      "Id": "h_r15_kf3",
+      "Name": "Recovery",
+      "Properties": {
+        "Time": 0.5
+      },
+      "Children": [
+        {
+          "ClassName": "Pose",
+          "Id": "h_r15_rec_torso",
+          "Name": "UpperTorso",
+          "Properties": {
+            "CFrame": {
+              "$type": "CFrame",
+              "Orientation": [
+                0,
+                0,
+                0
+              ]
+            },
+            "EasingStyle": "Cubic",
+            "EasingDirection": "InOut"
+          },
+          "Children": [
+            {
+              "ClassName": "Pose",
+              "Id": "h_r15_rec_r_upper",
+              "Name": "RightUpperArm",
+              "Properties": {
+                "CFrame": {
+                  "$type": "CFrame",
+                  "Orientation": [
+                    0,
+                    0,
+                    0
+                  ]
+                }
+              },
+              "Children": [
+                {
+                  "ClassName": "Pose",
+                  "Id": "h_r15_rec_r_lower",
+                  "Name": "RightLowerArm",
+                  "Properties": {
+                    "CFrame": {
+                      "$type": "CFrame",
+                      "Orientation": [
+                        0,
+                        0,
+                        0
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

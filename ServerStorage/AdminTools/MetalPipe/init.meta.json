@@ -1,0 +1,9 @@
+{
+  "className": "Tool",
+  "properties": {
+    "Name": "MetalPipe",
+    "RequiresHandle": true,
+    "CanBeDropped": true,
+    "ToolTip": "Heavy Galvanized Metal Pipe"
+  }
+}

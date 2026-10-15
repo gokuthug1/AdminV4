@@ -1,0 +1,171 @@
+{
+  "Options": {
+    "SelectGenerated": false,
+    "GenerationLabel": "Json2GUI: Generate Banner"
+  },
+  "Roots": [
+    {
+      "ClassName": "ScreenGui",
+      "Name": "Banner",
+      "Properties": {
+        "ResetOnSpawn": false,
+        "ZIndexBehavior": "Sibling"
+      },
+      "Children": [
+        {
+          "ClassName": "Frame",
+          "Name": "BackgroundFrame",
+          "Properties": {
+            "AnchorPoint": [
+              0.5,
+              0
+            ],
+            "Position": [
+              0.5,
+              0,
+              0,
+              24
+            ],
+            "Size": [
+              0,
+              480,
+              0,
+              72
+            ],
+            "BackgroundColor3": "#1E222B",
+            "BorderSizePixel": 0
+          },
+          "Children": [
+            {
+              "ClassName": "UICorner",
+              "Name": "Corner",
+              "Properties": {
+                "CornerRadius": [
+                  0,
+                  10
+                ]
+              }
+            },
+            {
+              "ClassName": "UIStroke",
+              "Name": "Stroke",
+              "Properties": {
+                "Color": "#353B4A",
+                "Thickness": 1.5
+              }
+            },
+            {
+              "ClassName": "TextLabel",
+              "Name": "TitleLabel",
+              "Properties": {
+                "Size": [
+                  1,
+                  -90,
+                  0,
+                  24
+                ],
+                "Position": [
+                  0,
+                  16,
+                  0,
+                  10
+                ],
+                "BackgroundTransparency": 1,
+                "Text": "Admin",
+                "TextColor3": "#FFFFFF",
+                "TextSize": 16,
+                "Font": "GothamBold",
+                "TextXAlignment": "Left"
+              }
+            },
+            {
+              "ClassName": "TextLabel",
+              "Name": "MessageLabel",
+              "Properties": {
+                "Size": [
+                  1,
+                  -90,
+                  0,
+                  26
+                ],
+                "Position": [
+                  0,
+                  16,
+                  0,
+                  36
+                ],
+                "BackgroundTransparency": 1,
+                "Text": "Notification message",
+                "TextColor3": "#D1D5DB",
+                "TextSize": 14,
+                "Font": "Gotham",
+                "TextXAlignment": "Left",
+                "TextTruncate": "AtEnd"
+              }
+            },
+            {
+              "ClassName": "TextLabel",
+              "Name": "TimerLabel",
+              "Properties": {
+                "Size": [
+                  0,
+                  36,
+                  0,
+                  24
+                ],
+                "Position": [
+                  1,
+                  -80,
+                  0,
+                  10
+                ],
+                "BackgroundTransparency": 1,
+                "Text": "",
+                "TextColor3": "#9CA3AF",
+                "TextSize": 13,
+                "Font": "GothamBold",
+                "TextXAlignment": "Right"
+              }
+            },
+            {
+              "ClassName": "TextButton",
+              "Name": "CloseButton",
+              "Properties": {
+                "Size": [
+                  0,
+                  26,
+                  0,
+                  26
+                ],
+                "Position": [
+                  1,
+                  -38,
+                  0,
+                  10
+                ],
+                "BackgroundColor3": "#2B303D",
+                "BorderSizePixel": 0,
+                "Text": "X",
+                "TextColor3": "#E5E7EB",
+                "TextSize": 13,
+                "Font": "GothamBold"
+              },
+              "Children": [
+                {
+                  "ClassName": "UICorner",
+                  "Name": "Corner",
+                  "Properties": {
+                    "CornerRadius": [
+                      0,
+                      6
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
