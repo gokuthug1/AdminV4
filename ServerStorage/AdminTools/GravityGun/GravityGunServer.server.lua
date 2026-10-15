@@ -91,7 +91,7 @@ local function ensureSound(parent: Instance, name: string, soundId: string, volu
 end
 
 local grabSound = ensureSound(handle or tool, "GrabSound", "rbxassetid://169445121", 1.2)
-local flingSound = ensureSound(handle or tool, "FlingSound", "rbxassetid://9114223180", 1.8)
+local flingSound = ensureSound(handle or tool, "FlingSound", "rbxassetid://287390459", 1.8)
 
 type GrabSession = {
 	TargetPart: BasePart,

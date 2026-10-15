@@ -4341,7 +4341,7 @@ Commands.rewind = function(sender, target, args)
 	Debris:AddItem(ghost, 1.2)
 
 	local rewindSound = Instance.new("Sound")
-	rewindSound.SoundId = "rbxassetid://9114223180"
+	rewindSound.SoundId = "rbxassetid://134938155899966"
 	rewindSound.PlaybackSpeed = 1.6
 	rewindSound.Volume = 1.5
 	rewindSound.Parent = hrp

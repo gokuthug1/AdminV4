@@ -149,7 +149,7 @@ local function spawnSingularityVortex(centerPos: Vector3, shooterChar: Model?)
 
 	-- Suction Audio
 	local humSound = Instance.new("Sound")
-	humSound.SoundId = "rbxassetid://9114223180"
+	humSound.SoundId = "rbxassetid://134938155899966"
 	humSound.Volume = 2.0
 	humSound.PlaybackSpeed = 0.55
 	humSound.Looped = true

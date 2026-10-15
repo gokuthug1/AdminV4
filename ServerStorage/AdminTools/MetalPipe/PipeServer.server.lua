@@ -78,7 +78,7 @@ local function ensureSound(parent: Instance, name: string, soundId: string, volu
 	return sound
 end
 
-local clangSound = ensureSound(handle, "ClangSound", "rbxassetid://9114223180", 1.8, 1.0)
+local clangSound = ensureSound(handle, "ClangSound", "rbxassetid://9117386226", 1.8, 1.0)
 local swingSound = ensureSound(handle, "SwingSound", "rbxassetid://169445121", 0.9, 0.95)
 
 local isSwinging = false

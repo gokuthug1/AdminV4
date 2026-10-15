@@ -91,7 +91,7 @@ local function ensureSound(parent: Instance, name: string, soundId: string, volu
 end
 
 local shootSound = ensureSound(handle or tool, "ShootSound", "rbxassetid://169445121", 1.0, 1.4)
-local freezeSound = ensureSound(handle or tool, "FreezeSound", "rbxassetid://9114223180", 1.8, 1.2)
+local freezeSound = ensureSound(handle or tool, "FreezeSound", "rbxassetid://80067573243829", 1.8, 1.2)
 
 local shootDebounce = false
 
